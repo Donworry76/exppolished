@@ -435,7 +435,7 @@ ArbokEvosAttacks:
 	db 32, PURSUIT ; Acid Spray → egg move
 	db 39, POISON_JAB ; Mud Bomb → TM move
 	db 44, LEECH_LIFE ; Gastro Acid → TM move
-	db 48, IRON_TAIL ; Belch → TM move
+	db 48, EARTHQUAKE ; Belch → TM move
 	db 51, HAZE
 	db 56, BULK_UP ; Coil → TM move
 	db 63, GUNK_SHOT
