@@ -2,14 +2,14 @@ if DEF(FAITHFUL)
 	db 100,  70,  70,  45,  65,  65 ; 415 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db 105,  80,  70,  45,  65,  65 ; 430 BST
+	db 115,  90,  80,  45,  65,  75 ; 430 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
 if DEF(FAITHFUL)
 	db NORMAL, NORMAL ; type
 else
-	db NORMAL, GROUND ; type
+	db DRAGON, GROUND ; type
 endc
 	db 190 ; catch rate
 	db 75 ; base exp
