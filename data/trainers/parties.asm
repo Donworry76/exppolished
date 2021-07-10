@@ -4221,8 +4221,8 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 9, RATTATA
-	db 9, MEOWTH
+	db 12, SNEASEL
+	db 12, MEOWTH
 	db -1 ; end
 
 ; ================
@@ -4258,8 +4258,8 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 9, ZUBAT
-	db 11, EKANS
+	db 12, DRATINI
+	db 12, MAGNEMITE
 	db -1 ; end
 
 ; ================
@@ -4268,7 +4268,7 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 35, ARBOK
+	db 38, AMPHAROS
 	db -1 ; end
 
 ; ================
@@ -4277,8 +4277,8 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 36, UMBREON
-	db 35, GLOOM
+	db 38, UMBREON
+	db 38, DUGTRIO
 	db -1 ; end
 
 ; ================
@@ -4287,10 +4287,10 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 33, EKANS
-	db 34, ODDISH
-	db 35, ARBOK
-	db 36, GLOOM
+	db 37, DRAGONAIR
+	db 37, ESPEON
+	db 37, ARBOK
+	db 37, MAGMAR
 	db -1 ; end
 
 ; ================
@@ -4299,12 +4299,12 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 29, ARBOK
-		db GLARE, SCREECH, ACID, CRUNCH
-	db 28, QWILFISH
-		db DEFENSE_CURL, MINIMIZE, WATER_GUN, ROLLOUT
-	db 28, GLOOM
-		db GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
+	db 32, ARBOK
+		db GLARE, EARTHQUAKE, GUNK_SHOT, CRUNCH
+	db 32, QWILFISH
+		db SCALD, TOXIC, AQUA_JET, PROTECT
+	db 32, PRIMEAPE
+		db EARTHQUAKE, ROCK_SLIDE, BODY_SLAM, ICE_PUNCH
 	db -1 ; end
 
 ; ================
@@ -4313,9 +4313,9 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 22, EKANS
-	db 23, ARBOK
-	db 23, GLOOM
+	db 25, KADABRA
+	db 25, DEWGONG
+	db 25, GOLEM
 	db -1 ; end
 
 ; ================
@@ -4329,7 +4329,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 18, PIKACHU, ORAN_BERRY
+	db 20, RAICHU, QUICK_CLAW
 	db -1 ; end
 
 ; ================
@@ -4365,7 +4365,7 @@ PokefanMGroup:
 	db "Robert@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 56, QUAGSIRE, SITRUS_BERRY
+	db 60, QUAGSIRE, SITRUS_BERRY
 	db -1 ; end
 
 ; ================
@@ -4374,12 +4374,12 @@ PokefanMGroup:
 	db "Joshua@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 54, PIKACHU, SITRUS_BERRY
-	db 54, PIKACHU, SITRUS_BERRY
-	db 54, PIKACHU, SITRUS_BERRY
-	db 54, PIKACHU, SITRUS_BERRY
-	db 54, PIKACHU, SITRUS_BERRY
-	db 54, PIKACHU, SITRUS_BERRY
+	db 60, KINGLER, LIFE_ORB
+	db 60, LEAFEON, LIFE_ORB
+	db 60, MANTINE, LEFTOVERS
+	db 60, RHYDON, EVIOLITE
+	db 60, CHARIZARD, LIFE_ORB
+	db 60, GENGAR, FOCUS_SASH
 	db -1 ; end
 
 ; ================
@@ -4388,9 +4388,9 @@ PokefanMGroup:
 	db "Carter@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 59, BULBASAUR, SITRUS_BERRY
-	db 59, CHARMANDER, SITRUS_BERRY
-	db 59, SQUIRTLE, SITRUS_BERRY
+	db 63, ALAKAZAM, FOCUS_SASH
+	db 63, DRAGONITE, LEFTOVERS
+	db 63, NIDOKING, LIFE_ORB
 	db -1 ; end
 
 ; ================
@@ -4399,7 +4399,7 @@ PokefanMGroup:
 	db "Trevor@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 57, PSYDUCK, SITRUS_BERRY
+	db 63, BLASTOISE, CHOICE_SPECS
 	db -1 ; end
 
 ; ================
@@ -4408,8 +4408,8 @@ PokefanMGroup:
 	db "Brandon@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 13, SNUBBULL, ORAN_BERRY
-	db 13, MAREEP, NO_ITEM
+	db 16, DUNSPARCE, LEFTOVERS
+	db 16, FURRET, NO_ITEM
 	db -1 ; end
 
 ; ================
@@ -4418,9 +4418,9 @@ PokefanMGroup:
 	db "Jeremy@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 44, MEOWTH, SITRUS_BERRY
-	db 45, PERSIAN, SITRUS_BERRY
-	db 44, MEOWTH, SITRUS_BERRY
+	db 50, GIRAFARIG, LEFTOVERS
+	db 50, PERSIAN, LEFTOVERS
+	db 50, DEWGONG, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4429,7 +4429,7 @@ PokefanMGroup:
 	db "Colin@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 49, GLACEON, SITRUS_BERRY
+	db 53, GLACEON, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4438,9 +4438,9 @@ PokefanMGroup:
 	db "Alex@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 56, NIDOKING, KINGS_ROCK
-	db 56, SLOWKING, KINGS_ROCK
-	db 56, KINGLER, KINGS_ROCK
+	db 60, NIDOKING, LIFE_ORB
+	db 60, SLOWKING, QUICK_CLAW
+	db 60, KINGLER, LIFE_ORB
 	db -1 ; end
 
 ; ================
@@ -4449,7 +4449,7 @@ PokefanMGroup:
 	db "Rex@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 53, PHANPY, SITRUS_BERRY
+	db 56, DODRIO, BERSERK_GENE
 	db -1 ; end
 
 ; ================
@@ -4458,7 +4458,7 @@ PokefanMGroup:
 	db "Allan@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 53, TEDDIURSA, SITRUS_BERRY
+	db 56, PIDGEOT, LIFE_ORB
 	db -1 ; end
 
 ; ================
@@ -4472,7 +4472,7 @@ PokefanFGroup:
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 16, SNUBBULL, ORAN_BERRY
+	db 18, GRANBULL, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4499,7 +4499,7 @@ PokefanFGroup:
 	db "Ruth@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 20, PIKACHU, ORAN_BERRY
+	db 23, LEDIAN, LIFE_ORB
 	db -1 ; end
 
 ; ================
@@ -4521,7 +4521,7 @@ PokefanFGroup:
 	db "Jaime@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 16, MEOWTH, ORAN_BERRY
+	db 19, NINETALES, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4530,8 +4530,8 @@ PokefanFGroup:
 	db "Boone@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 57, PERSIAN, SITRUS_BERRY
-	db 55, WIGGLYTUFF, SITRUS_BERRY
+	db 60, PERSIAN, LEFTOVERS
+	db 60, WIGGLYTUFF, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4540,8 +4540,8 @@ PokefanFGroup:
 	db "Eleanor@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 57, GRANBULL, SITRUS_BERRY
-	db 55, CLEFABLE, SITRUS_BERRY
+	db 60, ARCANINE, LEFTOVERS
+	db 60, CLEFABLE, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -4555,8 +4555,8 @@ OfficerMGroup:
 	db "Keith@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 15, GROWLITHE
-	db 15, GROWLITHE
+	db 17, FARFETCH_D
+	db 17, CORSOLA
 	db -1 ; end
 
 ; ================
@@ -4565,8 +4565,8 @@ OfficerMGroup:
 	db "Dirk@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, GROWLITHE
-	db 14, MACHOP
+	db 17, FLAREON
+	db 17, LEAFEON
 	db -1 ; end
 
 ; ================
@@ -4580,9 +4580,9 @@ OfficerFGroup:
 	db "Jamie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 54, GROWLITHE
-	db 58, ARCANINE
-	db 57, BLASTOISE
+	db 60, URSARING
+	db 60, ARCANINE
+	db 61, BLASTOISE
 	db -1 ; end
 
 ; ================
@@ -4591,7 +4591,7 @@ OfficerFGroup:
 	db "Mara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 17, GROWLITHE
+	db 19, RAPIDASH
 	db -1 ; end
 
 ; ================
@@ -4600,10 +4600,10 @@ OfficerFGroup:
 	db "Jenny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, SQUIRTLE
-	db 53, SQUIRTLE
-	db 53, SQUIRTLE
-	db 53, SQUIRTLE
+	db 58, MAROWAK
+	db 58, KANGASKHAN
+	db 58, BLISSEY
+	db 58, CROBAT
 	db -1 ; end
 
 ; ================
@@ -4631,7 +4631,7 @@ PokemaniacGroup:
 	db "Brent@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 32, MAROWAK
+	db 34, MAROWAK
 	db -1 ; end
 
 ; ================
@@ -4640,7 +4640,7 @@ PokemaniacGroup:
 	db "Brent@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 37, KANGASKHAN
+	db 39, KANGASKHAN
 	db -1 ; end
 
 ; ================
@@ -4649,8 +4649,8 @@ PokemaniacGroup:
 	db "Brent@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 42, PORYGON
-		db RECOVER, PSYCHIC_M, CONVERSION, TRI_ATTACK
+	db 42, PORYGON2
+		db RECOVER, PSYCHIC_M, ICE_BEAM, TRI_ATTACK
 	db -1 ; end
 
 ; ================
@@ -4659,8 +4659,8 @@ PokemaniacGroup:
 	db "Brent@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 47, CHANSEY
-		db ROLLOUT, ATTRACT, RETURN, FRESH_SNACK
+	db 50, BLISSEY
+		db TOXIC, SEISMIC_TOSS, PROTECT, HEALINGLIGHT
 	db -1 ; end
 
 ; ================
@@ -4669,7 +4669,7 @@ PokemaniacGroup:
 	db "Larry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, SLOWPOKE
+	db 15, TAUROS
 	db -1 ; end
 
 ; ================
