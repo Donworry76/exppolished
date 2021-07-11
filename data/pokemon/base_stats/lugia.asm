@@ -4,7 +4,7 @@
 if DEF(FAITHFUL)
 	db PSYCHIC, FLYING ; type
 else
-	db FLYING, PSYCHIC ; type
+	db PSYCHIC, WATER ; type
 endc
 	db 3 ; catch rate
 	db 220 ; base exp
@@ -20,7 +20,7 @@ endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
-	ev_yield   0,   0,   0,   0,   0,   3
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
