@@ -9,14 +9,14 @@
 	dn GENDER_UNKNOWN, 15 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/zapdos_plain/front.dimensions"
 if DEF(FAITHFUL)
-	abilities_for ZAPDOS, PRESSURE, PRESSURE, STATIC
+	abilities_for ZAPDOS, DRIZZLE, DRIZZLE, STATIC
 else
-	abilities_for ZAPDOS, PRESSURE, DRIZZLE, STATIC
+	abilities_for ZAPDOS, DRIZZLE, DRIZZLE, STATIC
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 
-	ev_yield   0,   0,   0,   0,   3,   0
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
