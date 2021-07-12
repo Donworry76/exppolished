@@ -19,7 +19,7 @@ BulbasaurEvosAttacks:
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
-	db 19, SLUDGE
+	db 19, VENOSHOCK
 	db 21, MEGA_DRAIN
 	db 25, GROWTH
 	db 27, DOUBLE_EDGE
@@ -39,7 +39,7 @@ IvysaurEvosAttacks:
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
-	db 20, SLUDGE
+	db 20, VENOSHOCK
 	db 23, MEGA_DRAIN
 	db 28, GROWTH
 	db 31, DOUBLE_EDGE
@@ -138,9 +138,9 @@ SquirtleEvosAttacks:
 	db 10, DEFENSE_CURL ; Withdraw → similar move
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
-	db 19, RAPID_SPIN
+	db 19, WATER_PULSE
 	db 22, PROTECT
-	db 25, WATER_PULSE
+	db 25, RAPID_SPIN
 	db 28, AQUA_TAIL
 	db 31, CLOSE_COMBAT ; Skull Bash → new move
 	db 34, MIRROR_COAT ; Iron Defense → egg move
@@ -158,9 +158,9 @@ WartortleEvosAttacks:
 	db 10, DEFENSE_CURL ; Withdraw → similar move
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
-	db 20, RAPID_SPIN
+	db 20, WATER_PULSE
 	db 24, PROTECT
-	db 28, WATER_PULSE
+	db 28, RAPID_SPIN
 	db 32, AQUA_TAIL
 	db 36, CLOSE_COMBAT ; Skull Bash → new move
 	db 40, MIRROR_COAT ; Iron Defense → egg move
@@ -435,7 +435,7 @@ ArbokEvosAttacks:
 	db 32, PURSUIT ; Acid Spray → egg move
 	db 39, POISON_JAB ; Mud Bomb → TM move
 	db 44, LEECH_LIFE ; Gastro Acid → TM move
-	db 48, EARTHQUAKE ; Belch → TM move
+	db 48, CRUNCH ; Belch → TM move
 	db 51, HAZE
 	db 56, BULK_UP ; Coil → TM move
 	db 63, GUNK_SHOT
@@ -2081,7 +2081,7 @@ GastlyEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
-	db 8, SLUDGE
+	db 8, VENOSHOCK
 	db 12, CURSE
 	db 15, NIGHT_SHADE
 	db 19, CONFUSE_RAY
@@ -2102,7 +2102,7 @@ HaunterEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
-	db 8, SLUDGE
+	db 8, VENOSHOCK
 	db 12, CURSE
 	db 15, NIGHT_SHADE
 	db 19, CONFUSE_RAY
