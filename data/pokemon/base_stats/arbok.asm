@@ -1,7 +1,7 @@
 	db  60,  95,  69,  80,  65,  79 ; 448 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, GROUND ; type
+	db POISON, DARK ; type
 	db 90 ; catch rate
 	db 147 ; base exp
 	db NO_ITEM ; item 1
@@ -12,7 +12,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_DRAGON ; egg groups
 
-	ev_yield   0,   2,   0,   0,   0,   0
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
