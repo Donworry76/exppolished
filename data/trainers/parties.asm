@@ -5054,10 +5054,10 @@ LassGroup:
 	db "Dana@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 19, FLAAFFY
-		db TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
-	db 19, PSYDUCK
-		db SCRATCH, LEER, DISABLE, CONFUSION
+	db 22, FLAAFFY
+		db REFLECT, LIGHT_SCREEN, VOLT_SWITCH, THUNDER_WAVE
+	db 22, ARIADOS
+		db MEGAHORN, POISON_JAB, HONE_CLAWS, GLARE
 	db -1 ; end
 
 ; ================
@@ -5119,8 +5119,8 @@ endc
 	db "Cathy@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 18, SNUBBULL
-		db SCARY_FACE, CHARM, BITE, LICK
+	db 21, LEDIAN
+		db DRAIN_PUNCH, ICE_PUNCH, THUNDERPUNCH, SWORDS_DANCE
 	db -1 ; end
 
 ; ================
@@ -5129,9 +5129,9 @@ endc
 	db "Amanda@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 57, GLOOM
-	db 60, ARBOK
-	db 57, GLOOM
+	db 63, GOLEM
+	db 63, ARBOK
+	db 63, VILEPLUME
 	db -1 ; end
 
 ; ================
@@ -5140,8 +5140,8 @@ endc
 	db "Krise@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, ODDISH
-	db 17, CUBONE
+	db 19, AZUMARILL
+	db 19, PERSIAN
 	db -1 ; end
 
 ; ================
@@ -5182,9 +5182,9 @@ endc
 	db "Shannon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, PARAS
-	db 53, PARAS
-	db 55, PARASECT
+	db 88, PARAS
+	db 88, PARAS
+	db 60, PARASECT
 	db -1 ; end
 
 ; ================
@@ -5248,8 +5248,8 @@ endc
 	db "Rose@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	db 22, ESPEON, SHINY_MASK | ABILITY_1 | NAT_NEUTRAL, FEMALE
-	db 22, TOGETIC, ABILITY_1 | NAT_NEUTRAL, FEMALE
+	db 24, LAPRAS, SHINY_MASK | ABILITY_1 | NAT_SATK_UP_ATK_DOWN, FEMALE
+	db 24, TOGEKISS, ABILITY_1 | NAT_NEUTRAL, FEMALE
 	db -1 ; end
 
 ; ================
@@ -5258,9 +5258,9 @@ endc
 	db "Meadow@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, MEOWTH
-	db 53, MEOWTH
-	db 55, PERSIAN
+	db 83, MEOWTH
+	db 83, MEOWTH
+	db 60, PERSIAN
 	db -1 ; end
 
 ; ================
@@ -5269,10 +5269,10 @@ endc
 	db "Jennifer@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 52, CLEFAIRY
-	db 52, MARILL
-	db 54, CLEFABLE
-	db 54, AZUMARILL
+	db 82, CLEFAIRY
+	db 82, MARILL
+	db 60, CLEFABLE
+	db 60, AZUMARILL
 	db -1 ; end
 
 ; ================
@@ -5281,7 +5281,7 @@ endc
 	db "Gina@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	db 63, RAICHU, LEFTOVERS
+	db 67, RAICHU, LIFE_ORB
 		db THUNDERBOLT, SURF, THUNDER_WAVE, SUBSTITUTE
 	db -1 ; end
 
@@ -5291,12 +5291,12 @@ endc
 	db "Alice@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
-	db 60, EEVEE, EVIOLITE, ABILITY_1 | NAT_SPD_UP_DEF_DOWN, FEMALE, "VuiVui@"
-		db RETURN, SHADOW_BALL, PROTECT, ATTRACT
-	db 61, UMBREON, LEFTOVERS, ABILITY_1 | NAT_SDEF_UP_SATK_DOWN, MALE, "Eon@"
-		db CHARM, REST, TOXIC, PURSUIT
-	db 61, ESPEON, SHELL_BELL, ABILITY_1 | NAT_SATK_UP_ATK_DOWN, MALE, "Vee@"
-		db PSYCHIC_M, HEALINGLIGHT, GROWTH, BITE
+	db 65, TOGEKISS, CHOICE_SCARF, ABILITY_1 | NAT_SPD_UP_ATK_DOWN, FEMALE, "VuiVui@"
+		db MOONBLAST, AEROBLAST, FIRE_BLAST, AURA_SPHERE
+	db 65, UMBREON, LEFTOVERS, ABILITY_1 | NAT_DEF_UP_ATK_DOWN, MALE, "Eon@"
+		db HEALINGLIGHT, MEAN_LOOK, TOXIC, DARK_PULSE
+	db 65, ESPEON, LEFTOVERS, ABILITY_1 | NAT_SATK_UP_ATK_DOWN, MALE, "Vee@"
+		db PSYCHIC_M, DAZZLINGLEAM, HEALINGLIGHT, CALM_MIND
 	db -1 ; end
 
 ; ================
@@ -5305,9 +5305,9 @@ endc
 	db "Duplica@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 60, DITTO, METAL_POWDER
-	db 60, DITTO, QUICK_POWDER
-	db 60, DITTO, FOCUS_SASH
+	db 70, DITTO, METAL_POWDER
+	db 70, DITTO, QUICK_POWDER
+	db 70, DITTO, FOCUS_SASH
 	db -1 ; end
 
 ; ================
@@ -5321,9 +5321,9 @@ BeautyGroup:
 	db "Victoria@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 9, SENTRET
-	db 13, SENTRET
-	db 17, SENTRET
+	db 23, SENTRET
+	db 23, SENTRET
+	db 18, FURRET
 	db -1 ; end
 
 ; ================
@@ -5332,10 +5332,10 @@ BeautyGroup:
 	db "Samantha@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 16, MEOWTH
-		db SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, MEOWTH
-		db SCRATCH, GROWL, BITE, SLASH
+	db 20, AZUMARILL
+		db WHIRLPOOL, TOXIC, PROTECT, PERISH_SONG
+	db 20, PERSIAN
+		db DARK_PULSE, ATTRACT, REST, TOXIC
 	db -1 ; end
 
 ; ================
@@ -5376,7 +5376,7 @@ BeautyGroup:
 	db "Olivia@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 19, CORSOLA
+	db 22, CORSOLA
 	db -1 ; end
 
 ; ================
@@ -5385,8 +5385,8 @@ BeautyGroup:
 	db "Callie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 16, CLEFABLE
-	db 16, WIGGLYTUFF
+	db 19, CLEFABLE
+	db 19, WIGGLYTUFF
 	db -1 ; end
 
 ; ================
@@ -5395,8 +5395,8 @@ BeautyGroup:
 	db "Cassandra@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 16, CLEFABLE
-	db 16, WIGGLYTUFF
+	db 19, CLEFABLE
+	db 19, WIGGLYTUFF
 	db -1 ; end
 
 ; ================
@@ -5405,7 +5405,7 @@ BeautyGroup:
 	db "Charlotte@"
 	db TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME
 	; party
-	db 20, BELLOSSOM, SHINY_MASK | ABILITY_1 | NAT_NEUTRAL, FEMALE, "Blossom@"
+	db 28, BELLOSSOM, SHINY_MASK | ABILITY_1 | NAT_SATK_UP_ATK_DOWN, FEMALE, "Blossom@"
 	db -1 ; end
 
 ; ================
@@ -5435,9 +5435,9 @@ BeautyGroup:
 	db "Nicole@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY
 	; party
-	db 60, MARILL, EVIOLITE, ABIL_MARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
-	db 63, AZUMARILL, LEFTOVERS, ABIL_AZUMARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
-	db 60, MARILL, BLACK_BELT, ABIL_MARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
+	db 70, MARILL, EVIOLITE, ABIL_MARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
+	db 65, AZUMARILL, LEFTOVERS, ABIL_AZUMARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
+	db 75, MARILL, BLACK_BELT, ABIL_MARILL_HUGE_POWER | NAT_NEUTRAL, FEMALE
 	db -1 ; end
 
 ; ================
@@ -5473,8 +5473,8 @@ BugManiacGroup:
 	db "Lou@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 19, YANMA
-		db BUG_BITE, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
+	db 22, YANMA
+		db BUG_BUZZ, DRAGON_PULSE, DOUBLE_TEAM, PROTECT
 	db -1 ; end
 
 ; ================
@@ -5483,8 +5483,8 @@ BugManiacGroup:
 	db "Rob@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 60, BEEDRILL
-	db 59, BUTTERFREE
+	db 65, BEEDRILL
+	db 65, BUTTERFREE
 	db -1 ; end
 
 ; ================
@@ -5493,9 +5493,9 @@ BugManiacGroup:
 	db "Ed@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 61, YANMA
-	db 62, BEEDRILL
-	db 62, BUTTERFREE
+	db 67, YANMA
+	db 67, BEEDRILL
+	db 67, BUTTERFREE
 	db -1 ; end
 
 ; ================
@@ -5504,8 +5504,8 @@ BugManiacGroup:
 	db "Doug@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, BUTTERFREE
-	db 57, ARIADOS
+	db 65, BUTTERFREE
+	db 65, ARIADOS
 	db -1 ; end
 
 ; ================
@@ -5533,9 +5533,9 @@ BugManiacGroup:
 	db "Stacey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 60, METAPOD
-	db 62, METAPOD
-	db 64, METAPOD
+	db 100, METAPOD
+	db 100, METAPOD
+	db 100, METAPOD
 	db -1 ; end
 
 ; ================
@@ -5544,9 +5544,9 @@ BugManiacGroup:
 	db "Ellis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 58, WEEDLE
-	db 60, KAKUNA
-	db 62, BEEDRILL
+	db 100, WEEDLE
+	db 100, KAKUNA
+	db 68, BEEDRILL
 	db -1 ; end
 
 ; ================
@@ -5624,8 +5624,8 @@ RuinManiacGroup:
 	db "Jones@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 6, OMANYTE
-	db 6, KABUTO
+	db 11, OMANYTE
+	db 11, KABUTO
 	db -1 ; end
 
 ; ================
@@ -5634,8 +5634,8 @@ RuinManiacGroup:
 	db "Leland@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 23, DUNSPARCE
-	db 25, AERODACTYL
+	db 26, DUNSPARCE
+	db 28, AERODACTYL
 	db -1 ; end
 
 ; ================
@@ -5644,9 +5644,9 @@ RuinManiacGroup:
 	db "Petry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 23, OMANYTE
-	db 23, KABUTO
-	db 25, AERODACTYL
+	db 26, OMANYTE
+	db 26, KABUTO
+	db 28, AERODACTYL
 	db -1 ; end
 
 ; ================
@@ -5655,8 +5655,8 @@ RuinManiacGroup:
 	db "Glyn@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 25, OMASTAR
-	db 25, KABUTOPS
+	db 28, OMASTAR
+	db 28, KABUTOPS
 	db -1 ; end
 
 ; ================
@@ -5665,9 +5665,9 @@ RuinManiacGroup:
 	db "Smilte@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 54, SANDSLASH
-	db 54, DUGTRIO
-	db 56, AERODACTYL
+	db 60, SANDSLASH
+	db 60, DUGTRIO
+	db 60, AERODACTYL
 	db -1 ; end
 
 ; ================
@@ -5692,9 +5692,9 @@ FirebreatherGroup:
 	db "Dick@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, CHARMANDER
-	db 55, CHARMELEON
-	db 57, CHARIZARD
+	db 73, CHARMANDER
+	db 65, CHARMELEON
+	db 60, CHARIZARD
 	db -1 ; end
 
 ; ================
@@ -5705,7 +5705,7 @@ FirebreatherGroup:
 	; party
 	db 16, KOFFING
 	db 17, GROWLITHE
-	db 16, KOFFING
+	db 19, KOFFING
 	db -1 ; end
 
 ; ================
@@ -5714,8 +5714,8 @@ FirebreatherGroup:
 	db "Burt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, WEEZING
-	db 61, MAGCARGO
+	db 63, WEEZING
+	db 63, MAGCARGO
 	db -1 ; end
 
 ; ================
@@ -5724,8 +5724,8 @@ FirebreatherGroup:
 	db "Bill@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 6, KOFFING
-	db 6, KOFFING
+	db 11, KOFFING
+	db 11, GIRAFARIG
 	db -1 ; end
 
 ; ================
@@ -5734,8 +5734,8 @@ FirebreatherGroup:
 	db "Walt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, MAGMAR
-	db 16, MAGMAR
+	db 18, MAGMAR
+	db 18, MAGMAR
 	db -1 ; end
 
 ; ================
@@ -5744,7 +5744,7 @@ FirebreatherGroup:
 	db "Ray@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 9, VULPIX
+	db 13, VULPIX
 	db -1 ; end
 
 ; ================
@@ -5754,7 +5754,7 @@ FirebreatherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	db 44, KOFFING
-	db 46, FLAREON
+	db 49, FLAREON
 	db 45, WEEZING
 	db -1 ; end
 
@@ -5764,7 +5764,7 @@ FirebreatherGroup:
 	db "Jay@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 26, MAGMAR
+	db 29, MAGMAR
 	db -1 ; end
 
 ; ================
@@ -5773,7 +5773,7 @@ FirebreatherGroup:
 	db "Oleg@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 26, WEEZING
+	db 29, WEEZING
 	db -1 ; end
 
 ; ================
@@ -5782,8 +5782,8 @@ FirebreatherGroup:
 	db "Tala@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 61, WEEZING
-	db 62, MAGMORTAR
+	db 65, WEEZING
+	db 65, MAGMORTAR
 	db -1 ; end
 
 ; ================
@@ -5797,10 +5797,10 @@ JugglerGroup:
 	db "Irwin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 2, VOLTORB
-	db 6, VOLTORB
+	db 5, VOLTORB
 	db 10, VOLTORB
-	db 14, VOLTORB
+	db 20, VOLTORB
+	db 30, VOLTORB
 	db -1 ; end
 
 ; ================
@@ -5854,9 +5854,9 @@ JugglerGroup:
 	db "Fritz@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 45, MR__MIME
-	db 45, MAGMAR
-	db 45, MACHOKE
+	db 50, MR__MIME
+	db 50, MAGMAR
+	db 50, OCTILLERY
 	db -1 ; end
 
 ; ================
@@ -5866,8 +5866,8 @@ JugglerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	db 53, ELECTRODE
-	db 53, ELECTRODE
-	db 53, ELECTRODE
+	db 58, ELECTRODE
+	db 63, ELECTRODE
 	db -1 ; end
 
 ; ================
@@ -5881,8 +5881,8 @@ SchoolboyGroup:
 	db "Jack@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 12, ODDISH
-	db 15, VOLTORB
+	db 16, ODDISH
+	db 18, VOLTORB
 	db -1 ; end
 
 ; ================
@@ -5936,7 +5936,7 @@ SchoolboyGroup:
 	db "Alan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 17, TANGELA
+	db 21, TANGELA
 	db -1 ; end
 
 ; ================
@@ -5995,7 +5995,7 @@ SchoolboyGroup:
 	db "Chad@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 20, MR__MIME
+	db 23, MR__MIME
 	db -1 ; end
 
 ; ================
@@ -6046,10 +6046,10 @@ SchoolboyGroup:
 	db "Kipp@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 55, VOLTORB
-	db 58, VOLTORB
-	db 55, MAGNEMITE
-	db 58, MAGNETON
+	db 75, VOLTORB
+	db 75, VOLTORB
+	db 75, MAGNEMITE
+	db 60, MAGNETON
 	db -1 ; end
 
 ; ================
@@ -6058,9 +6058,9 @@ SchoolboyGroup:
 	db "Johnny@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	db 18, BELLSPROUT, GOLD_LEAF, "Gold@"
-	db 16, SPINARAK, NO_ITEM, "Spin@"
-	db 17, RATTATA, ORAN_BERRY, "Rat@"
+	db 21, FURRET, EXPERT_BELT, "Gold@"
+	db 21, ARIADOS, NO_ITEM, "Spin@"
+	db 21, RATICATE, LIFE_ORB, "Rat@"
 	db -1 ; end
 
 ; ================
@@ -6069,9 +6069,9 @@ SchoolboyGroup:
 	db "Danny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 61, JYNX
-	db 61, ELECTABUZZ
-	db 61, MAGMAR
+	db 65, JYNX
+	db 65, ELECTABUZZ
+	db 65, MAGMAR
 	db -1 ; end
 
 ; ================
@@ -6080,8 +6080,8 @@ SchoolboyGroup:
 	db "Tommy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 56, XATU
-	db 57, ALAKAZAM
+	db 60, XATU
+	db 60, ALAKAZAM
 	db -1 ; end
 
 ; ================
@@ -6090,7 +6090,7 @@ SchoolboyGroup:
 	db "Dudley@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 55, ODDISH, SITRUS_BERRY
+	db 95, ODDISH, LEFTOVERS
 	db -1 ; end
 
 ; ================
@@ -6099,8 +6099,8 @@ SchoolboyGroup:
 	db "Joe@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 54, TANGROWTH, SITRUS_BERRY
-	db 54, VAPOREON, NO_ITEM
+	db 58, TANGROWTH, LEFTOVERS
+	db 58, VAPOREON, NO_ITEM
 	db -1 ; end
 
 ; ================
@@ -6112,7 +6112,7 @@ SchoolboyGroup:
 	db 57, PARAS
 	db 59, PARASECT
 	db 57, POLIWHIRL
-	db 55, DITTO
+	db 65, DITTO
 	db -1 ; end
 
 ; ================
@@ -6121,8 +6121,8 @@ SchoolboyGroup:
 	db "Nate@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 46, LEDIAN
-	db 48, EXEGGUTOR
+	db 51, LEDIAN
+	db 51, EXEGGUTOR
 	db -1 ; end
 
 ; ================
@@ -6131,8 +6131,8 @@ SchoolboyGroup:
 	db "Ricky@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 44, GIRAFARIG
-	db 46, DITTO
+	db 50, GIRAFARIG
+	db 55, DITTO
 	db -1 ; end
 
 ; ================
@@ -6141,8 +6141,8 @@ SchoolboyGroup:
 	db "Sherman@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, FURRET
-	db 61, PIDGEOT
+	db 65, FURRET
+	db 66, PIDGEOT
 	db -1 ; end
 
 ; ================
@@ -6151,7 +6151,7 @@ SchoolboyGroup:
 	db "Connor@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, SENTRET
+	db 99, SENTRET
 	db -1 ; end
 
 ; ================
@@ -6160,8 +6160,8 @@ SchoolboyGroup:
 	db "Torin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 58, SANDSLASH
-	db 55, GOLBAT
+	db 63, SANDSLASH
+	db 60, CROBAT
 	db -1 ; end
 
 ; ================
@@ -6170,7 +6170,7 @@ SchoolboyGroup:
 	db "Travis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, ODDISH
+	db 99, ODDISH
 	db -1 ; end
 
 ; ================
@@ -6184,8 +6184,8 @@ SchoolgirlGroup:
 	db "Molly@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 6, TEDDIURSA, "Teddy@"
-	db 6, PHANPY, "@"
+	db 10, TEDDIURSA, "Teddy@"
+	db 10, PHANPY, "@"
 	db -1 ; end
 
 ; ================
@@ -6194,9 +6194,9 @@ SchoolgirlGroup:
 	db "Eliza@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	db 18, ODDISH, SILVER_LEAF, "Silver@"
-	db 16, LEDYBA, NO_ITEM, "Lady@"
-	db 17, SENTRET, ORAN_BERRY, "Tret@"
+	db 21, PINSIR, SITRUS_BERRY, "Silver@"
+	db 21, LEDIAN, NO_ITEM, "Lady@"
+	db 21, FURRET, LEFTOVERS, "Tret@"
 	db -1 ; end
 
 ; ================
@@ -6205,9 +6205,9 @@ SchoolgirlGroup:
 	db "Faith@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 57, BELLSPROUT, "@"
-	db 58, WEEPINBELL, "@"
-	db 59, VICTREEBEL, "Audrey@"
+	db 77, BELLSPROUT, "@"
+	db 68, WEEPINBELL, "@"
+	db 62, VICTREEBEL, "Audrey@"
 	db -1 ; end
 
 ; ================
@@ -6216,9 +6216,9 @@ SchoolgirlGroup:
 	db "Sarah@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 25, CHARMANDER, "Charmer@"
-	db 23, SENTRET, "@"
-	db 24, MARILL, "@"
+	db 32, CHARMANDER, "Charmer@"
+	db 33, SENTRET, "@"
+	db 28, MARILL, "@"
 	db -1 ; end
 
 ; ================
@@ -6227,9 +6227,9 @@ SchoolgirlGroup:
 	db "Isabel@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 25, SQUIRTLE, "Turtle@"
-	db 23, PIDGEY, "@"
-	db 24, PIKACHU, "@"
+	db 32, SQUIRTLE, "Turtle@"
+	db 32, PIDGEY, "@"
+	db 28, PIKACHU, "@"
 	db -1 ; end
 
 ; ================
@@ -6238,8 +6238,8 @@ SchoolgirlGroup:
 	db "Imogen@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 9, BULBASAUR, "Garlic@"
-	db 8, POLIWAG, "@"
+	db 13, BULBASAUR, "Garlic@"
+	db 14, POLIWAG, "@"
 	db -1 ; end
 
 ; ================
@@ -6253,7 +6253,7 @@ PsychicGroup:
 	db "Nathan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 26, GIRAFARIG
+	db 32, MEW
 	db -1 ; end
 
 ; ================
@@ -6262,8 +6262,8 @@ PsychicGroup:
 	db "Franklin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, KADABRA
-	db 56, GIRAFARIG
+	db 58, ALAKAZAM
+	db 58, GIRAFARIG
 	db -1 ; end
 
 ; ================
@@ -6272,9 +6272,9 @@ PsychicGroup:
 	db "Herman@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, EXEGGCUTE
-	db 53, EXEGGCUTE
-	db 55, EXEGGUTOR
+	db 73, EXEGGCUTE
+	db 73, EXEGGCUTE
+	db 58, EXEGGUTOR
 	db -1 ; end
 
 ; ================
@@ -6283,7 +6283,7 @@ PsychicGroup:
 	db "Fidel@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 57, XATU
+	db 60, GENGAR
 	db -1 ; end
 
 ; ================
@@ -6292,7 +6292,7 @@ PsychicGroup:
 	db "Greg@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 17, DROWZEE
+	db 19, DROWZEE
 		db HYPNOSIS, DISABLE, DREAM_EATER, 0
 	db -1 ; end
 
@@ -6302,10 +6302,10 @@ PsychicGroup:
 	db "Norman@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 17, SLOWPOKE
-		db TACKLE, GROWL, WATER_GUN, 0
-	db 20, SLOWPOKE
-		db CURSE, BODY_SLAM, WATER_GUN, CONFUSION
+	db 23, SLOWKING
+		db SURF, FLAMETHROWER, ICE_BEAM, 0
+	db 23, SLOWBRO
+		db POISON_JAB, ZEN_HEADBUTT, DRAIN_PUNCH, RECOVER
 	db -1 ; end
 
 ; ================
@@ -6314,12 +6314,12 @@ PsychicGroup:
 	db "Mark@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 14, ABRA
+	db 34, ABRA
 		db TELEPORT, FLASH, 0, 0
-	db 14, ABRA
+	db 34, ABRA
 		db TELEPORT, FLASH, 0, 0
-	db 16, KADABRA
-		db TELEPORT, CALM_MIND, CONFUSION, 0
+	db 20, KADABRA
+		db RECOVER, CALM_MIND, PSYBEAM, 0
 	db -1 ; end
 
 ; ================
@@ -6329,7 +6329,7 @@ PsychicGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	db 35, XATU
-	db 36, KADABRA
+	db 39, KADABRA
 	db -1 ; end
 
 ; ================
@@ -6338,7 +6338,7 @@ PsychicGroup:
 	db "Vernon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 44, ESPEON
+	db 48, ESPEON
 	db -1 ; end
 
 ; ================
@@ -6347,9 +6347,9 @@ PsychicGroup:
 	db "Gilbert@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 38, STARMIE
-	db 36, EXEGGCUTE
-	db 40, GIRAFARIG
+	db 40, STARMIE
+	db 52, EXEGGCUTE
+	db 44, GIRAFARIG
 	db -1 ; end
 
 ; ================
@@ -6358,9 +6358,9 @@ PsychicGroup:
 	db "Jared@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, MR__MIME
-	db 55, EXEGGCUTE
-	db 55, EXEGGCUTE
+	db 58, MR__MIME
+	db 75, EXEGGCUTE
+	db 75, EXEGGCUTE
 	db -1 ; end
 
 ; ================
@@ -6369,8 +6369,8 @@ PsychicGroup:
 	db "Rodney@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 45, DROWZEE
-	db 47, HYPNO
+	db 65, DROWZEE
+	db 50, HYPNO
 	db -1 ; end
 
 ; ================
@@ -6379,9 +6379,9 @@ PsychicGroup:
 	db "Leon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 54, NOCTOWL
-	db 55, HYPNO
-	db 53, GIRAFARIG
+	db 60, NOCTOWL
+	db 60, HYPNO
+	db 60, GIRAFARIG
 	db -1 ; end
 
 ; ================
@@ -6390,8 +6390,8 @@ PsychicGroup:
 	db "Uri@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	db 57, KADABRA, "Hocus@"
-	db 57, KADABRA, "Pocus@"
+	db 57, ALAKAZAM, "Hocus@"
+	db 77, KADABRA, "Pocus@"
 	db -1 ; end
 
 ; ================
@@ -6415,8 +6415,8 @@ HexManiacGroup:
 	db "Tamara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 16, GASTLY
-	db 18, MISDREAVUS
+	db 20, GASTLY
+	db 20, MISDREAVUS
 	db -1 ; end
 
 ; ================
@@ -6425,8 +6425,8 @@ HexManiacGroup:
 	db "Ashley@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 35, HAUNTER
-	db 36, MISMAGIUS
+	db 40, GENGAR
+	db 40, MISMAGIUS
 	db -1 ; end
 
 ; ================
@@ -6447,9 +6447,9 @@ HexManiacGroup:
 	db "Luna@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 54, KADABRA
-		db PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FUTURE_SIGHT
-	db 56, NINETALES
+	db 58, ALAKAZAM
+		db PSYCHIC_M, SHADOW_BALL, CALM_MIND, RECOVER
+	db 58, NINETALES
 		db PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FLAMETHROWER
 	db -1 ; end
 
@@ -6608,7 +6608,7 @@ MediumGroup:
 	db "Martha@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 18, GASTLY
+	db 25, GASTLY
 	db 20, HAUNTER
 	db 20, MISDREAVUS
 	db -1 ; end
@@ -6620,7 +6620,7 @@ MediumGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	db 20, HAUNTER
-	db 20, MISDREAVUS
+	db 22, MISDREAVUS
 	db -1 ; end
 
 ; ================
@@ -6639,8 +6639,8 @@ MediumGroup:
 	db "Doris@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 53, SLOWPOKE
-	db 55, SLOWBRO
+	db 58, SLOWPOKE
+	db 58, SLOWBRO
 	db -1 ; end
 
 ; ================
@@ -10773,18 +10773,18 @@ LoreleiGroup:
 	db "Lorelei@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	db 85, DEWGONG, LEFTOVERS
-		db SURF, ICE_BEAM, REST, SLEEP_TALK
+	db 85, ARTICUNO, LEFTOVERS
+		db ICE_BEAM, AEROBLAST, ROOST, TOXIC
 	db 85, CLOYSTER, MUSCLE_BAND
-		db EXPLOSION, ROCK_BLAST, ICICLE_CRASH, BARRIER
-	db 85, SLOWBRO, WISE_GLASSES
-		db PSYCHIC_M, SURF, ICE_BEAM, CALM_MIND
-	db 85, GLACEON, NEVERMELTICE
-		db ICE_BEAM, BARRIER, HYPER_VOICE, MIRROR_COAT
-	db 85, JYNX, PINK_BOW
-		db DRAIN_KISS, NASTY_PLOT, ICE_BEAM, PSYCHIC_M
-	db 85, LAPRAS, BRIGHTPOWDER
-		db ICE_BEAM, ANCIENTPOWER, CONFUSE_RAY, OUTRAGE
+		db EXPLOSION, ROCK_BLAST, ICICLE_CRASH, TOXIC_SPIKES
+	db 85, SLOWBRO, LEFTOVERS
+		db PSYCHIC_M, SCALD, RECOVER, CALM_MIND
+	db 85, WEAVILE, LIFE_ORB
+		db ICE_SHARD, ICICLE_CRASH, KNOCK_OFF, STRENGTH
+	db 85, JYNX, CHOICE_SCARF
+		db ICE_BEAM, PSYCHIC_M, FOCUS_BLAST, SHADOW_BALL
+	db 85, LAPRAS, LEFTOVERS
+		db SURF, ICE_BEAM, THUNDERBOLT, SHELL_SMASH
 	db -1 ; end
 
 ; ================
@@ -10818,22 +10818,22 @@ AgathaGroup:
 	db "Agatha@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	db 62, GENGAR, SPELL_TAG, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db SHADOW_BALL, WILL_O_WISP, CURSE, DESTINY_BOND
-	db 62, CROBAT, POISON_BARB, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db AIR_SLASH, CRUNCH, X_SCISSOR, POISON_JAB
-	db 61, MISDREAVUS, EVIOLITE, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db SHADOW_BALL, FLAMETHROWER, DAZZLINGLEAM, POWER_GEM
+	db 68, GENGAR, FOCUS_SASH, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
+		db SHADOW_BALL, DISABLE, PROTECT, PERISH_SONG
+	db 68, CROBAT, POISON_BARB, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
+		db BRAVE_BIRD, SUPER_FANG, ROOST, TOXIC
+	db 68, MISMAGIUS, LIFE_ORB, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
+		db SHADOW_BALL, DAZZLINGLEAM, FLAMETHROWER, NASTY_PLOT
 if DEF(FAITHFUL)
-	db 61, MUK, SILK_SCARF, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
+	db 68, MUK, SILK_SCARF, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
 		db EXPLOSION, SLUDGE_BOMB, SCREECH, MINIMIZE
 else
-	db 61, MAROWAK, THICK_CLUB, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE | ALOLAN_FORM
+	db 68, MAROWAK, THICK_CLUB, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE | ALOLAN_FORM
 		db SWORDS_DANCE, BONEMERANG, FIRE_PUNCH, SHADOW_CLAW
 endc
-	db 63, ARBOK, KINGS_ROCK, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE | ARBOK_AGATHA_FORM
+	db 68, ARBOK, KINGS_ROCK, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE | ARBOK_AGATHA_FORM
 		db SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
-	db 65, GENGAR, QUICK_CLAW, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
+	db 68, GENGAR, QUICK_CLAW, 180, ABILITY_1 | NAT_NEUTRAL, FEMALE
 		db SHADOW_BALL, THUNDERBOLT, WILL_O_WISP, DESTINY_BOND
 	db -1 ; end
 
@@ -10843,23 +10843,23 @@ endc
 	db "Agatha@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	db 73, GENGAR, SPELL_TAG, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db SHADOW_BALL, WILL_O_WISP, CURSE, DESTINY_BOND
-	db 73, CROBAT, MUSCLE_BAND, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db AIR_SLASH, CRUNCH, X_SCISSOR, POISON_JAB
-	db 72, MISMAGIUS, CHARCOAL, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db SHADOW_BALL, FLAMETHROWER, DAZZLINGLEAM, POWER_GEM
+	db 85, GENGAR, BLACK_SLUDGE, ABILITY_1 | NAT_SPD_UP_ATK_DOWN, FEMALE
+		db HEX, SLUDGE_BOMB, DESTINY_BOND, WILL_O_WISP
+	db 85, CROBAT, LEFTOVERS, ABILITY_1 | NAT_SPD_UP_SATK_DOWN, FEMALE
+		db BRAVE_BIRD, SUPER_FANG, ROOST, TOXIC
+	db 85, MISMAGIUS, LEFTOVERS, ABILITY_1 | NAT_SPD_UP_ATK_DOWN, FEMALE
+		db HEX, DAZZLINGLEAM, DESTINY_BOND, WILL_O_WISP
 if DEF(FAITHFUL)
-	db 72, MUK, SILK_SCARF, ABILITY_1 | NAT_NEUTRAL, FEMALE
+	db 85, MUK, SILK_SCARF, ABILITY_1 | NAT_NEUTRAL, FEMALE
 		db EXPLOSION, SLUDGE_BOMB, SCREECH, MINIMIZE
 else
-	db 72, MAROWAK, THICK_CLUB, ABILITY_1 | NAT_NEUTRAL, FEMALE | ALOLAN_FORM
-		db SWORDS_DANCE, BONEMERANG, ROCK_SMASH, SHADOW_CLAW
+	db 85, MAROWAK, THICK_CLUB, ABILITY_1 | NAT_ATK_UP_SATK_DOWN, FEMALE | ALOLAN_FORM
+		db FLARE_BLITZ, SHADOW_CLAW, BONEMERANG, STONE_EDGE
 endc
-	db 74, ARBOK, KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL, FEMALE | ARBOK_AGATHA_FORM
-		db SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
-	db 75, GENGAR, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, FEMALE
-		db SHADOW_BALL, THUNDERBOLT, WILL_O_WISP, DESTINY_BOND
+	db 85, ARBOK, BLACK_SLUDGE, ABILITY_1 | NAT_ATK_UP_SATK_DOWN, FEMALE | ARBOK_AGATHA_FORM
+		db GUNK_SHOT, EARTHQUAKE, CRUNCH, GLARE
+	db 85, GENGAR, LIFE_ORB, ABILITY_1 | NAT_SPD_UP_ATK_DOWN, FEMALE
+		db SHADOW_BALL, SLUDGE_BOMB, THUNDERBOLT, NASTY_PLOT
 	db -1 ; end
 
 ; ================
@@ -10873,22 +10873,22 @@ StevenGroup:
 	db "Steven@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	db 61, SKARMORY, QUICK_CLAW, ABILITY_1 | NAT_NEUTRAL, MALE
-		db SPIKES, SCREECH, DRILL_PECK, STEEL_WING
-	db 60, FORRETRESS, FOCUS_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 65, SKARMORY, ROCKY_HELMET, ABILITY_1 | NAT_DEF_UP_ATK_DOWN, MALE
+		db SPIKES, TOXIC, ROOST, ROAR
+	db 65, FORRETRESS, FOCUS_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
 		db EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 if DEF(FAITHFUL)
-	db 58, MAGNEZONE, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 65, MAGNEZONE, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, MALE
 		db THUNDERBOLT, FLASH_CANNON, TRI_ATTACK, EXPLOSION
 else
-	db 58, BLASTOISE, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 65, BLASTOISE, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, MALE
 		db SURF, BLIZZARD, FLASH_CANNON, AURA_SPHERE
 endc
-	db 58, SANDSLASH, NEVERMELTICE, ABILITY_1 | NAT_NEUTRAL, MALE | ALOLAN_FORM
+	db 65, SANDSLASH, NEVERMELTICE, ABILITY_1 | NAT_NEUTRAL, MALE | ALOLAN_FORM
 		db IRON_HEAD, ICICLE_CRASH, EARTHQUAKE, RAPID_SPIN
-	db 58, AERODACTYL, KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 65, AERODACTYL, KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL, MALE
 		db ROCK_SLIDE, CRUNCH, AERIAL_ACE, IRON_HEAD
-	db 62, STEELIX, MUSCLE_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 65, STEELIX, MUSCLE_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
 		db EARTHQUAKE, STONE_EDGE, IRON_HEAD, SANDSTORM
 	db -1 ; end
 
@@ -10898,23 +10898,23 @@ endc
 	db "Steven@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	db 78, SKARMORY, QUICK_CLAW, ABILITY_1 | NAT_NEUTRAL, MALE
-		db SPIKES, SCREECH, DRILL_PECK, STEEL_WING
+	db 95, ZAPDOS, DAMP_ROCK, ABIL_ZAPDOS_DRIZZLE | NAT_SATK_UP_ATK_DOWN, MALE
+		db THUNDER, HURRICANE, ROOST, TOXIC
 if DEF(FAITHFUL)
-	db 77, FORRETRESS, FOCUS_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
+	db 95, FORRETRESS, FOCUS_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
 		db EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 else
-	db 76, RHYPERIOR, FOCUS_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
-		db EARTHQUAKE, STONE_EDGE, MEGAHORN, IRON_HEAD
+	db 95, RHYPERIOR, WEAK_POLICY, ABIL_RHYPERIOR_SOLID_ROCK | NAT_SPD_UP_SATK_DOWN, MALE
+		db IRON_HEAD, BULLDOZE, AVALANCHE, REVERSAL
 endc
-	db 76, MAGNEZONE, WISE_GLASSES, ABILITY_1 | NAT_NEUTRAL, MALE
-		db THUNDERBOLT, FLASH_CANNON, TRI_ATTACK, EXPLOSION
-	db 76, SANDSLASH, NEVERMELTICE, ABILITY_1 | NAT_NEUTRAL, MALE | ALOLAN_FORM
-		db IRON_HEAD, ICICLE_CRASH, EARTHQUAKE, RAPID_SPIN
-	db 76, AERODACTYL, KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL, MALE
-		db ROCK_SLIDE, CRUNCH, AERIAL_ACE, IRON_HEAD
-	db 80, STEELIX, MUSCLE_BAND, ABILITY_1 | NAT_NEUTRAL, MALE
-		db EARTHQUAKE, STONE_EDGE, IRON_HEAD, SANDSTORM
+	db 95, MAGNEZONE, WISE_GLASSES, ABILITY_1 | NAT_SPD_UP_ATK_DOWN, MALE
+		db THUNDER, FLASH_CANNON, TRI_ATTACK, RAIN_DANCE
+	db 95, SANDSLASH, NEVERMELTICE, ABILITY_1 | NAT_SPD_UP_SATK_DOWN, MALE | ALOLAN_FORM
+		db ICICLE_CRASH, IRON_HEAD, EARTHQUAKE, ICE_SHARD
+	db 95, AERODACTYL, LIFE_ORB, ABIL_AERODACTYL_ROCK_HEAD | NAT_SPD_UP_SATK_DOWN, MALE
+		db STONE_EDGE, BRAVE_BIRD, EARTHQUAKE, HONE_CLAWS
+	db 95, STEELIX, LEFTOVERS, ABIL_STEELIX_STURDY | NAT_ATK_UP_SPD_DOWN, MALE
+		db GYRO_BALL, EARTHQUAKE, STONE_EDGE, CURSE
 	db -1 ; end
 
 ; ================
