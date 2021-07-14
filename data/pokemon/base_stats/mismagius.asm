@@ -21,7 +21,7 @@ endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
-	ev_yield   0,   0,   0,   0,   1,   1
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
