@@ -2883,18 +2883,18 @@ GyaradosEvosAttacks:
 	db 1, THRASH
 	db 1, DRAGON_RAGE
 	db 1, WRAP ; Bind → similar move
-	db 21, LEER
+	db 21, DRAGON_RAGE
 	db 24, AQUA_JET
-	db 27, DRAGON_RAGE ; Ice Fang → Dragon Rage
+	db 27, ICE_PUNCH ; Ice Fang → Dragon Rage
 	db 30, AQUA_TAIL
 	db 33, SCARY_FACE
 	db 36, DRAGONBREATH ; Dragon Rage → GSC TM move
 	db 39, CRUNCH
-	db 42, HYDRO_PUMP
+	db 42, FLY
 	db 45, EARTHQUAKE
 	db 48, DRAGON_DANCE
 	db 51, BODY_SLAM
-	db 54, WATER_FALL
+	db 54, WATERFALL
 	db 57, OUTRAGE ; HGSS tutor move
 	db 0 ; no more level-up moves
 
@@ -2967,7 +2967,7 @@ VaporeonEvosAttacks:
 	db 20, AURORA_BEAM
 	db 25, RECOVER ; Aqua Ring → similar move
 	db 29, BARRIER ; Acid Armor → similar move
-	db 33, HAZE
+	db 33, ICE_BEAM
 	db 37, SCALD ; Muddy Water → TM move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, HYDRO_PUMP
@@ -2988,7 +2988,7 @@ JolteonEvosAttacks:
 	db 29, AGILITY
 	db 33, THUNDER_WAVE
 	db 37, THUNDERBOLT ; Discharge → TM move
-	db 41, DOUBLE_EDGE ; Last Resort → tutor move
+	db 41, SHADOW_BALL ; Last Resort → tutor move
 	db 45, THUNDER
 	db 0 ; no more level-up moves
 
