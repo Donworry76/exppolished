@@ -31,7 +31,7 @@
 	def_grass_wildmons MOUNT_MOON_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, GOLBAT
+	wildmon 65, CHANSEY
 	wildmon 56, GRAVELER
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
@@ -39,7 +39,7 @@
 	wildmon 58, CLEFAIRY
 	wildmon 60, CLEFABLE
 	; day
-	wildmon 55, GOLBAT
+	wildmon 65, CHANSEY
 	wildmon 56, GRAVELER
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
@@ -47,7 +47,7 @@
 	wildmon 58, CLEFAIRY
 	wildmon 60, CLEFABLE
 	; nite
-	wildmon 55, GOLBAT
+	wildmon 65, CHANSEY
 	wildmon 56, GRAVELER
 	wildmon 56, CLEFAIRY
 	wildmon 56, PARASECT
@@ -199,7 +199,7 @@
 	def_grass_wildmons VICTORY_ROAD_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 42, GRAVELER
+	wildmon 50, CHANSEY
 	wildmon 41, RHYHORN
 	wildmon 40, ONIX
 	wildmon 41, GOLBAT
@@ -207,7 +207,7 @@
 	wildmon 44, RHYDON
 	wildmon 44, STEELIX
 	; day
-	wildmon 42, GRAVELER
+	wildmon 50, CHANSEY
 	wildmon 41, RHYHORN
 	wildmon 40, ONIX
 	wildmon 41, GOLBAT
@@ -215,7 +215,7 @@
 	wildmon 44, RHYDON
 	wildmon 44, STEELIX
 	; nite
-	wildmon 42, GOLBAT
+	wildmon 50, CHANSEY
 	wildmon 41, GRAVELER
 	wildmon 40, ONIX
 	wildmon 41, GRAVELER
@@ -341,15 +341,15 @@
 	; morn
 	wildmon 55, BUTTERFREE
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
+	wildmon 57, PIDGEOT
 	wildmon 57, BUTTERFREE
 	wildmon 56, LEDIAN
 	wildmon 58, PIDGEOTTO
 	wildmon 59, PIKACHU
 	; day
 	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
+	wildmon 54, PIDGEOT
+	wildmon 57, PIDGEOT
 	wildmon 57, BUTTERFREE
 	wildmon 56, PIDGEOTTO
 	wildmon 58, PIDGEOTTO
@@ -369,15 +369,15 @@
 	; morn
 	wildmon 55, BUTTERFREE
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
+	wildmon 57, PIDGEOT
 	wildmon 57, BUTTERFREE
 	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
+	wildmon 58, PIDGEOT
 	wildmon 59, PIKACHU
 	; day
 	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
+	wildmon 54, PIDGEOT
+	wildmon 57, PIDGEOT
 	wildmon 57, BUTTERFREE
 	wildmon 56, PIDGEOTTO
 	wildmon 58, PIDGEOTTO
