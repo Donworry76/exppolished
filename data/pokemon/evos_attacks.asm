@@ -122,11 +122,11 @@ CharizardEvosAttacks:
 	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 28, SCARY_FACE ; Fire Fang → Scary Face
 	db 32, FLAME_CHARGE ; Flame Burst → TM move
-	db 41, SLASH
-	db 47, FLAMETHROWER
+	db 41, FLAMETHROWER
+	db 47, DRAGON_CLAW
 	db 56, DRAGON_DANCE
-	db 62, CRUNCH
-	db 71, FLARE_BLITZ
+	db 62, FLARE_BLITZ
+	db 71, CRUNCH
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
@@ -4055,7 +4055,7 @@ PolitoedEvosAttacks:
 	db 1, GIGA_DRAIN ; Bounce → TM move ; evolution move
 	db 1, BUBBLE_BEAM
 	db 1, HYPNOSIS
-	db 1, DOUBLE_SLAP
+	db 1, GIGA_DRAIN
 	db 1, PERISH_SONG
 	db 27, SWAGGER
 	db 48, HYPER_VOICE
@@ -4197,7 +4197,7 @@ QuagsireEvosAttacks:
 	db 24, AMNESIA
 	db 31, BELLY_DRUM ; Yawn → event move
 	db 36, EARTHQUAKE
-	db 41, RAIN_DANCE
+	db 41, CURSE
 	db 48, BODY_SLAM
 	db 53, AQUA_TAIL ; Muddy Water → event move
 	db 0 ; no more level-up moves
@@ -4269,7 +4269,7 @@ HonchkrowEvosAttacks:
 	db 1, WING_ATTACK
 	db 25, SWAGGER
 	db 35, NASTY_PLOT
-	db 45, NIGHT_SLASH ; Foul Play → Night Slash
+	db 45, SUCKER_PUNCH ; Foul Play → Night Slash
 	db 55, PERISH_SONG ; Night Slash → egg move
 	db 65, BRAVE_BIRD ; Quash → egg move
 	db 75, DARK_PULSE
@@ -4291,8 +4291,8 @@ SlowkingPlainEvosAttacks:
 	db 36, NASTY_PLOT
 	db 41, SWAGGER
 	db 45, PSYCHIC_M
-	db 49, RAIN_DANCE ; Trump Card → TM move
-	db 54, BELLY_DRUM ; Psych Up → egg move
+	db 49, THUNDER_WAVE ; Trump Card → TM move
+	db 54, SCALD ; Psych Up → egg move
 	db 58, RECOVER ; Heal Pulse → similar move
 	db 0 ; no more level-up moves
 
@@ -4312,9 +4312,9 @@ SlowkingGalarianEvosAttacks:
 	db 32, ZEN_HEADBUTT
 	db 36, NASTY_PLOT
 	db 41, SWAGGER
-	db 45, PSYCHIC_M
+	db 45, SCALD
 	db 49, RAIN_DANCE ; Trump Card → TM move
-	db 54, BELLY_DRUM ; Psych Up → egg move
+	db 54, SLUDGE_BOMB ; Psych Up → egg move
 	db 58, RECOVER ; Heal Pulse → similar move
 	db 0 ; no more level-up moves
 
@@ -4592,7 +4592,7 @@ ScizorEvosAttacks:
 	db 25, BUG_BITE ; Fury Cutter → similar move
 	db 29, SLASH
 	db 33, BUG_BUZZ ; Razor Wind → egg move
-	db 37, DEFENSE_CURL ; Iron Defense → similar move
+	db 37, RAIN_DANCE ; Iron Defense → similar move
 	db 41, X_SCISSOR
 	db 45, CRUNCH ; Night Slash → Prism tutor move
 	db 49, CLOSE_COMBAT ; Double Hit → new move
@@ -4638,7 +4638,7 @@ HeracrossEvosAttacks:
 	db 34, TAKE_DOWN
 	db 37, MEGAHORN
 	db 43, CLOSE_COMBAT
-	db 46, REVERSAL
+	db 46, ROCK_BLAST
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
@@ -4655,7 +4655,7 @@ SneaselEvosAttacks:
 	db 22, METAL_CLAW
 	db 25, HONE_CLAWS
 	db 28, ICICLE_CRASH ; Beat Up → egg move
-	db 32, SCREECH
+	db 32, SWORDS_DANCE
 	db 35, SLASH
 	db 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
 	db 44, X_SCISSOR ; Punishment → TM move
@@ -4675,7 +4675,7 @@ WeavileEvosAttacks:
 	db 22, METAL_CLAW
 	db 25, HONE_CLAWS
 	db 28, ICICLE_CRASH ; Fling → egg move
-	db 32, SCREECH
+	db 32, SWORDS_DANCE
 	db 35, NIGHT_SLASH
 	db 40, HEALINGLIGHT ; Snatch → event move (Moonlight)
 	db 44, X_SCISSOR ; Punishment → TM move
@@ -4718,7 +4718,7 @@ UrsaringEvosAttacks:
 	db 38, SUCKER_PUNCH
 	db 47, REST
 	db 49, CRUNCH ; Snore → egg move
-	db 58, THRASH
+	db 58, BODY_SLAM
 	db 67, CLOSE_COMBAT ; Hammer Arm → new move
 	db 0 ; no more level-up moves
 
@@ -4822,7 +4822,7 @@ MamoswineEvosAttacks:
 	db 41, BODY_SLAM
 	db 46, EARTHQUAKE
 	db 52, BLIZZARD
-	db 58, SCARY_FACE
+	db 58, ICE_SHARD
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
@@ -4844,7 +4844,7 @@ CorsolaEvosAttacks:
 	db 41, POWER_GEM
 	db 45, MIRROR_COAT
 	db 47, EARTH_POWER
-	db 50, REVERSAL ; Flail → similar move
+	db 50, ICE_BEAM ; Flail → similar move
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:
@@ -4983,7 +4983,7 @@ KingdraEvosAttacks:
 	db 17, AQUA_JET ; Twister → new move
 	db 21, WATER_PULSE ; Bubble Beam → TM move
 	db 26, FOCUS_ENERGY
-	db 31, OUTRAGE ; Brine → HGSS tutor move
+	db 31, OCTAZOOKA ; Brine → HGSS tutor move
 	db 38, AGILITY
 	db 45, DRAGON_PULSE
 	db 52, DRAGON_DANCE
@@ -5063,8 +5063,8 @@ PorygonZEvosAttacks:
 	db 45, THUNDERBOLT ; Lock-On → TM move
 	db 50, TRI_ATTACK
 	db 56, MIRROR_COAT ; Magic Coat → new move
-	db 62, ZAP_CANNON
-	db 67, HYPER_BEAM
+	db 62, NASTY_PLOT
+	db 67, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 SmeargleEvosAttacks:
@@ -5104,10 +5104,10 @@ HitmontopEvosAttacks:
 	db 33, DOUBLE_KICK ; Triple Kick → similar move
 	db 37, AGILITY
 	db 42, GYRO_BALL
-	db 46, FORESIGHT ; Wide Guard + Quick Guard → new move
+	db 46, SUCKER_PUNCH ; Wide Guard + Quick Guard → new move
 	db 50, PROTECT ; Detect → similar move
 	db 55, CLOSE_COMBAT
-	db 60, REVERSAL ; Endeavor → new move
+	db 60, EARTHQUAKE ; Endeavor → new move
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
@@ -5194,7 +5194,7 @@ MiltankEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 3, GROWL
-	db 5, DEFENSE_CURL
+	db 5, CURSE
 	db 8, STOMP
 	db 11, FRESH_SNACK ; Milk Drink → similar move
 	db 15, DIZZY_PUNCH ; Bide → egg move
@@ -5204,7 +5204,7 @@ MiltankEvosAttacks:
 	db 35, SEISMIC_TOSS ; Captivate → egg move
 	db 41, GYRO_BALL
 	db 48, HEAL_BELL
-	db 50, REVERSAL ; Wake-Up Slap → egg move
+	db 50, EARTHQUAKE ; Wake-Up Slap → egg move
 	db 0 ; no more level-up moves
 
 BlisseyEvosAttacks:
@@ -5223,7 +5223,7 @@ BlisseyEvosAttacks:
 	db 35, CHARM ; Fling → Happiny move
 	db 39, HEAL_BELL ; Heal Pulse → HGSS tutor move
 	db 44, BODY_SLAM ; Egg Bomb → TM move
-	db 50, LIGHT_SCREEN
+	db 50, THUNDER_WAVE
 	db 57, SUBSTITUTE ; Healing Wish → TM move
 	db 65, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -5353,7 +5353,7 @@ TyranitarEvosAttacks:
 	db 54, EARTHQUAKE
 	db 63, STONE_EDGE
 	db 73, OUTRAGE ; Hyper Beam → HGSS tutor move
-	db 82, HYPER_BEAM
+	db 82, DRAGON_DANCE
 	db 92, CLOSE_COMBAT ; new move
 	db 0 ; no more level-up moves
 
