@@ -128,29 +128,29 @@
 
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 30, MAGIKARP
-	wildmon 20, DRATINI
+	wildmon 25, DRATINI
+	wildmon 30, SEADRA
+	wildmon 30, DRAGONAIR
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
+	wildmon 15, SEEL
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
+	wildmon 15, SEEL
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
+	wildmon 15, SEEL
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
@@ -262,14 +262,14 @@
 	def_water_wildmons GOLDENROD_CITY
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK
-	wildmon 15, PSYDUCK
+	wildmon 15, SEEL
 	wildmon 20, GOLDUCK
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
+	wildmon 15, SEEL
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
@@ -298,7 +298,7 @@
 	db 4 percent ; encounter rate
 	wildmon 15, MAGIKARP
 	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 5, DRATINI
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
@@ -310,15 +310,15 @@
 
 	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
+	wildmon 20, SEEL
+	wildmon 15, SEEL
 	wildmon 20, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
+	wildmon 15, SEEL
 	wildmon 20, CORSOLA
 	end_water_wildmons
 
