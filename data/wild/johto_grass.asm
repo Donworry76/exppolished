@@ -311,17 +311,17 @@
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 13, RATTATA
-	wildmon 14, KOFFING
-	wildmon 15, RATTATA
+	wildmon 18, RATICATE
+	wildmon 18, KOFFING
+	wildmon 18, RATICATE
 	wildmon 14, ZUBAT
 	wildmon 15, RATTATA
 	wildmon 15, RATICATE
 	wildmon 15, RATICATE
 	; day
-	wildmon 13, RATTATA
+	wildmon 18, RATICATE
 	wildmon 14, KOFFING
-	wildmon 15, RATTATA
+	wildmon 18, RATICATE
 	wildmon 14, ZUBAT
 	wildmon 15, RATTATA
 	wildmon 15, RATICATE
@@ -368,7 +368,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 12, NIDORAN_M
-	wildmon 13, NIDORAN_F
+	wildmon 20, CHANSEY
 	wildmon 14, LEDYBA
 	wildmon 15, PIDGEY
 	wildmon 10, CATERPIE
@@ -376,7 +376,7 @@
 	wildmon 12, WEEDLE
 	; day
 	wildmon 12, NIDORAN_F
-	wildmon 13, NIDORAN_M
+	wildmon 20, CHANSEY
 	wildmon 14, SENTRET
 	wildmon 15, PIDGEY
 	wildmon 10, CATERPIE
@@ -384,7 +384,7 @@
 	wildmon 12, WEEDLE
 	; nite
 	wildmon 12, PSYDUCK
-	wildmon 13, HOOTHOOT
+	wildmon 20, CHANSEY
 	wildmon 14, SPINARAK
 	wildmon 15, HOOTHOOT
 	wildmon 10, VENONAT
@@ -482,7 +482,7 @@
 	wildmon 6, GEODUDE
 	wildmon 6, SANDSHREW
 	wildmon 5, ZUBAT
-	wildmon 4, RATTATA
+	wildmon 4, OMANYTE
 	wildmon 7, ZUBAT
 	wildmon 6, ONIX
 	wildmon 6, ONIX
@@ -490,7 +490,7 @@
 	wildmon 6, GEODUDE
 	wildmon 6, SANDSHREW
 	wildmon 5, ZUBAT
-	wildmon 4, RATTATA
+	wildmon 4, KABUTO
 	wildmon 7, ZUBAT
 	wildmon 6, ONIX
 	wildmon 6, ONIX
@@ -498,7 +498,7 @@
 	wildmon 6, GEODUDE
 	wildmon 6, RATTATA
 	wildmon 5, WOOPER
-	wildmon 4, RATTATA
+	wildmon 4, OMANYTE
 	wildmon 7, ZUBAT
 	wildmon 6, ONIX
 	wildmon 6, ONIX
@@ -541,7 +541,7 @@
 	wildmon 20, RATICATE
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
-	wildmon 22, ONIX
+	wildmon 22, AERODACTYL
 	; day
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
@@ -549,7 +549,7 @@
 	wildmon 20, RATICATE
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
-	wildmon 22, ONIX
+	wildmon 22, AERODACTYL
 	; nite
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
@@ -557,7 +557,7 @@
 	wildmon 20, RATICATE
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
-	wildmon 22, ONIX
+	wildmon 22, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -591,25 +591,25 @@
 	def_grass_wildmons SLOWPOKE_WELL_ENTRANCE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
-	wildmon 7, ZUBAT
+	wildmon 5, SLOWPOKE
+	wildmon 6, SLOWPOKE
+	wildmon 7, GASTLY
 	wildmon 6, POLIWAG
-	wildmon 8, ZUBAT
+	wildmon 8, POLIWAG
 	wildmon 8, SLOWPOKE
 	wildmon 8, SLOWPOKE
 	; day
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
-	wildmon 7, ZUBAT
+	wildmon 5, SLOWPOKE
+	wildmon 6, SLOWPOKE
+	wildmon 7, GASTLY
 	wildmon 6, POLIWAG
-	wildmon 8, ZUBAT
+	wildmon 8, POLIWAG
 	wildmon 8, SLOWPOKE
 	wildmon 8, SLOWPOKE
 	; nite
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
-	wildmon 7, ZUBAT
+	wildmon 5, SLOWPOKE
+	wildmon 6, SLOWPOKE
+	wildmon 7, POLIWAG
 	wildmon 6, GASTLY
 	wildmon 8, ZUBAT
 	wildmon 8, SLOWPOKE
@@ -619,25 +619,25 @@
 	def_grass_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
+	wildmon 5, SLOWPOKE
+	wildmon 6, SLOWPOKE
 	wildmon 7, ZUBAT
 	wildmon 6, SLOWPOKE
 	wildmon 8, ZUBAT
 	wildmon 8, SLOWPOKE
 	wildmon 8, SLOWPOKE
 	; day
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
+	wildmon 5, SLOWPOKE
+	wildmon 6, SLOWPOKE
 	wildmon 7, ZUBAT
 	wildmon 6, SLOWPOKE
 	wildmon 8, ZUBAT
 	wildmon 8, SLOWPOKE
 	wildmon 8, SLOWPOKE
 	; nite
-	wildmon 5, ZUBAT
-	wildmon 6, ZUBAT
-	wildmon 7, ZUBAT
+	wildmon 5, POLIWAG
+	wildmon 6, SLOWPOKE
+	wildmon 7, POLIWAG
 	wildmon 6, SLOWPOKE
 	wildmon 8, ZUBAT
 	wildmon 8, SLOWPOKE
@@ -675,25 +675,25 @@
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 7, CATERPIE
-	wildmon 7, WEEDLE
-	wildmon 9, METAPOD
-	wildmon 9, KAKUNA
-	wildmon 9, PIDGEY
+	wildmon 8, CATERPIE
+	wildmon 8, WEEDLE
+	wildmon 12, METAPOD
+	wildmon 12, KAKUNA
+	wildmon 9, SCYTHER
 	wildmon 8, PARAS
 	wildmon 8, PARAS
 	; day
-	wildmon 7, CATERPIE
-	wildmon 7, WEEDLE
-	wildmon 9, METAPOD
-	wildmon 9, KAKUNA
+	wildmon 8, CATERPIE
+	wildmon 9, SCYTHER
+	wildmon 12, METAPOD
+	wildmon 12, KAKUNA
 	wildmon 8, PARAS
 	wildmon 7, ODDISH
 	wildmon 9, PIDGEY
 	; nite
 	wildmon 7, ODDISH
 	wildmon 7, VENONAT
-	wildmon 9, ODDISH
+	wildmon 10, SCYTHER
 	wildmon 9, PSYDUCK
 	wildmon 9, HOOTHOOT
 	wildmon 8, PARAS
@@ -1377,7 +1377,7 @@
 	; morn
 	wildmon 3, LEDYBA
 	wildmon 3, CATERPIE
-	wildmon 4, CATERPIE
+	wildmon 4, NATU
 	wildmon 4, PIDGEY
 	wildmon 3, WEEDLE
 	wildmon 4, SUNKERN
@@ -1385,7 +1385,7 @@
 	; day
 	wildmon 3, PIDGEY
 	wildmon 3, CATERPIE
-	wildmon 4, CATERPIE
+	wildmon 4, NATU
 	wildmon 4, PIDGEY
 	wildmon 3, WEEDLE
 	wildmon 4, SUNKERN
@@ -1394,7 +1394,7 @@
 	wildmon 3, SPINARAK
 	wildmon 3, HOOTHOOT
 	wildmon 4, POLIWAG
-	wildmon 4, HOOTHOOT
+	wildmon 4, NATU
 	wildmon 3, ZUBAT
 	wildmon 4, HOOTHOOT
 	wildmon 4, HOOTHOOT
@@ -1431,24 +1431,24 @@
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 4, EKANS, ARBOK_JOHTO_FORM
-	wildmon 5, RATTATA
+	wildmon 8, EKANS, ARBOK_JOHTO_FORM
+	wildmon 8, RATTATA
 	wildmon 7, BELLSPROUT
 	wildmon 6, MAREEP
 	wildmon 7, MAREEP
 	wildmon 6, SUNKERN
 	wildmon 7, SUNKERN
 	; day
-	wildmon 4, EKANS, ARBOK_JOHTO_FORM
-	wildmon 5, RATTATA
+	wildmon 8, EKANS, ARBOK_JOHTO_FORM
+	wildmon 8, RATTATA
 	wildmon 7, BELLSPROUT
 	wildmon 6, MAREEP
 	wildmon 7, MAREEP
 	wildmon 6, SUNKERN
 	wildmon 7, SUNKERN
 	; nite
-	wildmon 4, WOOPER
-	wildmon 5, RATTATA
+	wildmon 8, WOOPER
+	wildmon 8, RATTATA
 	wildmon 7, BELLSPROUT
 	wildmon 7, HOOTHOOT
 	wildmon 6, MAREEP
@@ -1712,7 +1712,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 31, TANGELA
-	wildmon 29, TANGELA
+	wildmon 40, CHANSEY
 	wildmon 30, BELLSPROUT
 	wildmon 32, WEEPINBELL
 	wildmon 32, FURRET
@@ -1720,7 +1720,7 @@
 	wildmon 34, FURRET
 	; day
 	wildmon 31, TANGELA
-	wildmon 29, TANGELA
+	wildmon 40, CHANSEY
 	wildmon 30, BELLSPROUT
 	wildmon 32, WEEPINBELL
 	wildmon 32, FURRET
@@ -1728,7 +1728,7 @@
 	wildmon 34, FURRET
 	; nite
 	wildmon 31, TANGELA
-	wildmon 29, POLIWAG
+	wildmon 40, CHANSEY
 	wildmon 30, BELLSPROUT
 	wildmon 32, WEEPINBELL
 	wildmon 32, POLIWHIRL
@@ -1768,15 +1768,15 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, GEODUDE
-	wildmon 2, PIDGEY
+	wildmon 2, PHANPY
 	wildmon 3, GEODUDE
 	wildmon 2, PHANPY
-	wildmon 2, RATTATA
+	wildmon 2, JIGGLYPUFF
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	; day
 	wildmon 2, GEODUDE
-	wildmon 2, PIDGEY
+	wildmon 2, PHANPY
 	wildmon 3, GEODUDE
 	wildmon 2, JIGGLYPUFF
 	wildmon 2, RATTATA
@@ -1784,9 +1784,9 @@
 	wildmon 3, RATTATA
 	; nite
 	wildmon 2, GEODUDE
-	wildmon 2, RATTATA
+	wildmon 2, PHANPY
 	wildmon 3, GEODUDE
-	wildmon 2, RATTATA
+	wildmon 2, JIGGLYPUFF
 	wildmon 2, RATTATA
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
@@ -1880,7 +1880,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 69, TANGELA
-	wildmon 70, PONYTA
+	wildmon 70, CHANSEY
 	wildmon 71, ARBOK ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, DODRIO
@@ -1888,7 +1888,7 @@
 	wildmon 75, URSARING
 	; day
 	wildmon 69, TANGELA
-	wildmon 70, PONYTA
+	wildmon 70, CHANSEY
 	wildmon 71, ARBOK ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, DODRIO
@@ -1896,7 +1896,7 @@
 	wildmon 75, URSARING
 	; nite
 	wildmon 69, TANGELA
-	wildmon 70, POLIWHIRL
+	wildmon 70, CHANSEY
 	wildmon 71, GOLBAT
 	wildmon 74, POLIWHIRL
 	wildmon 73, HOUNDOOM
@@ -1907,26 +1907,26 @@
 	def_grass_wildmons YELLOW_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 22, SENTRET
+	wildmon 25, FURRET
 	wildmon 24, SNUBBULL
 	wildmon 20, PIKACHU
-	wildmon 22, LEDYBA
+	wildmon 22, BULBASAUR
 	wildmon 20, MARILL
 	wildmon 21, MARILL
 	wildmon 10, PICHU
 	; day
-	wildmon 22, SENTRET
+	wildmon 25, FURRET
 	wildmon 24, SNUBBULL
 	wildmon 20, PIKACHU
-	wildmon 22, PARAS
+	wildmon 22, SQUIRTLE
 	wildmon 20, MARILL
 	wildmon 21, MARILL
 	wildmon 10, PICHU
 	; nite
-	wildmon 23, HOOTHOOT
+	wildmon 25, FURRET
 	wildmon 20, MEOWTH
 	wildmon 22, PARAS
-	wildmon 23, SPINARAK
+	wildmon 23, CHARMANDER
 	wildmon 24, PSYDUCK
 	wildmon 25, NOCTOWL
 	wildmon 25, NOCTOWL
@@ -1991,24 +1991,24 @@
 	def_grass_wildmons QUIET_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 29, CUBONE
-	wildmon 30, ZUBAT
+	wildmon 29, LARVITAR
+	wildmon 30, LARVITAR
 	wildmon 30, GOLBAT
 	wildmon 31, MAROWAK
 	wildmon 32, ONIX
 	wildmon 15, LARVITAR
 	wildmon 15, LARVITAR
 	; day
-	wildmon 29, CUBONE
-	wildmon 30, ZUBAT
+	wildmon 29, LARVITAR
+	wildmon 30, LARVITAR
 	wildmon 30, GOLBAT
 	wildmon 31, MAROWAK
 	wildmon 32, ONIX
 	wildmon 15, LARVITAR
 	wildmon 15, LARVITAR
 	; nite
-	wildmon 29, CUBONE
-	wildmon 30, ZUBAT
+	wildmon 29, LARVITAR
+	wildmon 30, LARVITAR
 	wildmon 30, GOLBAT
 	wildmon 29, GASTLY
 	wildmon 30, HAUNTER
