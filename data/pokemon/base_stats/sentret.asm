@@ -4,7 +4,7 @@
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp
-	db NO_ITEM ; item 1
+	db ORAN_BERRY ; item 1
 	db ORAN_BERRY ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/sentret/front.dimensions"
@@ -12,7 +12,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
-	ev_yield   0,   1,   0,   0,   0,   0
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
