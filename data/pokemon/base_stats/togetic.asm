@@ -12,7 +12,7 @@
 	db GROWTH_FAST ; growth rate
 	dn EGG_FLYING, EGG_FAIRY ; egg groups
 
-	ev_yield   0,   0,   0,   0,   0,   2
+	ev_yield   0,   0,   0,   0,   0,   0
 	;         hp  atk  def  spd  sat  sdf
 
 	; tm/hm learnset
