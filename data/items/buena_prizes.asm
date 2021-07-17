@@ -1,12 +1,12 @@
 BlueCardMartData:
 	db 9
-	db ULTRA_BALL,   2
-	db FULL_RESTORE, 2
-	db ELIXIR,       2
-	db MAX_ELIXIR,   3
-	db NUGGET,       3
-	db RARE_CANDY,   4
-	db EVIOLITE,     5
-	db PP_UP,        6
-	db ABILITY_CAP,  7
+	db ROWAP_BERRY,  1
+	db KEE_BERRY,    1
+	db CUSTAP_BERRY, 1
+	db BOTTLE_CAP,   1
+	db ENIGMA_BERRY, 1
+	db RARE_CANDY,   1
+	db EVIOLITE,     1
+	db PP_MAX,       1
+	db ABILITY_CAP,  1
 	db -1
