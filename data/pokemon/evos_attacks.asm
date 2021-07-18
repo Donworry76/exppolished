@@ -3498,7 +3498,7 @@ TyphlosionEvosAttacks:
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
 	db 35, DIG ; Flame Charge → TM move
-	db 43, REVERSAL ; Lava Plume → egg move
+	db 43, POWER_GEM ; Lava Plume → egg move
 	db 48, FLAMETHROWER
 	db 56, EARTH_POWER ; Inferno → new move
 	db 61, FOCUS_BLAST
