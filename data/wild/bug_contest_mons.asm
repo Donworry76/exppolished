@@ -6,7 +6,7 @@ ContestMons:
 	db 10, VENOMOTH,    9, 18
 	db  5, BUTTERFREE, 12, 15
 	db  5, BEEDRILL,   12, 15
-	db 10, VENONAT,    10, 16
+	db 10, HERACROSS,  10, 16
 	db 10, PARAS,      10, 17
 	db  5, SCIZOR,     15, 15
 	db  5, YANMA,      13, 14
