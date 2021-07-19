@@ -4171,7 +4171,7 @@ endc
 WooperEvosAttacks:
 	db EVOLVE_LEVEL, 20, QUAGSIRE
 	db 0 ; no more evolutions
-	db 1, WATER__PULSE
+	db 1, WATER_PULSE
 	db 1, DOUBLE_KICK ; Tail Whip → similar move
 	db 5, MUD_SLAP ; Mud Sport → TM move
 	db 9, SCARY_FACE ; Mud Shot → event move
