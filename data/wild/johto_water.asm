@@ -256,7 +256,7 @@
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
 	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, RAICHU, ALOLAN_FORM
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_CITY
@@ -290,14 +290,14 @@
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
 	wildmon 25, MAGIKARP
-	wildmon 20, MAGIKARP
+	wildmon 20, GYARADOS
 	wildmon 25, GYARADOS
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
+	wildmon 35, GYARADOS
+	wildmon 35, GYARADOS
 	wildmon 5, DRATINI
 	end_water_wildmons
 
@@ -305,7 +305,7 @@
 	db 2 percent ; encounter rate
 	wildmon 70, POLIWHIRL
 	wildmon 75, POLIWRATH
-	wildmon 70, POLIWHIRL
+	wildmon 70, GYARADOS
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_BAY
