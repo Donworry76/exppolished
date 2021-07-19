@@ -4,7 +4,7 @@
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp
-	db LUCKY_EGG ; item 1
+	db ALWAYS_ITEM_2 ; item 1
 	db LUCKY_EGG ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/rattata_plain/front.dimensions"
