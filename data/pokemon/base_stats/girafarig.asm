@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db NORMAL, PSYCHIC ; type
+	db DARK, PSYCHIC ; type
 	db 60 ; catch rate
 	db 149 ; base exp
 	db NO_ITEM ; item 1
