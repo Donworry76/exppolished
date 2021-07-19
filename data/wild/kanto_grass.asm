@@ -1061,7 +1061,7 @@
 	wildmon 38, RATICATE
 	wildmon 38, QUAGSIRE
 	wildmon 39, QUAGSIRE
-	wildmon 39, QUAGSIRE
+	wildmon 39, MAROWAK, ALOLAN_FORM
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
