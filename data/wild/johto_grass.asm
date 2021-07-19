@@ -1364,7 +1364,7 @@
 	wildmon 3, SUNKERN
 	; nite
 	wildmon 2, HOOTHOOT
-	wildmon 2, RATTATA
+	wildmon 2, SENTRET
 	wildmon 3, PIKACHU
 	wildmon 3, RATTATA
 	wildmon 2, RATTATA
