@@ -1,5 +1,5 @@
 BasePickupTable:
-	db BOTTLE_CAP
+	db ABILITYPATCH
 	db SITRUS_BERRY
 	db CUSTAP_BERRY
 	db ENIGMA_BERRY
