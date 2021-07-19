@@ -4,7 +4,7 @@
 	db NORMAL, FLYING ; type
 	db 255 ; catch rate
 	db 55 ; base exp
-	db NO_ITEM ; item 1
+	db ALWAYS_ITEM_2 ; item 1
 	db LUM_BERRY ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/pidgey/front.dimensions"
