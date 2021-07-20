@@ -12,7 +12,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/octillery/front.dimensions"
-	abilities_for OCTILLERY, SUCTION_CUPS, SNIPER, MOODY
+	abilities_for OCTILLERY, MEGA_LAUNCHER, SNIPER, MOODY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_2 ; egg groups
 
