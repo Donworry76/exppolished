@@ -13,7 +13,7 @@ BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 3, STRING_SHOT
+	db 3, CURSE
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
 	db 13, WRAP
@@ -33,7 +33,7 @@ IvysaurEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 3, GROWL
+	db 3, CURSE
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
 	db 13, WRAP
@@ -54,9 +54,9 @@ VenusaurEvosAttacks:
 	db 1, PETAL_DANCE ; evolution move
 	db 1, OUTRAGE ; HGSS tutor move
 	db 1, SWORDS_DANCE
-	db 3, GROWL
+	db 3, CURSE
 	db 7, LEECH_SEED
-	db 9, VINE_WHIP
+	db 9, OUTRAGE
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
@@ -64,9 +64,9 @@ VenusaurEvosAttacks:
 	db 23, TAKE_DOWN ; Sweet Scent → Take Down
 	db 28, GROWTH
 	db 31, DOUBLE_EDGE
-	db 39, POWER_WHIP ; Worry Seed → event move
+	db 39, SEED_BOMB ; Worry Seed → event move
 	db 45, HEALINGLIGHT ; Synthesis → similar move
-	db 50, SEED_BOMB
+	db 50, POWER_WHIP
 	db 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
 	db 60, SOLAR_BEAM
 	db 0 ; no more level-up moves
@@ -175,9 +175,9 @@ BlastoiseEvosAttacks:
 	db 1, MIRROR_COAT ; new move
 	db 1, ZAP_CANNON ; event move
 	db 1, OUTRAGE ; HGSS tutor move
-	db 1, TACKLE
+	db 1, FOCUS_BLAST
 	db 4, MIRROR_COAT ; Tail Whip → similar move
-	db 7, WATER_GUN
+	db 7, DARK_PULSE
 	db 10, DEFENSE_CURL ; Withdraw → similar move
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
@@ -225,7 +225,7 @@ ButterfreeEvosAttacks:
 	db 25, AIR_SLASH
 	db 29, HYPNOSIS ; Whirlwind → new move
 	db 31, BUG_BUZZ
-	db 35, REFLECT ; Rage Powder → RBY TM move
+	db 35, ENERGY_BALL ; Rage Powder → RBY TM move
 	db 37, AGILITY ; Captivate → new move
 	db 41, HEALINGLIGHT ; Tailwind → new move
 	db 43, HURRICANE
@@ -426,7 +426,7 @@ ArbokEvosAttacks:
 	db 1, WRAP
 	db 1, HAZE
 	db 1, CRUNCH ; evolution move
-	db 4, POISON_STING
+	db 4, SEED_BOMB
 	db 9, BITE
 	db 12, GLARE
 	db 17, SCREECH
@@ -1204,7 +1204,7 @@ MankeyEvosAttacks:
 PrimeapeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAGE
-	db 1, SCRATCH
+	db 1, SEED_BOMB
 	db 1, LOW_KICK
 	db 1, BULK_UP
 	db 1, FOCUS_ENERGY
