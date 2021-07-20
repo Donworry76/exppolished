@@ -12,8 +12,8 @@ EvosAttacks::
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 3, CHARM
+	db 1, WRAP
+	db 3, STRING_SHOT
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
 	db 13, POISONPOWDER
@@ -125,7 +125,7 @@ CharizardEvosAttacks:
 	db 41, FLAMETHROWER
 	db 47, DRAGON_CLAW
 	db 56, DRAGON_DANCE
-	db 62, FLARE_BLITZ
+	db 62, SACRED_FIRE
 	db 71, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -185,8 +185,8 @@ BlastoiseEvosAttacks:
 	db 24, SEISMIC_TOSS
 	db 28, WATER_PULSE
 	db 32, AQUA_TAIL
-	db 39, CLOSE_COMBAT ; Skull Bash → new move
-	db 46, AURA_SPHERE
+	db 39, AURA_SPHERE ; Skull Bash → new move
+	db 46, POWER_GEM
 	db 53, ICE_BEAM
 	db 60, HYDRO_PUMP
 	db 67, SHELL_SMASH ; Sw/Sw move
@@ -1681,7 +1681,7 @@ RapidashPlainEvosAttacks:
 	db 1, PLAY_ROUGH ; evolution move
 	db 1, POISON_JAB
 	db 1, MEGAHORN
-	db 1, GROWL
+	db 1, NASTY_PLOT
 	db 1, TACKLE
 	db 4, HYPNOSIS ; Tail Whip → similar move
 	db 9, EMBER
@@ -1711,7 +1711,7 @@ RapidashGalarianEvosAttacks:
 	db 25, PSYBEAM
 	db 29, PLAY_ROUGH
 	db 33, DAZZLINGLEAM
-	db 37, AGILITY
+	db 40, NASTY_PLOT
 	db 41, PSYCHIC_M
 	db 45, EXTREMESPEED ; Bounce → new move
 	db 49, MOONBLAST ; Healing Wish → new move
@@ -2522,7 +2522,7 @@ RhydonEvosAttacks:
 	db EVOLVE_HOLDING, PROTECTOR, RHYPERIOR
 	db 0 ; no more evolutions
 	db 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
-	db 1, REVERSAL
+	db 1, CLOSE_COMBAT
 	db 1, MUD_SLAP ; Sand-Attack → similar move
 	db 1, LEER ; Tail Whip → similar move
 	db 3, HORN_ATTACK
@@ -2537,7 +2537,7 @@ RhydonEvosAttacks:
 	db 37, BODY_SLAM
 	db 41, STONE_EDGE
 	db 48, EARTHQUAKE
-	db 55, CLOSE_COMBAT ; Megahorn → new move
+	db 55, DRAGON_DANCE ; Megahorn → new move
 	db 62, MEGAHORN ; Horn Drill → Megahorn
 	db 0 ; no more level-up moves
 
@@ -2962,7 +2962,7 @@ VaporeonEvosAttacks:
 	db 1, WATER_GUN ; evolution move
 	db 5, MUD_SLAP ; Sand Attack → similar move
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → Let's Go move
-	db 13, QUICK_ATTACK
+	db 13, AQUA_JET
 	db 17, WATER_PULSE
 	db 20, AURORA_BEAM
 	db 25, RECOVER ; Aqua Ring → similar move
@@ -3004,7 +3004,7 @@ FlareonEvosAttacks:
 	db 17, BITE
 	db 20, FLAME_CHARGE ; Fire Fang → Fire Spin
 	db 25, IRON_TAIL ; Fire Spin → TM move
-	db 29, SCARY_FACE
+	db 29, BULLDOZE
 	db 33, SMOKESCREEN ; Smog → new move
 	db 37, SACRED_FIRE ; Lava Plume → new move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
@@ -3585,7 +3585,7 @@ SentretEvosAttacks:
 	db 16, DIZZY_PUNCH ; Helping Hand → event move
 	db 19, SUPER_FANG ; Follow Me → HGSS tutor move
 	db 25, HEADBUTT ; Slam → tutor move
-	db 28, REST
+	db 28, RECOVER
 	db 31, SUCKER_PUNCH
 	db 36, AMNESIA
 	db 39, BATON_PASS
@@ -3604,7 +3604,7 @@ FurretEvosAttacks:
 	db 17, ICE_PUNCH ; Helping Hand → event move
 	db 21, SUPER_FANG ; Follow Me → HGSS tutor move
 	db 28, REVERSAL ; Slam → tutor move
-	db 32, REST
+	db 32, RECOVER
 	db 36, SUCKER_PUNCH
 	db 42, AMNESIA
 	db 46, U_TURN
@@ -3869,7 +3869,7 @@ RhyperiorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
 	db 1, POISON_JAB
-	db 1, TACKLE
+	db 1, CLOSE_COMBAT
 	db 1, MUD_SLAP ; Sand-Attack → similar move
 	db 1, LEER ; Tail Whip → similar move
 	db 3, HORN_ATTACK
@@ -3884,7 +3884,7 @@ RhyperiorEvosAttacks:
 	db 37, TAKE_DOWN
 	db 41, STONE_EDGE
 	db 48, EARTHQUAKE
-	db 55, CLOSE_COMBAT ; Megahorn → new move
+	db 55, DRAGON_DANCE ; Megahorn → new move
 	db 62, MEGAHORN ; Horn Drill → Megahorn
 	db 69, ROCK_SLIDE ; Rock Wrecker → similar move
 	db 0 ; no more level-up moves
@@ -3934,7 +3934,7 @@ NatuEvosAttacks:
 XatuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, AIR_SLASH ; evolution move
-	db 1, PECK
+	db 1, AEROBLAST
 	db 1, LEER
 	db 6, NIGHT_SHADE
 	db 9, HAZE
@@ -4214,8 +4214,8 @@ EspeonEvosAttacks:
 	db 17, SWIFT
 	db 20, PSYBEAM
 	db 25, FUTURE_SIGHT
-	db 29, REFLECT ; Psych Up → event move
-	db 33, HEALINGLIGHT ; Morning Sun → similar move
+	db 29, HEALINGLIGHT ; Psych Up → event move
+	db 33, AURA_SPHERE ; Morning Sun → similar move
 	db 37, PSYCHIC_M
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, POWER_GEM ; Power Swap → new move
