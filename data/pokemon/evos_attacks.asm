@@ -2780,14 +2780,14 @@ JynxEvosAttacks:
 	db 11, ICY_WIND ; Powder Snow → TM move
 	db 15, PERISH_SONG
 	db 18, ICE_PUNCH
-	db 21, METRONOME ; Heart Stamp → RBY TM move
+	db 21, PERISH_SONG ; Heart Stamp → RBY TM move
 	db 25, MEAN_LOOK
 	db 28, DRAIN_KISS ; Fake Tears → Drain Kiss
 	db 33, PSYBEAM ; Wake-Up Slap → new move
 	db 39, AVALANCHE
-	db 44, PSYCHIC_M
+	db 44, PSYSTRIKE
 	db 49, NASTY_PLOT ; Wring Out → egg move
-	db 55, PERISH_SONG
+	db 55, AURA_SPHERE
 	db 60, BLIZZARD
 	db 0 ; no more level-up moves
 
@@ -2966,7 +2966,7 @@ VaporeonEvosAttacks:
 	db 17, WATER_PULSE
 	db 20, AURORA_BEAM
 	db 25, RECOVER ; Aqua Ring → similar move
-	db 29, BARRIER ; Acid Armor → similar move
+	db 29, CALM_MIND ; Acid Armor → similar move
 	db 33, ICE_BEAM
 	db 37, SCALD ; Muddy Water → TM move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
@@ -2983,7 +2983,7 @@ JolteonEvosAttacks:
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → Let's Go move
 	db 13, QUICK_ATTACK
 	db 17, DOUBLE_KICK
-	db 20, LIGHT_SCREEN ; Thunder Fang → TM move
+	db 20, SPIKES ; Thunder Fang → TM move
 	db 25, PIN_MISSILE
 	db 29, AGILITY
 	db 33, THUNDER_WAVE
@@ -3006,7 +3006,7 @@ FlareonEvosAttacks:
 	db 25, IRON_TAIL ; Fire Spin → TM move
 	db 29, SCARY_FACE
 	db 33, SMOKESCREEN ; Smog → new move
-	db 37, FLAMETHROWER ; Lava Plume → new move
+	db 37, SACRED_FIRE ; Lava Plume → new move
 	db 41, DOUBLE_EDGE ; Last Resort → tutor move
 	db 45, FLARE_BLITZ
 	db 0 ; no more level-up moves
@@ -4036,7 +4036,7 @@ SudowoodoEvosAttacks:
 	db 1, SUBSTITUTE ; Copycat → event move
 	db 5, REVERSAL ; Flail → similar move
 	db 8, LOW_KICK
-	db 12, FEINT_ATTACK ; Rock Throw → new move
+	db 12, RAZOR_LEAF ; Rock Throw → new move
 	db 15, ROCK_THROW ; Mimic → Rock Throw
 	db 19, EXPLOSION
 	db 22, ANCIENTPOWER ; Rock Tomb → new move
@@ -4046,7 +4046,7 @@ SudowoodoEvosAttacks:
 	db 36, SUCKER_PUNCH
 	db 40, DOUBLE_EDGE
 	db 43, STONE_EDGE
-	db 47, CLOSE_COMBAT ; Hammer Arm → similar move
+	db 47, POWER_WHIP ; Hammer Arm → similar move
 	db 50, IRON_HEAD ; Head Smash → tutor move
 	db 0 ; no more level-up moves
 
