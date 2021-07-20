@@ -12,11 +12,11 @@ EvosAttacks::
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
-	db 1, WRAP
+	db 1, TACKLE
 	db 3, STRING_SHOT
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
-	db 13, POISONPOWDER
+	db 13, WRAP
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
 	db 19, VENOSHOCK
@@ -36,7 +36,7 @@ IvysaurEvosAttacks:
 	db 3, GROWL
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
-	db 13, POISONPOWDER
+	db 13, WRAP
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
 	db 20, VENOSHOCK
@@ -416,7 +416,7 @@ EkansEvosAttacks:
 	db 35, POISON_JAB ; Mud Bomb → TM move
 	db 36, LEECH_LIFE ; Gastro Acid → TM move
 	db 38, IRON_TAIL ; Belch → TM move
-	db 41, HAZE
+	db 41, RECOVER
 	db 44, BULK_UP ; Coil → TM move
 	db 49, GUNK_SHOT
 	db 0 ; no more level-up moves
@@ -434,7 +434,7 @@ ArbokEvosAttacks:
 	db 27, DISABLE ; Stockpile + Spit Up + Swallow → egg move
 	db 32, SUCKER_PUNCH ; Acid Spray → egg move
 	db 39, POISON_JAB ; Mud Bomb → TM move
-	db 44, LEECH_LIFE ; Gastro Acid → TM move
+	db 44, RECOVER ; Gastro Acid → TM move
 	db 48, CRUNCH ; Belch → TM move
 	db 51, AQUA_TAIL
 	db 56, BULK_UP ; Coil → TM move
@@ -478,7 +478,7 @@ RaichuAlolanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, LEER ; Tail Whip → similar move
-	db 1, QUICK_ATTACK
+	db 1, SCALD
 	db 1, THUNDERBOLT
 	db 1, PSYCHIC_M ; evolution move
 	db 1, NASTY_PLOT ; Sw/Sh move
