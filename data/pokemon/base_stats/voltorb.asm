@@ -8,7 +8,7 @@
 	db CELL_BATTERY ; item 2
 	dn GENDER_UNKNOWN, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/voltorb/front.dimensions"
-	abilities_for VOLTORB, SOUNDPROOF, STATIC, AFTERMATH
+	abilities_for VOLTORB, SOUNDPROOF, GALVANIZE, AFTERMATH
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
