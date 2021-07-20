@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db ROCK, ROCK ; type
+	db ROCK, GRASS ; type
 	db 65 ; catch rate
 	db 135 ; base exp
 	db NO_ITEM ; item 1
