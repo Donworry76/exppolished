@@ -4882,7 +4882,7 @@ OctilleryEvosAttacks:
 	db 28, WATER_PULSE
 	db 34, FLAMETHROWER ; Signal Beam → TM move
 	db 40, ICE_BEAM
-	db 46, SEED_BOMB ; Bullet Seed → tutor move
+	db 46, AURA_SPHERE ; Bullet Seed → tutor move
 	db 52, GUNK_SHOT ; Hydro Pump → new move
 	db 58, HYDRO_PUMP ; Hyper Beam → Hydro Pump
 if !DEF(FAITHFUL)
