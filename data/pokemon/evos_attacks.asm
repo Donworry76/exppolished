@@ -929,7 +929,7 @@ ParasectEvosAttacks:
 	db 22, SPORE
 	db 29, SLASH
 	db 37, SWORDS_DANCE
-	db 44, GIGA_DRAIN
+	db 44, CRABHAMMER
 	db 51, LEECH_LIFE ; Aromatherapy → TM move
 	db 59, HEALINGLIGHT ; Rage Powder → new move
 	db 66, X_SCISSOR
@@ -2244,7 +2244,7 @@ KinglerEvosAttacks:
 VoltorbEvosAttacks:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, EXPLOSION
 	db 1, THUNDERSHOCK ; Let's Go move
 	db 4, SONIC_BOOM
 	db 6, AGILITY ; Eerie Impulse → event move
@@ -2256,10 +2256,10 @@ VoltorbEvosAttacks:
 	db 22, THUNDERBOLT ; Electro Ball → TM move
 	db 26, REFLECT ; Self-Destruct → TM move
 	db 29, LIGHT_SCREEN
-	db 34, EXPLOSION ; Magnet Rise → Explosion
+	db 34, TRI_ATTACK ; Magnet Rise → Explosion
 	db 37, THUNDER ; Discharge → TM move
 	db 41, BUG_BUZZ ; Explosion → new move
-	db 46, GYRO_BALL
+	db 46, HYPER_VOICE
 	db 48, MIRROR_COAT
 	db 0 ; no more level-up moves
 
