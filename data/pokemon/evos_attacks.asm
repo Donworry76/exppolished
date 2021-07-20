@@ -76,7 +76,7 @@ CharmanderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 6, EMBER
-	db 9, BRICK_BREAK
+	db 9, FIRE_SPIN
 	db 10, SMOKESCREEN
 	db 16, METAL_CLAW ; Dragon Rage → TM move
 	db 19, DRAGON_RAGE ; Scary Face → Dragon Rage
@@ -92,7 +92,7 @@ CharmeleonEvosAttacks:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, BRICK_BREAK
+	db 1, FIRE_SPIN
 	db 7, EMBER
 	db 10, SMOKESCREEN
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
@@ -300,7 +300,7 @@ PidgeottoEvosAttacks:
 	db 37, WING_ATTACK
 	db 42, ROOST
 	db 47, DRILL_PECK ; Tailwind → new move
-	db 52, STEEL_WING ; Mirror Move → TM move
+	db 52, HYPER_VOICE ; Mirror Move → TM move
 	db 57, AIR_SLASH
 	db 62, HURRICANE
 	db 0 ; no more level-up moves
