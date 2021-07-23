@@ -452,9 +452,9 @@ PikachuEvosAttacks:
 	db 10, QUICK_ATTACK
 	db 13, DOUBLE_KICK ; Electro Ball → Let's Go move
 	db 18, THUNDER_WAVE
-	db 21, MUD_SLAP ; Feint → GSC TM move
+	db 21, SPARK ; Feint → GSC TM move
 	db 23, DOUBLE_TEAM
-	db 26, SPARK
+	db 26, MUD_SLAP
 	db 29, IRON_TAIL ; Nuzzle → TM move
 	db 34, EXTREMESPEED ; Discharge → event move
 	db 37, BODY_SLAM ; Slam → TM move
@@ -3827,7 +3827,7 @@ MunchlaxEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 9, AMNESIA
 	db 12, LICK
-	db 17, RAGE ; Chip Away → RBY TM move
+	db 17, CURSE ; Chip Away → RBY TM move
 	db 20, TAKE_DOWN ; Screech → RBY TM move
 	db 25, BODY_SLAM
 	db 28, SCREECH ; Stockpile → Screech
