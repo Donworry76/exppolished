@@ -213,7 +213,7 @@ MetapodEvosAttacks:
 
 ButterfreeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE ; Caterpie move
+	db 1, MEGA_DRAIN ; Caterpie move
 	db 1, STRING_SHOT ; Caterpie move
 	db 1, GUST
 	db 11, PSYBEAM
@@ -250,7 +250,7 @@ KakunaEvosAttacks:
 
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING ; Weedle move
+	db 1, TOXIC ; Weedle move
 	db 1, STRING_SHOT ; Weedle move
 	db 1, FURY_STRIKES ; Fury Attack → similar move
 	db 1, U_TURN ; evolution move
@@ -319,8 +319,8 @@ PidgeotEvosAttacks:
 	db 44, ROOST
 	db 50, U_TURN ; Tailwind → new move
 	db 56, HYPER_VOICE ; Mirror Move → TM move
-	db 62, AIR_SLASH
-	db 68, HURRICANE
+	db 62, HURRICANE
+	db 68, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
 RattataPlainEvosAttacks:
@@ -454,11 +454,11 @@ PikachuEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 21, SPARK ; Feint → GSC TM move
 	db 23, DOUBLE_TEAM
-	db 26, MUD_SLAP
+	db 26, THUNDERBOLT
 	db 29, IRON_TAIL ; Nuzzle → TM move
 	db 34, EXTREMESPEED ; Discharge → event move
 	db 37, BODY_SLAM ; Slam → TM move
-	db 42, THUNDERBOLT
+	db 42, NASTY_PLOT
 	db 45, AGILITY
 	db 50, WILD_CHARGE
 	db 53, LIGHT_SCREEN
