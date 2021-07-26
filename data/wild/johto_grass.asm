@@ -1616,7 +1616,7 @@
 	wildmon 21, MILTANK
 	; nite
 	wildmon 21, PERSIAN
-	wildmon 21, PERSIAN. ALOLAN_FORM
+	wildmon 21, PERSIAN, ALOLAN_FORM
 	wildmon 21, MAGNEMITE
 	wildmon 21, NOCTOWL
 	wildmon 21, SNEASEL
