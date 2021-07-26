@@ -283,43 +283,43 @@
 	def_grass_wildmons TOHJO_FALLS
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
-	wildmon 24, GOLBAT
-	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 30, CLEFAIRY
+	wildmon 30, RATICATE
+	wildmon 30, GOLBAT
+	wildmon 30, SLOWPOKE
+	wildmon 30, ONIX
+	wildmon 30, SLOWPOKE
+	wildmon 30, SLOWPOKE
 	; day
-	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
-	wildmon 24, GOLBAT
-	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 30, CLEFAIRY
+	wildmon 30, RATICATE
+	wildmon 30, GOLBAT
+	wildmon 30, SLOWPOKE
+	wildmon 30, ONIX
+	wildmon 30, SLOWPOKE
+	wildmon 30, SLOWPOKE
 	; nite
-	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
-	wildmon 24, GOLBAT
-	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 30, CLEFAIRY
+	wildmon 30, RATICATE
+	wildmon 30, GOLBAT
+	wildmon 30, SLOWPOKE
+	wildmon 30, ONIX
+	wildmon 30, SLOWPOKE
+	wildmon 30, SLOWPOKE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 56, PIDGEOTTO
+	wildmon 56, PIDGEOT
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
+	wildmon 57, PIDGEOT
 	wildmon 59, FURRET
 	wildmon 60, PIDGEOT
 	wildmon 60, PIDGEOT
 	; day
-	wildmon 56, PIDGEOTTO
+	wildmon 56, PIDGEOT
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
 	wildmon 57, PIDGEOTTO
