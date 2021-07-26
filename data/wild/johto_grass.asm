@@ -1773,7 +1773,7 @@
 	wildmon 2, BULBASAUR
 	wildmon 2, JIGGLYPUFF
 	wildmon 3, MAREEP
-	wildmon 3, EEVEEE
+	wildmon 3, MAREEP
 	; day
 	wildmon 2, SQUIRTLE
 	wildmon 2, PHANPY
@@ -1781,7 +1781,7 @@
 	wildmon 2, JIGGLYPUFF
 	wildmon 2, BULBASAUR
 	wildmon 3, MAREEP
-	wildmon 3, EEVEEE
+	wildmon 3, MAREEP
 	; nite
 	wildmon 2, CHARMANDER
 	wildmon 2, PHANPY
@@ -1789,7 +1789,7 @@
 	wildmon 2, JIGGLYPUFF
 	wildmon 2, BULBASAUR
 	wildmon 3, MAREEP
-	wildmon 3, EEVEEE
+	wildmon 3, MAREEP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_47
