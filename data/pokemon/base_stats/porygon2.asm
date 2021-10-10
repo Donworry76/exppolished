@@ -1,7 +1,7 @@
 	db  85,  80,  90,  60, 105,  95 ; 515 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db PSYCHIC, ELECTRIC ; type
 	db 45 ; catch rate
 	db 180 ; base exp
 	db NO_ITEM ; item 1
