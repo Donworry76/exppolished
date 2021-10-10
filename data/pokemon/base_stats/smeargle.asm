@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  55,  20,  35,  75,  20,  45 ; 250 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  75,  40,  35, 120,  40,  45 ; 275 BST
+	db  75,  75,  45, 75,  75,  45 ; 275 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -13,7 +13,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/smeargle/front.dimensions"
-	abilities_for SMEARGLE, OWN_TEMPO, TECHNICIAN, MOODY
+	abilities_for SMEARGLE, MOODY, TECHNICIAN, MOODY
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
