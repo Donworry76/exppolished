@@ -16,7 +16,7 @@ BulbasaurEvosAttacks:
 	db 3, CURSE
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
-	db 13, WRAP
+	db 11, WRAP
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
 	db 19, VENOSHOCK
@@ -121,7 +121,7 @@ CharizardEvosAttacks:
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
 	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 28, SCARY_FACE ; Fire Fang → Scary Face
-	db 32, ANCIENTPOWER ; Flame Burst → TM move
+	db 36, DRAGON_PULSE ; Flame Burst → TM move
 	db 41, FLAMETHROWER
 	db 47, DRAGON_CLAW
 	db 56, DRAGON_DANCE
@@ -186,7 +186,7 @@ BlastoiseEvosAttacks:
 	db 28, WATER_PULSE
 	db 32, AQUA_TAIL
 	db 39, AURA_SPHERE ; Skull Bash → new move
-	db 46, POWER_GEM
+	db 46, DARK_PULSE
 	db 53, ICE_BEAM
 	db 60, HYDRO_PUMP
 	db 67, SHELL_SMASH ; Sw/Sw move
@@ -276,7 +276,7 @@ PidgeyEvosAttacks:
 	db 13, QUICK_ATTACK
 	db 17, RAGE ; Whirlwind → RBY TM move
 	db 21, CHARM ; Twister → egg move
-	db 25, SWIFT ; Feather Dance → TM move
+	db 25, ICY_WIND ; Feather Dance → TM move
 	db 29, AGILITY
 	db 33, WING_ATTACK
 	db 37, ROOST
@@ -293,9 +293,9 @@ PidgeottoEvosAttacks:
 	db 5, GUST ; Sand Attack → Gust
 	db 9, MUD_SLAP ; Gust → GSC TM move
 	db 13, QUICK_ATTACK
-	db 17, ACROBATICS ; Whirlwind → RBY TM move
+	db 18, ACROBATICS ; Whirlwind → RBY TM move
 	db 22, CHARM ; Twister → egg move
-	db 27, SWIFT ; Feather Dance → TM move
+	db 27, ICY_WIND ; Feather Dance → TM move
 	db 32, AGILITY
 	db 37, WING_ATTACK
 	db 42, ROOST
@@ -313,7 +313,7 @@ PidgeotEvosAttacks:
 	db 13, QUICK_ATTACK
 	db 17, ACROBATICS ; Whirlwind → RBY TM move
 	db 22, CHARM ; Twister → egg move
-	db 27, SWIFT ; Feather Dance → TM move
+	db 27, ICY_WIND ; Feather Dance → TM move
 	db 36, EXTREMESPEED
 	db 38, WING_ATTACK
 	db 44, ROOST
@@ -467,8 +467,8 @@ PikachuEvosAttacks:
 
 RaichuPlainEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
 	db 1, WILD_CHARGE
+	db 1, SURF
 	db 1, EXTREMESPEED
 	db 1, THUNDERBOLT ; evolution move
 	db 1, NASTY_PLOT ; Sw/Sh move
