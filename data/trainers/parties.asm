@@ -129,11 +129,11 @@ BugsyGroup:
 	; party
 	db 18, POLITOED, DAMP_ROCK, 240, ABIL_POLITOED_DRIZZLE | NAT_NEUTRAL, MALE
 		db SCALD, GIGA_DRAIN, U_TURN, TOXIC
-	db 17, SHUCKLE, LEFTOVERS, 240, ABILITY_1 | NAT_DEF_UP_SATK_DOWN, MALE
+	db 18, SHUCKLE, LEFTOVERS, 240, ABILITY_1 | NAT_DEF_UP_SATK_DOWN, MALE
 		db TOXIC, ENCORE, WRAP, PROTECT
-	db 17, HERACROSS, LEFTOVERS, 240, ABIL_HERACROSS_SKILL_LINK | NAT_SPD_UP_SATK_DOWN, MALE
+	db 18, HERACROSS, LEFTOVERS, 240, ABIL_HERACROSS_SKILL_LINK | NAT_SPD_UP_SATK_DOWN, MALE
 		db BRICK_BREAK, ROCK_BLAST, PIN_MISSILE, SWORDS_DANCE
-	db 18, SCIZOR, SITRUS_BERRY, 240, ABIL_SCIZOR_TECHNICIAN | NAT_ATK_UP_SATK_DOWN, FEMALE
+	db 19, SCIZOR, SITRUS_BERRY, 240, ABIL_SCIZOR_TECHNICIAN | NAT_ATK_UP_SATK_DOWN, FEMALE
 		db BULLET_PUNCH, AERIAL_ACE, ROOST, U_TURN
 	db 19, SCYTHER, EVIOLITE, 240, ABIL_SCYTHER_TECHNICIAN | NAT_ATK_UP_SATK_DOWN, FEMALE
 		db QUICK_ATTACK, SWORDS_DANCE, AERIAL_ACE, U_TURN
@@ -2028,9 +2028,9 @@ BugCatcherGroup:
 	db "Benny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, LARVITAR
-	db 14, LEDIAN
-	db 14, BEEDRILL
+	db 15, LARVITAR
+	db 16, LEDIAN
+	db 17, BEEDRILL
 	db -1 ; end
 
 ; ================
@@ -2691,8 +2691,8 @@ TwinsGroup:
 	db "Amy & Mimi@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 13, LARVITAR
-	db 13, DRATINI
+	db 16, LARVITAR
+	db 16, DRATINI
 	db -1 ; end
 
 ; ================
@@ -3558,8 +3558,8 @@ HikerGroup:
 	db "Anthony@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 13, GEODUDE
-	db 15, MACHOP
+	db 16, MANKEY
+	db 16, DIGLETT
 	db -1 ; end
 
 ; ================
@@ -3647,9 +3647,9 @@ HikerGroup:
 	db "Russell@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 8, GEODUDE
-	db 10, GEODUDE
-	db 12, GEODUDE
+	db 15, GEODUDE
+	db 15, ZUBAT
+	db 15, GLIGAR
 	db -1 ; end
 
 ; ================
@@ -3669,8 +3669,8 @@ HikerGroup:
 	db "Leonard@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 23, GEODUDE
-	db 25, MACHOP
+	db 25, DONPHAN
+	db 26, GOLEM
 	db -1 ; end
 
 ; ================
@@ -3786,7 +3786,7 @@ HikerGroup:
 	db "Daniel@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, ONIX
+	db 16, ONIX
 	db -1 ; end
 
 ; ================
@@ -3957,9 +3957,9 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 13, HOUNDOUR
-	db 13, DROWZEE
-	db 13, GASTLY
+	db 16, HOUNDOUR
+	db 16, DROWZEE
+	db 16, GASTLY
 	db -1 ; end
 
 ; ================
@@ -4239,8 +4239,8 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 12, SNEASEL
-	db 12, MEOWTH
+	db 16, SNEASEL
+	db 16, MEOWTH
 	db -1 ; end
 
 ; ================
@@ -4276,8 +4276,8 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 12, DRATINI
-	db 12, MAGNEMITE
+	db 15, DRATINI
+	db 16, MAGNEMITE
 	db -1 ; end
 
 ; ================
@@ -4317,11 +4317,11 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 32, ARBOK
+	db 35, ARBOK
 		db GLARE, EARTHQUAKE, GUNK_SHOT, CRUNCH
-	db 32, QWILFISH
+	db 35, QWILFISH
 		db SCALD, TOXIC, AQUA_JET, PROTECT
-	db 32, PRIMEAPE
+	db 35, PRIMEAPE
 		db EARTHQUAKE, ROCK_SLIDE, BODY_SLAM, ICE_PUNCH
 	db -1 ; end
 
@@ -5742,8 +5742,8 @@ FirebreatherGroup:
 	db "Bill@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, KOFFING
-	db 11, GIRAFARIG
+	db 15, KOFFING
+	db 15, GIRAFARIG
 	db -1 ; end
 
 ; ================
@@ -10429,9 +10429,9 @@ ProtonGroup:
 	db "Proton@"
 	db TRAINERTYPE_EVS
 	; party
-	db 17, KADABRA, 32
-	db 17, QWILFISH, 32
-	db 17, ARCANINE, 32
+	db 17, KADABRA, 120
+	db 17, QWILFISH, 120
+	db 18, ARCANINE, 120
 	db -1 ; end
 
 ; ================
