@@ -889,14 +889,14 @@ GloomEvosAttacks:
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, MEGA_DRAIN
+	db 1, GIGA_DRAIN
 	db 1, HEAL_BELL ; Aromatherapy → similar move
 	db 1, POISONPOWDER
-	db 1, STUN_SPORE
+	db 1, DARK_PULSE
 	db 39, GROWTH
-	db 49, MOONBLAST ; Petal Blizzard → Gloom move
+	db 49, SHADOW_BALL ; Petal Blizzard → Gloom move
 	db 59, PETAL_DANCE
-	db 69, SOLAR_BEAM
+	db 69, HEALINGLIGHT
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -924,15 +924,15 @@ ParasectEvosAttacks:
 	db 2, SLEEP_POWDER ; Let's Go move
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
-	db 11, MEGA_DRAIN
+	db 11, GIGA_DRAIN
 	db 17, BUG_BITE ; Fury Cutter → egg move
 	db 22, SPORE
-	db 29, SLASH
+	db 29, X_SCISSOR
 	db 37, SWORDS_DANCE
 	db 44, CRABHAMMER
 	db 51, LEECH_LIFE ; Aromatherapy → TM move
 	db 59, HEALINGLIGHT ; Rage Powder → new move
-	db 66, X_SCISSOR
+	db 66, SEED_BOMB
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
