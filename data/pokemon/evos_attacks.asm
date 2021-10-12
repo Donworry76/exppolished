@@ -12,13 +12,13 @@ EvosAttacks::
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, WRAP
 	db 3, CURSE
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
-	db 11, WRAP
+	db 11, HEADBUTT
 	db 13, SLEEP_POWDER
-	db 15, MUD_SLAP ; Take Down → GSC TM move
+	db 15, ACID ; Take Down → GSC TM move
 	db 19, VENOSHOCK
 	db 21, MEGA_DRAIN
 	db 25, GROWTH
@@ -32,13 +32,13 @@ BulbasaurEvosAttacks:
 IvysaurEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, WRAP
 	db 3, CURSE
 	db 7, LEECH_SEED
 	db 9, RAZOR_LEAF
-	db 13, WRAP
+	db 13, BODY_SLAM
 	db 13, SLEEP_POWDER
-	db 15, MUD_SLAP ; Take Down → GSC TM move
+	db 15, ACID ; Take Down → GSC TM move
 	db 20, VENOSHOCK
 	db 23, MEGA_DRAIN
 	db 28, GROWTH
@@ -61,7 +61,7 @@ VenusaurEvosAttacks:
 	db 13, SLEEP_POWDER
 	db 15, MUD_SLAP ; Take Down → GSC TM move
 	db 20, RAZOR_LEAF
-	db 23, TAKE_DOWN ; Sweet Scent → Take Down
+	db 23, DOUBLE_EDGE ; Sweet Scent → Take Down
 	db 28, GROWTH
 	db 32, BODY_SLAM
 	db 39, SEED_BOMB ; Worry Seed → event move
@@ -94,9 +94,9 @@ CharmeleonEvosAttacks:
 	db 1, SCRATCH
 	db 1, FIRE_SPIN
 	db 7, EMBER
-	db 10, SMOKESCREEN
+	db 10, QUICK_ATTACK
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
-	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
+	db 23, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 28, SCARY_FACE ; Fire Fang → Scary Face
 	db 32, ANCIENTPOWER ; Flame Burst → TM move
 	db 39, SLASH
