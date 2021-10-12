@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db GRASS, POISON ; type
+	db GRASS, DARK ; type
 	db 45 ; catch rate
 if DEF(FAITHFUL)
 	db 184 ; base exp
