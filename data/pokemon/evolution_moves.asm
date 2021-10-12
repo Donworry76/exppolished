@@ -44,7 +44,7 @@ EvolutionMoves::
 	db NO_MOVE      ; GOLBAT
 	db NO_MOVE      ; ODDISH
 	db NO_MOVE      ; GLOOM
-	db NO_MOVE      ; VILEPLUME
+	db DARK_PULSE   ; VILEPLUME
 	db NO_MOVE      ; PARAS
 	db SHADOW_CLAW  ; PARASECT
 	db NO_MOVE      ; VENONAT
