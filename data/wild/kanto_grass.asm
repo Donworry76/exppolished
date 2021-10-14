@@ -3,27 +3,27 @@
 	def_grass_wildmons DIGLETTS_CAVE
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
+	wildmon 58, DUGTRIO
+	wildmon 58, MAROWAK
+	wildmon 58, DONPHAN
+	wildmon 58, SANDSLASH
+	wildmon 58, DUGTRIO
 	wildmon 58, DUGTRIO
 	wildmon 60, DUGTRIO
 	; day
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
+	wildmon 58, DUGTRIO
+	wildmon 58, MAROWAK
+	wildmon 58, DONPHAN
+	wildmon 58, SANDSLASH
+	wildmon 58, DUGTRIO
 	wildmon 58, DUGTRIO
 	wildmon 60, DUGTRIO
 	; nite
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
+	wildmon 58, DUGTRIO
+	wildmon 58, MAROWAK
+	wildmon 58, DONPHAN
+	wildmon 58, SANDSLASH
+	wildmon 58, DUGTRIO
 	wildmon 58, DUGTRIO
 	wildmon 60, DUGTRIO
 	end_grass_wildmons
@@ -32,35 +32,35 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 65, CHANSEY
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, GRAVELER
+	wildmon 57, GOLEM
 	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 60, CROBAT
 	; day
 	wildmon 65, CHANSEY
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, GRAVELER
+	wildmon 57, GOLEM
 	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 60, CROBAT
 	; nite
 	wildmon 65, CHANSEY
-	wildmon 56, GRAVELER
-	wildmon 56, CLEFAIRY
+	wildmon 56, GOLEM
+	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, GRAVELER
+	wildmon 57, GOLEM
 	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 60, CROBAT
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, GOLBAT
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
@@ -68,7 +68,7 @@
 	wildmon 60, CLEFABLE
 	; day
 	wildmon 55, GOLBAT
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
@@ -76,7 +76,7 @@
 	wildmon 60, CLEFABLE
 	; nite
 	wildmon 55, GOLBAT
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, CLEFAIRY
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
@@ -88,18 +88,18 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, GOLBAT
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, GRAVELER
+	wildmon 57, STEELIX
 	wildmon 58, CLEFAIRY
 	wildmon 60, CLEFABLE
 	; day
 	wildmon 55, GOLBAT
-	wildmon 56, GRAVELER
+	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, GRAVELER
+	wildmon 57, STELIX
 	wildmon 58, CLEFAIRY
 	wildmon 60, CLEFABLE
 	; nite
@@ -115,13 +115,13 @@
 	def_grass_wildmons ROCK_TUNNEL_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, MAROWAK
-	wildmon 50, GRAVELER
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 51, MACHOKE
-	wildmon 51, GOLBAT
-	wildmon 54, MACHOKE
-	wildmon 51, MAROWAK
+	wildmon 55, MAROWAK
+	wildmon 55, GRAVELER
+	wildmon 55, GRAVELER, ALOLAN_FORM
+	wildmon 55, MACHOKE
+	wildmon 55, GOLBAT
+	wildmon 56, MACHOKE
+	wildmon 57, MAROWAK
 	; day
 	wildmon 49, MAROWAK
 	wildmon 50, GRAVELER
