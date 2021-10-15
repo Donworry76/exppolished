@@ -283,69 +283,69 @@
 	def_grass_wildmons TOHJO_FALLS
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 30, CLEFAIRY
-	wildmon 30, RATICATE
-	wildmon 30, GOLBAT
-	wildmon 30, SLOWPOKE
-	wildmon 30, ONIX
-	wildmon 30, SLOWPOKE
-	wildmon 30, SLOWPOKE
+	wildmon 35, CLEFABLE
+	wildmon 35, RATICATE
+	wildmon 35, CROBAT
+	wildmon 35, SLOWBRO
+	wildmon 35, STEELIX
+	wildmon 35, SLOWBRO
+	wildmon 35, SLOWBRO
 	; day
-	wildmon 30, CLEFAIRY
-	wildmon 30, RATICATE
-	wildmon 30, GOLBAT
-	wildmon 30, SLOWPOKE
-	wildmon 30, ONIX
-	wildmon 30, SLOWPOKE
-	wildmon 30, SLOWPOKE
+	wildmon 35, CLEFABLE
+	wildmon 35, RATICATE
+	wildmon 35, CROBAT
+	wildmon 35, SLOWBRO
+	wildmon 35, STEELIX
+	wildmon 35, SLOWBRO
+	wildmon 35, SLOWBRO
 	; nite
-	wildmon 30, CLEFAIRY
-	wildmon 30, RATICATE
-	wildmon 30, GOLBAT
-	wildmon 30, SLOWPOKE
-	wildmon 30, ONIX
-	wildmon 30, SLOWPOKE
-	wildmon 30, SLOWPOKE
+	wildmon 35, CLEFABLE
+	wildmon 35, RATICATE
+	wildmon 35, CROBAT
+	wildmon 35, SLOWBRO
+	wildmon 35, STEELIX
+	wildmon 35, SLOWBRO
+	wildmon 35, SLOWBRO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 56, PIDGEOT
-	wildmon 56, RATICATE
-	wildmon 57, FURRET
-	wildmon 57, PIDGEOT
-	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 62, PIDGEOT
+	wildmon 62, RATICATE
+	wildmon 62, FURRET
+	wildmon 62, PIDGEOT
+	wildmon 62, FURRET
+	wildmon 62, PIDGEOT
+	wildmon 65, PIDGEOT
 	; day
-	wildmon 56, PIDGEOT
-	wildmon 56, RATICATE
-	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
-	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 62, PIDGEOT
+	wildmon 62, RATICATE
+	wildmon 62, FURRET
+	wildmon 62, PIDGEOT
+	wildmon 62, FURRET
+	wildmon 62, PIDGEOT
+	wildmon 65, PIDGEOT
 	; nite
-	wildmon 56, NOCTOWL
-	wildmon 56, RATICATE
-	wildmon 57, RATICATE
-	wildmon 57, NOCTOWL
-	wildmon 59, RATICATE
-	wildmon 60, NOCTOWL
-	wildmon 60, NOCTOWL
+	wildmon 62, NOCTOWL
+	wildmon 62, RATICATE
+	wildmon 62, RATICATE
+	wildmon 62, NOCTOWL
+	wildmon 62, RATICATE
+	wildmon 65, NOCTOWL
+	wildmon 65, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
-	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOT
-	wildmon 57, BUTTERFREE
-	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, ARIADOS
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, PIDGEOTTO
+	wildmon 62, PIKACHU
 	; day
 	wildmon 55, BUTTERFREE
 	wildmon 54, PIDGEOT
@@ -988,24 +988,24 @@
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	; day
 	wildmon 48, BUTTERFREE
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	; nite
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
 	wildmon 50, GLOOM
 	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
@@ -1016,24 +1016,24 @@
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	; day
 	wildmon 48, BUTTERFREE
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	; nite
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
 	wildmon 50, GLOOM
 	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, ALAKAZAM
+	wildmon 52, ALAKAZAM
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26
@@ -1151,85 +1151,85 @@
 	def_grass_wildmons CERULEAN_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 65, CROBAT
-	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
-	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
-	wildmon 67, ELECTRODE
-	wildmon 70, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, PRIMEAPE
+	wildmon 99, TANGROWTH
+	wildmon 99, MACHAMP
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	; day
-	wildmon 65, CROBAT
-	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
-	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
-	wildmon 67, ELECTRODE
-	wildmon 70, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, PRIMEAPE
+	wildmon 99, TANGROWTH
+	wildmon 99, MACHAMP
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	; nite
-	wildmon 65, CROBAT
-	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
-	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
-	wildmon 67, ELECTRODE
-	wildmon 70, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, PRIMEAPE
+	wildmon 99, TANGROWTH
+	wildmon 99, MACHAMP
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 67, CROBAT
-	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
-	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
-	wildmon 69, ELECTRODE
-	wildmon 72, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, MACHAMP
+	wildmon 99, MAGNEZONE
+	wildmon 99, ALAKAZAM
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	; day
-	wildmon 67, CROBAT
-	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
-	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
-	wildmon 69, ELECTRODE
-	wildmon 72, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, MACHAMP
+	wildmon 99, MAGNEZONE
+	wildmon 99, ALAKAZAM
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	; nite
-	wildmon 67, CROBAT
-	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
-	wildmon 69, MAGNEZONE
-	wildmon 70, GENGAR
-	wildmon 69, ELECTRODE
-	wildmon 72, DITTO
+	wildmon 99, CROBAT
+	wildmon 99, PARASECT
+	wildmon 99, MACHAMP
+	wildmon 99, MAGNEZONE
+	wildmon 99, GENGAR
+	wildmon 99, ELECTRODE
+	wildmon 99, MEW
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 69, PARASECT
-	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
-	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
-	wildmon 71, RAICHU
-	wildmon 74, DITTO
+	wildmon 99, PARASECT
+	wildmon 99, MAGNEZONE
+	wildmon 99, MACHAMP
+	wildmon 99, GOLEM
+	wildmon 99, ALAKAZAM
+	wildmon 99, RAICHU
+	wildmon 99, DITTO
 	; day
-	wildmon 69, PARASECT
-	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
-	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
-	wildmon 71, RAICHU
-	wildmon 74, DITTO
+	wildmon 99, PARASECT
+	wildmon 99, MAGNEZONE
+	wildmon 99, MACHAMP
+	wildmon 99, GOLEM
+	wildmon 99, ALAKAZAM
+	wildmon 99, RAICHU
+	wildmon 99, MEW
 	; nite
-	wildmon 69, PARASECT
-	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
-	wildmon 71, GOLEM
-	wildmon 72, GENGAR
-	wildmon 71, RAICHU
-	wildmon 74, DITTO
+	wildmon 99, MOLTRES
+	wildmon 99, ZAPDOS
+	wildmon 99, ARTICUNO
+	wildmon 99, SUICUNE
+	wildmon 99, RAIKOU
+	wildmon 99, ENTEI
+	wildmon 99, CELEBI
 	end_grass_wildmons
 
 	def_grass_wildmons SOUL_HOUSE_B1F
