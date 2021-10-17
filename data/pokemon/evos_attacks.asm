@@ -2208,7 +2208,7 @@ KrabbyEvosAttacks:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0 ; no more evolutions
 	db 1, AQUA_JET ; Bubble → new move
-	db 5, MUDSLAP ; Vice Grip → new move
+	db 5, MUD_SLAP ; Vice Grip → new move
 	db 9, METAL_CLAW
 	db 11, DEFENSE_CURL ; Harden → similar move
 	db 15, BUBBLE_BEAM
@@ -3511,7 +3511,7 @@ TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, ENERGY_FOCUS
+	db 1, FOCUS_ENERGY
 	db 6, WATER_GUN
 	db 8, RAGE
 	db 13, BITE
@@ -3533,7 +3533,7 @@ CroconawEvosAttacks:
 	db EVOLVE_LEVEL, 30, FERALIGATR
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, ENERGY_FOCUS
+	db 1, FOCUS_ENERGY
 	db 6, WATER_GUN
 	db 8, AQUA_JET
 	db 13, BITE
