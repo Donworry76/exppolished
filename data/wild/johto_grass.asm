@@ -59,57 +59,57 @@
 	def_grass_wildmons TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_4F
@@ -131,13 +131,13 @@
 	wildmon 24, RATICATE
 	wildmon 24, RATICATE
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_5F
@@ -159,13 +159,13 @@
 	wildmon 24, RATICATE
 	wildmon 24, RATICATE
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_6F
@@ -187,13 +187,13 @@
 	wildmon 24, RATICATE
 	wildmon 24, RATICATE
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, GASTLY
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_7F
@@ -215,13 +215,13 @@
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
-	wildmon 23, MURKROW
-	wildmon 24, MURKROW
-	wildmon 24, MURKROW
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_8F
@@ -243,13 +243,13 @@
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
-	wildmon 23, MURKROW
-	wildmon 24, MURKROW
-	wildmon 24, MURKROW
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_9F
@@ -271,13 +271,13 @@
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
-	wildmon 23, MURKROW
-	wildmon 24, MURKROW
-	wildmon 24, MURKROW
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_10F
@@ -299,13 +299,13 @@
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; nite
-	wildmon 20, GASTLY
-	wildmon 21, GASTLY
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
-	wildmon 23, MURKROW
-	wildmon 24, MURKROW
-	wildmon 24, MURKROW
+	wildmon 35, GENGAR
+	wildmon 35, GENGAR
+	wildmon 45, GENGAR
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_1F
@@ -623,7 +623,7 @@
 	wildmon 9, SLOWPOKE, GALARIAN_FORM
 	wildmon 9, ZUBAT
 	wildmon 9, SLOWPOKE
-	wildmon 9, ZUBAT
+	wildmon 9, AERODACTYL
 	wildmon 10, SLOWPOKE
 	wildmon 10, SLOWPOKE
 	; day
@@ -631,7 +631,7 @@
 	wildmon 9, SLOWPOKE, GALARIAN_FORM
 	wildmon 9, ZUBAT
 	wildmon 9, SLOWPOKE
-	wildmon 9, ZUBAT
+	wildmon 9, AERODACTYL
 	wildmon 10, SLOWPOKE
 	wildmon 10, SLOWPOKE
 	; nite
@@ -639,7 +639,7 @@
 	wildmon 9, SLOWPOKE, GALARIAN_FORM
 	wildmon 9, POLIWAG
 	wildmon 9, SLOWPOKE
-	wildmon 9, ZUBAT
+	wildmon 9, AERODACTYL
 	wildmon 10, SLOWPOKE
 	wildmon 10, SLOWPOKE
 	end_grass_wildmons
