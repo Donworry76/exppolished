@@ -479,7 +479,7 @@
 	def_grass_wildmons UNION_CAVE_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, SANDSHREW
 	wildmon 9, KOFFING
 	wildmon 9, OMANYTE
@@ -487,7 +487,7 @@
 	wildmon 9, ONIX
 	wildmon 9, ONIX
 	; day
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, SANDSHREW
 	wildmon 9, DIGLETT
 	wildmon 9, KABUTO
@@ -495,7 +495,7 @@
 	wildmon 9, ONIX
 	wildmon 9, ONIX
 	; nite
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, GRIMER
 	wildmon 9, WOOPER
 	wildmon 9, OMANYTE
@@ -507,7 +507,7 @@
 	def_grass_wildmons UNION_CAVE_B1F_NORTH
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, VOLTORB
 	wildmon 9, PARAS
 	wildmon 9, ONIX
@@ -515,7 +515,7 @@
 	wildmon 9, KOFFING
 	wildmon 9, RATTATA, ALOLAN_FORM
 	; day
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, VOLTORB
 	wildmon 9, PARAS
 	wildmon 9, ONIX
@@ -523,7 +523,7 @@
 	wildmon 9, KOFFING
 	wildmon 9, RATTATA, ALOLAN_FORM
 	; nite
-	wildmon 9, GEODUDE, ALOLAM_FORM
+	wildmon 9, GEODUDE, ALOLAN_FORM
 	wildmon 9, VOLTORB
 	wildmon 9, WOOPER
 	wildmon 9, ONIX
