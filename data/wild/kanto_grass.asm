@@ -99,7 +99,7 @@
 	wildmon 56, GOLEM
 	wildmon 56, SANDSLASH
 	wildmon 56, PARASECT
-	wildmon 57, STELIX
+	wildmon 57, STEELIX
 	wildmon 58, CLEFAIRY
 	wildmon 60, CLEFABLE
 	; nite
