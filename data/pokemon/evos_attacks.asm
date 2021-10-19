@@ -2885,12 +2885,12 @@ GyaradosEvosAttacks:
 	db 1, WRAP ; Bind → similar move
 	db 21, AQUA_JET
 	db 24, DRAGON_RAGE
-	db 27, ACROBATICS ; Ice Fang → Dragon Rage
+	db 27, BULLDOZE ; Ice Fang → Dragon Rage
 	db 30, AQUA_TAIL
 	db 33, ICE_PUNCH
-	db 36, BULLDOZE ; Dragon Rage → GSC TM move
-	db 39, CRUNCH
-	db 42, FLY
+	db 36, CRUNCH ; Dragon Rage → GSC TM move
+	db 39, SUPER_FANG
+	db 42, KNOCK_OFF
 	db 45, EARTHQUAKE
 	db 48, DRAGON_DANCE
 	db 51, BODY_SLAM
