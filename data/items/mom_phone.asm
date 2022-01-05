@@ -14,8 +14,8 @@ MomItems_1:
 .End
 
 MomItems_2:
-	momitem    900,   630, MOM_ITEM, SUPER_POTION
-	momitem   4000,   450, MOM_ITEM, SUPER_REPEL
+	momitem    900,   630, MOM_ITEM, DREAM_BALL
+	momitem   4000,   450, MOM_ITEM, ODD_SOUVENIR
 	momitem   7000,  1080, MOM_ITEM, ETHER
 	momitem  10000,  1800, MOM_DOLL, DECO_POLIWAG_DOLL
 	momitem  15000,  1890, MOM_ITEM, MOON_STONE
