@@ -2,35 +2,35 @@
 
 	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
+	wildmon 15, OMANYTE
 	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, OMASTAR
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
+	wildmon 15, SLOWPOKE
 	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, LAPRAS
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_NORTH
 	db 2 percent ; encounter rate
 	wildmon 15, WOOPER
 	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, LAPRAS
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_SOUTH
 	db 2 percent ; encounter rate
 	wildmon 15, WOOPER
 	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, LAPRAS
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
-	wildmon 15, TENTACOOL
+	wildmon 15, SLOWBRO
 	wildmon 20, QUAGSIRE
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
@@ -39,7 +39,7 @@
 	db 2 percent ; encounter rate
 	wildmon 15, SLOWPOKE
 	wildmon 20, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SLOWBRO
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B2F
@@ -52,7 +52,7 @@
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
 	wildmon 15, PSYDUCK
-	wildmon 10, PSYDUCK
+	wildmon 15, CROCONAW
 	wildmon 15, GOLDUCK
 	end_water_wildmons
 
@@ -80,7 +80,7 @@
 	def_water_wildmons WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
-	wildmon 25, TENTACOOL
+	wildmon 25, TENTACRUEL
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
@@ -93,14 +93,14 @@
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
-	wildmon 25, HORSEA
-	wildmon 30, SEADRA
+	wildmon 25, SEADRA
+	wildmon 30, KINGDRA
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
-	wildmon 75, SEADRA
+	wildmon 75, VAPOREON
 	wildmon 75, GOLDUCK
 	wildmon 75, KINGDRA
 	end_water_wildmons
@@ -135,14 +135,14 @@
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, WARTORTLE
 	wildmon 15, SEEL
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
+	wildmon 20, WARTORTLE
 	wildmon 15, SEEL
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
@@ -156,15 +156,15 @@
 
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
-	wildmon 15, TENTACOOL
+	wildmon 15, SEEL
 	wildmon 20, QUAGSIRE
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34
 	db 4 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
+	wildmon 20, WARTORTLE
+	wildmon 15, SEEL
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
 
@@ -177,7 +177,7 @@
 
 	def_water_wildmons ROUTE_40
 	db 3 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, MANTINE
 	wildmon 20, STARYU
 	wildmon 20, TENTACRUEL
 	end_water_wildmons
@@ -282,14 +282,14 @@
 
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
+	wildmon 20, GYARADOS
 	wildmon 15, PSYDUCK
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
-	wildmon 25, MAGIKARP
+	wildmon 30, MAGIKARP
 	wildmon 20, GYARADOS
 	wildmon 25, GYARADOS
 	end_water_wildmons
