@@ -2039,8 +2039,8 @@ BugCatcherGroup:
 	db "Al@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, KABUTO
-	db 14, YANMA
+	db 16, KABUTO
+	db 16, YANMA
 	db -1 ; end
 
 ; ================
@@ -2049,8 +2049,8 @@ BugCatcherGroup:
 	db "Josh@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 14, OMANYTE
-	db 14, PINSIR
+	db 16, OMANYTE
+	db 16, PINSIR
 	db -1 ; end
 
 ; ================
@@ -2069,8 +2069,8 @@ BugCatcherGroup:
 	db "Wayne@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 16, BUTTERFREE
-	db 16, ARIADOS
+	db 17, BUTTERFREE
+	db 17, ARIADOS
 	db -1 ; end
 
 ; ================
@@ -2681,8 +2681,8 @@ TwinsGroup:
 	db "Amy & Mimi@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 13, LARVITAR
-	db 13, DRATINI
+	db 16, LARVITAR
+	db 16, DRATINI
 	db -1 ; end
 
 ; ================
@@ -4426,8 +4426,8 @@ PokefanMGroup:
 	db "Brandon@"
 	db TRAINERTYPE_ITEM
 	; party
-	db 16, DUNSPARCE, LEFTOVERS
-	db 16, FURRET, NO_ITEM
+	db 17, DUNSPARCE, SITRUS_BERRY
+	db 17, FURRET, NO_ITEM
 	db -1 ; end
 
 ; ================
@@ -4753,7 +4753,7 @@ PokemaniacGroup:
 	db "Issac@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 12, FLAAFFY
+	db 19, FLAAFFY
 	db -1 ; end
 
 ; ================
@@ -4762,8 +4762,8 @@ PokemaniacGroup:
 	db "Donald@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, SLOWPOKE
-	db 11, NIDORAN_M
+	db 19, SLOWKING
+	db 19, MILTANK
 	db -1 ; end
 
 ; ================
@@ -4819,8 +4819,8 @@ CosplayerGroup:
 	db "Clara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 17, VULPIX
-	db 17, VULPIX
+	db 19, VULPIX
+	db 19, NINETALES
 	db -1 ; end
 
 ; ================
@@ -4829,9 +4829,9 @@ CosplayerGroup:
 	db "Chloe@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 28, VULPIX
-	db 28, PIKACHU
-	db 28, VULPIX
+	db 28, NINETALES
+	db 28, RAICHU
+	db 28, NINETALES
 	db -1 ; end
 
 ; ================
@@ -4874,8 +4874,8 @@ SuperNerdGroup:
 	db "Eric@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, GRIMER
-	db 12, PORYGON
+	db 19, GRIMER
+	db 19, PORYGON
 	db -1 ; end
 
 ; ================
@@ -4925,10 +4925,10 @@ SuperNerdGroup:
 	db "Teru@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 7, MAGNEMITE
-	db 11, VOLTORB
-	db 7, MAGNEMITE
-	db 9, MAGNEMITE
+	db 18, SLUGMA
+	db 18, VOLTORB
+	db 18, HAUNTER
+	db 18, PORYGON
 	db -1 ; end
 
 ; ================
@@ -5072,9 +5072,9 @@ LassGroup:
 	db "Dana@"
 	db TRAINERTYPE_MOVES
 	; party
-	db 25, FLAAFFY
+	db 27, FLAAFFY
 		db REFLECT, LIGHT_SCREEN, VOLT_SWITCH, THUNDER_WAVE
-	db 25, ARIADOS
+	db 27, ARIADOS
 		db MEGAHORN, POISON_JAB, HONE_CLAWS, GLARE
 	db -1 ; end
 
@@ -5642,8 +5642,8 @@ RuinManiacGroup:
 	db "Jones@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 11, OMANYTE
-	db 11, KABUTO
+	db 14, OMANYTE
+	db 14, KABUTO
 	db -1 ; end
 
 ; ================
@@ -5652,8 +5652,8 @@ RuinManiacGroup:
 	db "Leland@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 26, DUNSPARCE
-	db 28, AERODACTYL
+	db 30, DUNSPARCE
+	db 30, AERODACTYL
 	db -1 ; end
 
 ; ================
@@ -5662,9 +5662,9 @@ RuinManiacGroup:
 	db "Petry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 26, OMANYTE
-	db 26, KABUTO
-	db 28, AERODACTYL
+	db 30, OMASTAR
+	db 30, DRAGONAIR
+	db 30, AERODACTYL
 	db -1 ; end
 
 ; ================
@@ -5699,9 +5699,9 @@ FirebreatherGroup:
 	db "Otis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 59, MAGMAR
-	db 58, WEEZING
-	db 61, MAGMAR
+	db 62, MAGMAR
+	db 62, WEEZING
+	db 63, MAGMAR
 	db -1 ; end
 
 ; ================
@@ -5723,7 +5723,7 @@ FirebreatherGroup:
 	; party
 	db 16, KOFFING
 	db 17, GROWLITHE
-	db 19, KOFFING
+	db 19, CHARMELEON
 	db -1 ; end
 
 ; ================
@@ -5818,7 +5818,7 @@ JugglerGroup:
 	db 5, VOLTORB
 	db 10, VOLTORB
 	db 20, VOLTORB
-	db 30, VOLTORB
+	db 30, ELECTRODE
 	db -1 ; end
 
 ; ================
@@ -5829,10 +5829,10 @@ JugglerGroup:
 ;	db TRAINERTYPE_NORMAL
 ;
 ;	; party
-;	db 6, VOLTORB
 ;	db 10, VOLTORB
-;	db 14, VOLTORB
-;	db 18, VOLTORB
+;	db 15, VOLTORB
+;	db 20, VOLTORB
+;	db 25, ELECTRODE
 ;
 ;	db -1 ; end
 
@@ -5963,8 +5963,8 @@ SchoolboyGroup:
 	db "Alan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 17, TANGELA
-	db 17, YANMA
+	db 25, TANGELA
+	db 25, YANMA
 	db -1 ; end
 
 ; ================
