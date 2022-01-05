@@ -477,7 +477,7 @@ RaichuPlainEvosAttacks:
 RaichuAlolanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
-	db 1, LEER ; Tail Whip → similar move
+	db 1, MOONBLAST ; Tail Whip → similar move
 	db 1, SCALD
 	db 1, THUNDERBOLT
 	db 1, PSYCHIC_M ; evolution move
@@ -894,9 +894,9 @@ VileplumeEvosAttacks:
 	db 1, POISONPOWDER
 	db 1, DARK_PULSE
 	db 39, GROWTH
-	db 49, SHADOW_BALL ; Petal Blizzard → Gloom move
-	db 59, PETAL_DANCE
-	db 69, HEALINGLIGHT
+	db 44, SHADOW_BALL ; Petal Blizzard → Gloom move
+	db 49, PETAL_DANCE
+	db 54, HEALINGLIGHT
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -1462,11 +1462,11 @@ WeepinbellEvosAttacks:
 
 VictreebelEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GUNK_SHOT
+	db 1, SUCKER_PUNCH
 	db 1, SLEEP_POWDER
 	db 1, HEALINGLIGHT ; Sweet Scent → new move
 	db 1, POWER_WHIP
-	db 32, SUCKER_PUNCH ; Leaf Storm → prior move
+	db 32, GUNK_SHOT ; Leaf Storm → prior move
 	db 44, SWORDS_DANCE ; Leaf Blade → prior move
 	db 0 ; no more level-up moves
 
