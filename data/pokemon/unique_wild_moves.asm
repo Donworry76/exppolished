@@ -6,11 +6,11 @@ UniqueWildMoves:
 	db MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	db UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	db CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
-	db SPROUT_TOWER,     BELLSPROUT, GROWTH       ; knows Growth early
+	db SPROUT_TOWER,     BELLSPROUT, LEECH_SEED   ; knows Growth early
 	db ROUTE_32_COAST,   FLAAFFY,    EARTH_POWER  ; Prism tutor move
 	db RUINS_OF_ALPH,    SHUCKLE,    SEISMIC_TOSS ; Sw/Sh move
 	db RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
-	db SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
+	db SLOWPOKE_WELL,    SLOWPOKE,   ANCIENTPOWER ; Prism tutor move
 	db ILEX_FOREST,      0,          0
 	db ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
 	db STORMY_BEACH,     VENOMOTH,   0
@@ -21,11 +21,11 @@ UniqueWildMoves:
 	db TIN_TOWER,        0,          0
 	db BURNED_TOWER,     0,          0
 	db MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
-	db GOLDENROD_HARBOR, PSYDUCK,    ENCORE       ; Dream World move
+	db GOLDENROD_HARBOR, PSYDUCK,    ANCIENTPOWER ; Dream World move
 	db WHIRL_ISLANDS,    0,          0
 	db CLIFF_CAVE,       0,          0
 	db YELLOW_FOREST,    PIKACHU,    FLY          ; replaced with Surf if Surfing
-	db QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
+	db QUIET_CAVE,       MUNCHLAX,   DRAIN_PUNCH  ; Snorlax move
 	db MT_MORTAR,        0,          0
 	db LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Pokéwalker move
 	db ICE_PATH,         0,          0
@@ -70,6 +70,6 @@ UniqueWildMoves:
 	db SHAMOUTI_COAST,   0,          0
 	db FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	db ICE_ISLAND,       WEAVILE,    DRAIN_PUNCH  ; HGSS tutor move
-	db LIGHTNING_ISLAND, ELECTRODE,  SUCKER_PUNCH ; HGSS tutor move
+	db LIGHTNING_ISLAND, ELECTRODE,  EARTH_POWER  ; HGSS tutor move
 	db ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
 	db -1
