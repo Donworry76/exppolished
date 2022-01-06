@@ -12,11 +12,11 @@ EvosAttacks::
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
-	db 1, WRAP
+	db 1, VINE_WHIP
 	db 3, CURSE
 	db 7, LEECH_SEED
-	db 9, RAZOR_LEAF
-	db 11, HEADBUTT
+	db 9, TOXIC
+	db 11, RAZOR_LEAF
 	db 13, SLEEP_POWDER
 	db 15, ACID ; Take Down → GSC TM move
 	db 19, VENOSHOCK
@@ -32,10 +32,10 @@ BulbasaurEvosAttacks:
 IvysaurEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
-	db 1, WRAP
+	db 1, VINE_WHIP
 	db 3, CURSE
 	db 7, LEECH_SEED
-	db 9, RAZOR_LEAF
+	db 9, TOXIC
 	db 13, BODY_SLAM
 	db 13, SLEEP_POWDER
 	db 15, ACID ; Take Down → GSC TM move
@@ -80,12 +80,12 @@ CharmanderEvosAttacks:
 	db 10, SMOKESCREEN
 	db 16, METAL_CLAW ; Dragon Rage → TM move
 	db 19, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 25, SCARY_FACE ; Fire Fang → Scary Face
+	db 25, BODY_SLAM ; Fire Fang → Scary Face
 	db 28, FLAME_CHARGE ; Flame Burst → TM move
-	db 34, SLASH
+	db 34, CRUNCH
 	db 37, FLAMETHROWER
-	db 43, FIRE_SPIN
-	db 46, CRUNCH
+	db 43, SACRED_FIRE
+	db 46, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:
@@ -97,12 +97,12 @@ CharmeleonEvosAttacks:
 	db 10, QUICK_ATTACK
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
 	db 23, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 28, SCARY_FACE ; Fire Fang → Scary Face
+	db 28, BODY_SLAM ; Fire Fang → Scary Face
 	db 32, ANCIENTPOWER ; Flame Burst → TM move
-	db 39, SLASH
+	db 39, CRUNCH
 	db 43, FLAMETHROWER
-	db 50, FIRE_SPIN
-	db 54, CRUNCH
+	db 50, SACRED_FIRE
+	db 54, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 CharizardEvosAttacks:
@@ -120,13 +120,13 @@ CharizardEvosAttacks:
 	db 10, SMOKESCREEN
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
 	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 28, SCARY_FACE ; Fire Fang → Scary Face
+	db 28, BODY_SLAM ; Fire Fang → Scary Face
 	db 36, DRAGON_PULSE ; Flame Burst → TM move
 	db 41, FLAMETHROWER
 	db 47, DRAGON_CLAW
 	db 56, DRAGON_DANCE
 	db 62, SACRED_FIRE
-	db 71, CRUNCH
+	db 71, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
@@ -135,7 +135,7 @@ SquirtleEvosAttacks:
 	db 1, TACKLE
 	db 4, MIRROR_COAT ; Tail Whip → similar move
 	db 7, WATER_GUN
-	db 10, SEISMIC_TOSS ; Withdraw → similar move
+	db 10, HEADBUTT ; Withdraw → similar move
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
 	db 19, WATER_PULSE
@@ -155,7 +155,7 @@ WartortleEvosAttacks:
 	db 1, TACKLE
 	db 4, MIRROR_COAT ; Tail Whip → similar move
 	db 7, WATER_GUN
-	db 10, SEISMIC_TOSS ; Withdraw → similar move
+	db 10, HEADBUTT ; Withdraw → similar move
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
 	db 20, WATER_PULSE
