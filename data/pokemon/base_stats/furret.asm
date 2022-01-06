@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  85,  76,  64,  90,  45,  55 ; 415 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  85,  86,  64, 108,  45,  55 ; 443 BST
+	db  95,  96,  64, 108,  45,  55 ; 443 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -17,7 +17,7 @@ endc
 	db SITRUS_BERRY ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/furret/front.dimensions"
-	abilities_for FURRET, RUN_AWAY, KEEN_EYE, FRISK
+	abilities_for FURRET, FRISK, KEEN_EYE, FRISK
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
