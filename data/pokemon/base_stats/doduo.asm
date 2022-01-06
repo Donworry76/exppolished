@@ -8,7 +8,7 @@
 	db SHARP_BEAK ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/doduo/front.dimensions"
-	abilities_for DODUO, RUN_AWAY, EARLY_BIRD, TANGLED_FEET
+	abilities_for DODUO, MOODY, MOODY, TANGLED_FEET
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
