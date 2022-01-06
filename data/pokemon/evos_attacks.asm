@@ -4070,7 +4070,7 @@ SunkernEvosAttacks:
 	db 7, DEFENSE_CURL ; Grass Whistle → TM move
 	db 10, MEGA_DRAIN
 	db 13, LEECH_SEED
-	db 16, RAZOR_LEAF
+	db 16, SEED_BOMB
 	db 19, EARTH_POWER ; Worry Seed → TM move
 	db 22, GIGA_DRAIN
 	db 25, AGILITY ; Endeavor → new move
