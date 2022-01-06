@@ -395,24 +395,24 @@
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, NATU
-	wildmon 22, NATU
+	wildmon 20, OMANYTE
+	wildmon 22, KABUTO
 	wildmon 18, NATU
 	wildmon 24, NATU
 	wildmon 20, SMEARGLE
 	wildmon 22, SMEARGLE
 	wildmon 22, SMEARGLE
 	; day
-	wildmon 20, NATU
-	wildmon 22, NATU
+	wildmon 20, OMANYTE
+	wildmon 22, KABUTO
 	wildmon 18, NATU
 	wildmon 24, NATU
 	wildmon 20, SMEARGLE
 	wildmon 22, SMEARGLE
 	wildmon 22, SMEARGLE
 	; nite
-	wildmon 22, NATU
-	wildmon 24, NATU
+	wildmon 22, OMANYTE
+	wildmon 24, KABUTO
 	wildmon 20, NATU
 	wildmon 18, WOOPER
 	wildmon 22, QUAGSIRE
@@ -596,24 +596,24 @@
 	wildmon 9, GASTLY
 	wildmon 9, POLIWAG
 	wildmon 9, POLIWAG
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	; day
 	wildmon 9, SLOWPOKE
 	wildmon 9, SLOWPOKE
 	wildmon 9, GASTLY
 	wildmon 9, POLIWAG
 	wildmon 9, POLIWAG
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	; nite
 	wildmon 9, SLOWPOKE
 	wildmon 9, SLOWPOKE
 	wildmon 9, POLIWAG
 	wildmon 9, GASTLY
 	wildmon 9, ZUBAT
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
@@ -624,80 +624,80 @@
 	wildmon 9, ZUBAT
 	wildmon 9, SLOWPOKE
 	wildmon 9, AERODACTYL
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	; day
 	wildmon 9, SLOWPOKE
 	wildmon 9, SLOWPOKE, GALARIAN_FORM
 	wildmon 9, ZUBAT
 	wildmon 9, SLOWPOKE
 	wildmon 9, AERODACTYL
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	; nite
 	wildmon 9, POLIWAG
 	wildmon 9, SLOWPOKE, GALARIAN_FORM
 	wildmon 9, POLIWAG
 	wildmon 9, SLOWPOKE
 	wildmon 9, AERODACTYL
-	wildmon 10, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 10, SWINUB
+	wildmon 10, SWINUB
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 21, ZUBAT
-	wildmon 23, ZUBAT
-	wildmon 19, ZUBAT
-	wildmon 21, SLOWPOKE
-	wildmon 23, GOLBAT
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, SLOWPOKE
+	wildmon 28, GOLBAT
+	wildmon 28, SLOWBRO
+	wildmon 28, SLOWBRO
 	; day
-	wildmon 21, ZUBAT
-	wildmon 23, ZUBAT
-	wildmon 19, ZUBAT
-	wildmon 21, SLOWPOKE
-	wildmon 23, GOLBAT
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, SLOWPOKE
+	wildmon 28, GOLBAT
+	wildmon 28, SLOWBRO
+	wildmon 28, SLOWBRO
 	; nite
-	wildmon 21, ZUBAT
-	wildmon 23, ZUBAT
-	wildmon 19, ZUBAT
-	wildmon 21, SLOWPOKE
-	wildmon 23, GOLBAT
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, ZUBAT
+	wildmon 28, SLOWPOKE
+	wildmon 28, GOLBAT
+	wildmon 28, SLOWBRO
+	wildmon 28, SLOWBRO
 	end_grass_wildmons
 
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, EXEGGCUTE
-	wildmon 10, PINECO
+	wildmon 12, EXEGGCUTE
+	wildmon 12, PINECO
 	wildmon 12, METAPOD
 	wildmon 12, KAKUNA
-	wildmon 10, SCYTHER
-	wildmon 10, PARAS
-	wildmon 10, PINECO
+	wildmon 12, SCYTHER
+	wildmon 12, PARAS
+	wildmon 12, PINECO
 	; day
-	wildmon 10, EXEGGCUTE
-	wildmon 10, SCYTHER
+	wildmon 12, EXEGGCUTE
+	wildmon 12, SCYTHER
 	wildmon 12, METAPOD
 	wildmon 12, KAKUNA
-	wildmon 10, PARAS
-	wildmon 10, ODDISH
-	wildmon 10, ELEKID
+	wildmon 12, PARAS
+	wildmon 12, ODDISH
+	wildmon 12, ELEKID
 	; nite
-	wildmon 10, EXEGGCUTE
-	wildmon 10, VENONAT
-	wildmon 10, SCYTHER
-	wildmon 10, PSYDUCK
-	wildmon 10, HOOTHOOT
-	wildmon 10, PINECO
-	wildmon 10, PARAS
+	wildmon 12, EXEGGCUTE
+	wildmon 12, VENONAT
+	wildmon 12, SCYTHER
+	wildmon 12, PSYDUCK
+	wildmon 12, HOOTHOOT
+	wildmon 12, PINECO
+	wildmon 12, PARAS
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -815,21 +815,21 @@
 	def_grass_wildmons ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 30, SWINUB
-	wildmon 32, SNEASEL
-	wildmon 32, VULPIX, ALOLAN_FORM
-	wildmon 32, SWINUB
-	wildmon 34, PILOSWINE
-	wildmon 32, JYNX
-	wildmon 32, NINETALES, ALOLAN_FORM
+	wildmon 35, SWINUB
+	wildmon 35, SNEASEL
+	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, SWINUB
+	wildmon 35, PILOSWINE
+	wildmon 35, JYNX
+	wildmon 35, NINETALES, ALOLAN_FORM
 	; day
-	wildmon 30, SWINUB
-	wildmon 32, SNEASEL
-	wildmon 32, VULPIX, ALOLAN_FORM
-	wildmon 32, SWINUB
-	wildmon 34, PILOSWINE
-	wildmon 32, JYNX
-	wildmon 32, NINETALES, ALOLAN_FORM
+	wildmon 35, SWINUB
+	wildmon 35, SNEASEL
+	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, SWINUB
+	wildmon 35, PILOSWINE
+	wildmon 35, JYNX
+	wildmon 35, NINETALES, ALOLAN_FORM
 	; nite
 	wildmon 30, SNEASEL
 	wildmon 31, JYNX
