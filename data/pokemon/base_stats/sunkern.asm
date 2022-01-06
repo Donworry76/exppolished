@@ -8,7 +8,7 @@
 	db STARF_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/sunkern/front.dimensions"
-	abilities_for SUNKERN, CHLOROPHYLL, SOLAR_POWER, EARLY_BIRD
+	abilities_for SUNKERN, MOODY, MOODY, MOODY
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
