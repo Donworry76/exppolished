@@ -8,7 +8,7 @@
 	db SHARP_BEAK ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/dodrio/front.dimensions"
-	abilities_for DODRIO, RUN_AWAY, EARLY_BIRD, TANGLED_FEET
+	abilities_for DODRIO, MOODY, MOODY, TANGLED_FEET
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
