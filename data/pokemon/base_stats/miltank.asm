@@ -8,7 +8,7 @@
 	db MOOMOO_MILK ; item 2
 	dn GENDER_F100, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/miltank/front.dimensions"
-	abilities_for MILTANK, THICK_FAT, SCRAPPY, SAP_SIPPER
+	abilities_for MILTANK, THICK_FAT, REGENERATOR, REGENERATOR
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
