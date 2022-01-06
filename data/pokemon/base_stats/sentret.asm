@@ -1,4 +1,4 @@
-	db  35,  46,  34,  20,  35,  45 ; 215 BST
+	db  45,  46,  34,  20,  35,  45 ; 215 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
@@ -8,7 +8,7 @@
 	db ABILITYPATCH ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/sentret/front.dimensions"
-	abilities_for SENTRET, RUN_AWAY, KEEN_EYE, FRISK
+	abilities_for SENTRET, FRISK, KEEN_EYE, FRISK
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
