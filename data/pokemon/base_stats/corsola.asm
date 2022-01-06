@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db WATER, ROCK ; type
+	db WATER, GHOST ; type
 	db 60 ; catch rate
 if DEF(FAITHFUL)
 	db 113 ; base exp
