@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F75, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/granbull/front.dimensions"
-	abilities_for GRANBULL, INTIMIDATE, QUICK_FEET, RATTLED
+	abilities_for GRANBULL, INTIMIDATE, PIXILATE, PIXILATE
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 
