@@ -24,72 +24,72 @@ FishGroups:
 
 .Shore_Old:
 	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  85 percent + 1, HORSEA,     10
 	db 100 percent,     KRABBY,     10
 .Shore_Good:
-	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  35 percent,     TOTODILE,   20
+	db  70 percent,     REMORAID,   20
+	db  90 percent + 1, SEEL,       20
 	db 100 percent,     0, 0
 .Shore_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     KINGLER,    40
 	db  70 percent,     0, 1
-	db  90 percent + 1, KRABBY,     40
-	db 100 percent,     KINGLER,    40
+	db  90 percent + 1, STARMIE,    40
+	db 100 percent,     GYARADOS,   40
 
 .Ocean_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     TENTACOOL,  10
+	db  70 percent + 1, STARYU,     10
+	db  85 percent + 1, HORSEA,     10
+	db 100 percent,     SHELLDER,   10
 .Ocean_Good:
-	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     TENTACOOL,  20
+	db  35 percent,     STARYU,     20
+	db  70 percent,     SHELLDER,   20
 	db  90 percent + 1, CHINCHOU,   20
 	db 100 percent,     0, 2
 .Ocean_Super:
-	db  40 percent,     CHINCHOU,   40
+	db  40 percent,     LANTURN,    40
 	db  70 percent,     0, 3
-	db  90 percent + 1, TENTACRUEL, 40
-	db 100 percent,     LANTURN,    40
+	db  90 percent + 1, QWILFISH,   40
+	db 100 percent,     OCTILLERY,  40
 
 .Lake_Old:
 	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  85 percent + 1, TOTODILE,   10
 	db 100 percent,     POLIWAG,    10
 .Lake_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     POLIWAG,    20
-	db  90 percent + 1, POLIWAG,    20
+	db  90 percent + 1, POLITOED,   20
 	db 100 percent,     0, 4
 .Lake_Super:
-	db  40 percent,     POLIWAG,    40
+	db  40 percent,     POLIWHIRL,  40
 	db  70 percent,     0, 5
-	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     POLIWAG,    40
+	db  90 percent + 1, POLITOED,   40
+	db 100 percent,     QWILFISH,   40
 
 .Pond_Old:
 	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  85 percent + 1, TOTODILE,   10
 	db 100 percent,     POLIWAG,    10
 .Pond_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     POLIWHIRL,  20
 	db  70 percent,     POLIWAG,    20
-	db  90 percent + 1, POLIWAG,    20
+	db  90 percent + 1, POLITOED,   20
 	db 100 percent,     0, 6
 .Pond_Super:
-	db  40 percent,     POLIWAG,    40
+	db  40 percent,     POLIWHIRL,  40
 	db  70 percent,     0, 7
-	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     POLIWAG,    40
+	db  90 percent + 1, GYARADOS,   40
+	db 100 percent,     POLITOED,   40
 
 .Dratini_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     MAGIKARP,   10
+	db 100 percent,     DRATINI,    10
 .Dratini_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     MAGIKARP,   20
-	db  90 percent + 1, MAGIKARP,   20
+	db  70 percent,     DRATINI,    20
+	db  90 percent + 1, DRATINI,    20
 	db 100 percent,     0, 8
 .Dratini_Super:
 	db  40 percent,     MAGIKARP,   40
@@ -231,6 +231,6 @@ TimeFishGroups:
 	db TENTACOOL,  40,  TENTACOOL,  40
 
 FishItems:
-	db PEARL
+	db BIG_PEARL
 	db BIG_PEARL
 	db BOTTLE_CAP
