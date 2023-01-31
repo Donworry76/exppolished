@@ -347,41 +347,41 @@
 	wildmon 61, PIDGEOTTO
 	wildmon 62, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOT
-	wildmon 57, PIDGEOT
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, ARIADOS
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, PIDGEOTTO
+	wildmon 62, PIKACHU
 	; nite
-	wildmon 55, NOCTOWL
-	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
+	wildmon 61, NOCTOWL
+	wildmon 62, ARIADOS
+	wildmon 62, NOCTOWL
+	wildmon 62, NOCTOWL
+	wildmon 63, ARIADOS
+	wildmon 62, NOCTOWL
+	wildmon 62, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_SOUTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
-	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOT
-	wildmon 57, BUTTERFREE
-	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOT
-	wildmon 59, PIKACHU
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, ARIADOS
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, PIDGEOTTO
+	wildmon 62, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOT
-	wildmon 57, PIDGEOT
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
-	wildmon 59, PIKACHU
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, ARIADOS
+	wildmon 61, BUTTERFREE
+	wildmon 61, LEDIAN
+	wildmon 61, PIDGEOTTO
+	wildmon 62, PIKACHU
 	; nite
 	wildmon 55, NOCTOWL
 	wildmon 54, ARIADOS
