@@ -1,4 +1,4 @@
-	db  80, 105,  65, 130,  60,  75 ; 515 BST
+	db  80, 105,  75, 140,  60,  75 ; 515 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, FLYING ; type
