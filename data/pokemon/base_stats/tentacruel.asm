@@ -1,4 +1,4 @@
-	db  80,  70,  65, 100,  80, 120 ; 515 BST
+	db  80,  60,  85, 100, 100, 120 ; 515 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, POISON ; type
