@@ -1,7 +1,7 @@
 	db  40,  80, 100,  20,  30,  30 ; 300 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, GROUND ; type
+	db ROCK, ROCK ; type
 	db 255 ; catch rate
 	db 86 ; base exp
 	db NO_ITEM ; item 1
