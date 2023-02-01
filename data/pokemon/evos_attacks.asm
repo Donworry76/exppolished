@@ -159,7 +159,7 @@ WartortleEvosAttacks:
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
 	db 20, WATER_PULSE
-	db 24, POWER_GEM
+	db 24, RECOVER
 	db 28, RAPID_SPIN
 	db 32, AQUA_TAIL
 	db 36, CLOSE_COMBAT ; Skull Bash → new move
@@ -182,7 +182,7 @@ BlastoiseEvosAttacks:
 	db 13, AQUA_JET ; Bubble → egg move
 	db 16, BITE
 	db 20, RAPID_SPIN
-	db 24, POWER_GEM
+	db 24, RECOVER
 	db 28, WATER_PULSE
 	db 32, AQUA_TAIL
 	db 39, AURA_SPHERE ; Skull Bash → new move
@@ -431,14 +431,14 @@ ArbokEvosAttacks:
 	db 12, GLARE
 	db 17, SCREECH
 	db 20, ACID
-	db 27, DISABLE ; Stockpile + Spit Up + Swallow → egg move
+	db 27, POISON_JAB ; Stockpile + Spit Up + Swallow → egg move
 	db 32, SUCKER_PUNCH ; Acid Spray → egg move
-	db 39, POISON_JAB ; Mud Bomb → TM move
-	db 44, RECOVER ; Gastro Acid → TM move
-	db 48, CRUNCH ; Belch → TM move
-	db 51, AQUA_TAIL
+	db 39, RECOVER ; Mud Bomb → TM move
+	db 44, CRUNCH ; Gastro Acid → TM move
+	db 48, LEECH_LIFE ; Belch → TM move
+	db 51, GUNK_SHOT
 	db 56, BULK_UP ; Coil → TM move
-	db 63, GUNK_SHOT
+	db 63, AQUA_TAIL
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
@@ -500,7 +500,7 @@ SandshrewPlainEvosAttacks:
 	db 23, METAL_CLAW ; Sand Tomb → HGSS tutor move
 	db 26, SLASH
 	db 30, DIG
-	db 34, GYRO_BALL
+	db 34, SUPER_FANG
 	db 38, SWORDS_DANCE
 	db 42, SANDSTORM
 	db 46, EARTHQUAKE
@@ -522,7 +522,7 @@ SandshrewAlolanEvosAttacks:
 	db 23, ROLLOUT ; Iron Defense → TM move
 	db 26, SLASH
 	db 30, IRON_HEAD
-	db 34, GYRO_BALL
+	db 34, SUPER_FANG
 	db 38, SWORDS_DANCE
 	db 42, HAIL
 	db 46, BLIZZARD
