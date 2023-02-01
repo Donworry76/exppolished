@@ -1,4 +1,4 @@
-	db  90,  90,  85, 100, 125,  90 ; 580 BST
+	db  90,  90,  85, 120, 125,  90 ; 580 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, FLYING ; type
