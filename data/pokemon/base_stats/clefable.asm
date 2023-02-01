@@ -1,4 +1,4 @@
-	db  95,  70,  73,  60,  95,  90 ; 483 BST
+	db 105,  70,  93,  60,  95, 100 ; 483 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type
