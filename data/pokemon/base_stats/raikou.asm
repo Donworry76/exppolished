@@ -1,4 +1,4 @@
-	db  90,  85,  75, 115, 115, 100 ; 580 BST
+	db  90,  85,  75, 135, 115, 100 ; 580 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
