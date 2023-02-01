@@ -1,4 +1,4 @@
-	db  80, 120, 130,  45,  55,  65 ; 495 BST
+	db  80, 120, 130,  65,  45,  75 ; 495 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ELECTRIC ; type
