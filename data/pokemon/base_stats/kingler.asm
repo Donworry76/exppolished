@@ -1,7 +1,7 @@
-	db  55, 140, 125,  75,  50,  50 ; 475 BST
+	db  65, 140, 125,  75,  50,  80 ; 475 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, STEEL ; type
+	db WATER, BUG ; type
 	db 60 ; catch rate
 	db 206 ; base exp
 	db NO_ITEM ; item 1
