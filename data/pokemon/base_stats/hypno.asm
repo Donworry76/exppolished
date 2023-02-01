@@ -1,7 +1,7 @@
-	db  85,  73,  70,  67,  73, 115 ; 483 BST
+	db  95,  83,  70,  67,  83, 115 ; 483 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
+	db PSYCHIC, DARK ; type
 	db 75 ; catch rate
 	db 165 ; base exp
 	db NO_ITEM ; item 1
