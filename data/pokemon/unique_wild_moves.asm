@@ -7,8 +7,8 @@ UniqueWildMoves:
 	db UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	db CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	db SPROUT_TOWER,     BELLSPROUT, LEECH_SEED   ; knows Growth early
-	db ROUTE_32_COAST,   FLAAFFY,    EARTH_POWER  ; Prism tutor move
-	db RUINS_OF_ALPH,    SHUCKLE,    SEISMIC_TOSS ; Sw/Sh move
+	db ROUTE_32_COAST,   FLAAFFY,    MOONBLAST  ; Prism tutor move
+	db RUINS_OF_ALPH,    SHUCKLE,    PAIN_SPLIT ; Sw/Sh move
 	db RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
 	db SLOWPOKE_WELL,    SLOWPOKE,   ANCIENTPOWER ; Prism tutor move
 	db ILEX_FOREST,      0,          0
@@ -27,14 +27,14 @@ UniqueWildMoves:
 	db YELLOW_FOREST,    PIKACHU,    FLY          ; replaced with Surf if Surfing
 	db QUIET_CAVE,       MUNCHLAX,   DRAIN_PUNCH  ; Snorlax move
 	db MT_MORTAR,        0,          0
-	db LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Pokéwalker move
+	db LAKE_OF_RAGE,     MAGIKARP,   EXTREMESPEED  ; Pokéwalker move
 	db ICE_PATH,         0,          0
 	db DRAGONS_DEN,      0,          0
 	db DARK_CAVE,        0,          0
 	db SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
 	db VIRIDIAN_FOREST,  PIKACHU,    MOONBLAST    ; Sketch-breed move
 	db MT_MOON,          0,          0
-	db CERULEAN_CAVE,    MACHAMP,    DIZZY_PUNCH  ; RBY TM move
+	db CERULEAN_CAVE,    MACHAMP,    ZEN_HEADBUTT ; RBY TM move
 	db CERULEAN_CAVE,    GOLEM,      SHELL_SMASH  ; RBY TM move
 	db CERULEAN_CAVE,    GENGAR,     AURA_SPHERE  ; RBY TM move
 	db CERULEAN_CAVE,    ALAKAZAM,   ANCIENTPOWER ; RBY TM move
@@ -44,17 +44,17 @@ UniqueWildMoves:
 	db DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
 	db DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	db SOUL_HOUSE,       HAUNTER,    AURA_SPHERE  ; Prism tutor move
-	db LAV_RADIO_TOWER,  MAROWAK,    PERISH_SONG  ; Dream World move
+	db LAV_RADIO_TOWER,  MAROWAK,    OUTRAGE      ; Dream World move
 	db LUCKY_ISLAND,     CHANSEY,    SUPER_FANG   ; RBY TM move
 	db LUCKY_ISLAND,     TOGETIC,    0
 	db SAFARI_ZONE,      TANGELA,    LEECH_SEED   ; Dream World move (hub)
 	db SAFARI_ZONE,      TAUROS,     EXTREMESPEED ; RBY move (east)
 	db SAFARI_ZONE,      PINSIR,     SHELL_SMASH  ; RBY move (north)
 	db SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
-	db URAGA_CHANNEL,    TENTACRUEL, RECOVER      ; TCG move
+	db URAGA_CHANNEL,    TENTACRUEL, LEECH_SEED   ; TCG move
 	db SCARY_CAVE,       GOLBAT,     AEROBLAST    ; Dream World move
-	db SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
-	db SEAFOAM_ISLANDS,  JYNX,       PAIN_SPLIT   ; RBY TM move
+	db SCARY_CAVE,       LANTURN,    AURA_SPHERE  ; HGSS tutor move
+	db SEAFOAM_ISLANDS,  JYNX,       PSYSTRIKE    ; RBY TM move
 	db POKEMON_MANSION,  RAPIDASH,   NASTY_PLOT   ; Prism tutor move
 	db CINNABAR_VOLCANO, MAGMAR,     AURA_SPHERE  ; RBY TM move
 	db TOHJO_FALLS,      0,          0
