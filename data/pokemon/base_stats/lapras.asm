@@ -1,4 +1,4 @@
-	db 130,  85,  80,  60,  85,  95 ; 535 BST
+	db 130,  95,  80,  50,  95,  95 ; 535 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, ICE ; type
