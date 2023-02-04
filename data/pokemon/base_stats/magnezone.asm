@@ -1,4 +1,4 @@
-	db  70,  70, 115,  60, 130,  90 ; 535 BST
+	db  70,  70, 125,  50, 130, 100 ; 535 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, STEEL ; type
