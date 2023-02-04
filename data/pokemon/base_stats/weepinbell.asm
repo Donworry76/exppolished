@@ -1,4 +1,4 @@
-	db  65,  90,  50,  55,  85,  45 ; 390 BST
+	db  65,  90,  50,  55,  85,  55 ; 390 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, POISON ; type
