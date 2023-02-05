@@ -1,18 +1,18 @@
 UniqueWildMoves:
 	; landmark, species, move
 	; TODO: finish unique moves
-	db MAHOGANY_TOWN,    VOLTORB,    EXPLOSION    ; TeamRocketBaseB1F
-	db MAHOGANY_TOWN,    KOFFING,    EXPLOSION    ; TeamRocketBaseB1F
-	db MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
+	db MAHOGANY_TOWN,    VOLTORB,    AURA_SPHERE  ; TeamRocketBaseB1F
+	db MAHOGANY_TOWN,    KOFFING,    CALM_MIND    ; TeamRocketBaseB1F
+	db MAHOGANY_TOWN,    GEODUDE,    EXTREMESPEED ; TeamRocketBaseB1F
 	db UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	db CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
-	db SPROUT_TOWER,     BELLSPROUT, LEECH_SEED   ; knows Growth early
+	db SPROUT_TOWER,     BELLSPROUT, SPORE        ; knows Growth early
 	db ROUTE_32_COAST,   FLAAFFY,    MOONBLAST  ; Prism tutor move
 	db RUINS_OF_ALPH,    SHUCKLE,    PAIN_SPLIT ; Sw/Sh move
-	db RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
+	db RUINS_OF_ALPH,    SMEARGLE,   SPORE        ; knows Sketch twice
 	db SLOWPOKE_WELL,    SLOWPOKE,   ANCIENTPOWER ; Prism tutor move
 	db ILEX_FOREST,      0,          0
-	db ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
+	db ROUTE_34_COAST,   STARYU,     PSYSTRIKE    ; new move
 	db STORMY_BEACH,     VENOMOTH,   0
 	db MURKY_SWAMP,      KOFFING,    CRUNCH       ; Prism tutor move
 	db MURKY_SWAMP,      MISDREAVUS, HEAL_BELL    ; HGSS tutor move
@@ -47,14 +47,14 @@ UniqueWildMoves:
 	db LAV_RADIO_TOWER,  MAROWAK,    OUTRAGE      ; Dream World move
 	db LUCKY_ISLAND,     CHANSEY,    SUPER_FANG   ; RBY TM move
 	db LUCKY_ISLAND,     TOGETIC,    0
-	db SAFARI_ZONE,      TANGELA,    LEECH_SEED   ; Dream World move (hub)
-	db SAFARI_ZONE,      TAUROS,     EXTREMESPEED ; RBY move (east)
+	db SAFARI_ZONE,      TANGELA,    SPORE        ; Dream World move (hub)
+	db SAFARI_ZONE,      TAUROS,     DRAGON_DANCE ; RBY move (east)
 	db SAFARI_ZONE,      PINSIR,     SHELL_SMASH  ; RBY move (north)
-	db SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
+	db SAFARI_ZONE,      KANGASKHAN, RECOVER      ; (west)
 	db URAGA_CHANNEL,    TENTACRUEL, LEECH_SEED   ; TCG move
 	db SCARY_CAVE,       GOLBAT,     AEROBLAST    ; Dream World move
 	db SCARY_CAVE,       LANTURN,    AURA_SPHERE  ; HGSS tutor move
-	db SEAFOAM_ISLANDS,  JYNX,       PSYSTRIKE    ; RBY TM move
+	db SEAFOAM_ISLANDS,  JYNX,       MOONBLAST    ; RBY TM move
 	db POKEMON_MANSION,  RAPIDASH,   NASTY_PLOT   ; Prism tutor move
 	db CINNABAR_VOLCANO, MAGMAR,     AURA_SPHERE  ; RBY TM move
 	db TOHJO_FALLS,      0,          0
