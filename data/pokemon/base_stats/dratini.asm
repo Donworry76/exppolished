@@ -1,7 +1,7 @@
-	db  41,  64,  45,  50,  50,  50 ; 300 BST
+	db  41,  64,  45,  50,  50,  60 ; 300 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db DRAGON, DRAGON ; type
+	db DRAGON, WATER ; type
 	db 45 ; catch rate
 	db 67 ; base exp
 	db NO_ITEM ; item 1
