@@ -1,7 +1,7 @@
 	db  80, 105,  95,  70,  35, 110 ; 455 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, GROUND ; type
 	db 45 ; catch rate
 	db 138 ; base exp
 	db NO_ITEM ; item 1
