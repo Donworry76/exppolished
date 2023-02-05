@@ -1,7 +1,7 @@
 	db  85,  90, 120,  50,  95,  90 ; 490 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
+	db POISON, FIRE ; type
 	db 60 ; catch rate
 	db 173 ; base exp
 	db NO_ITEM ; item 1
