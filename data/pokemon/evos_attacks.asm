@@ -2398,7 +2398,7 @@ HitmonleeEvosAttacks:
 	db 1, DOUBLE_KICK ; evolution move
 	db 1, BULK_UP ; Revenge → TM move
 	db 5, AGILITY ; Meditate → new move
-	db 9, PURSUIT ; Rolling Kick → egg move
+	db 9, ROCK_THROW ; Rolling Kick → egg move
 	db 13, LOW_KICK ; Jump Kick → HGSS tutor move
 	db 17, STOMP ; Brick Break → new move
 if DEF(FAITHFUL)
@@ -2406,7 +2406,7 @@ if DEF(FAITHFUL)
 else
 	db 21, ROCK_SMASH ; Focus Energy → "Brick Break"
 endc
-	db 25, AERIAL_ACE ; Feint → new move
+	db 25, ROCK_SLIDE ; Feint → new move
 	db 29, HI_JUMP_KICK
 	db 33, DOUBLE_TEAM ; Mind Reader → TM move
 	db 37, SUCKER_PUNCH
@@ -2424,20 +2424,20 @@ HitmonchanEvosAttacks:
 	db 1, BULK_UP ; Revenge → TM move
 	db 6, AGILITY
 	db 11, MACH_PUNCH
-	db 13, PURSUIT
+	db 13, FEINT_ATTACK
 	db 17, BULLET_PUNCH
 	db 21, AERIAL_ACE ; Feint → new move
 	db 26, SEISMIC_TOSS ; Vacuum Wave → RBY TM move
-	db 31, FORESIGHT ; Quick Guard → new move
+	db 31, HONE_CLAWS ; Quick Guard → new move
 	db 36, THUNDERPUNCH
 	db 36, ICE_PUNCH
 	db 36, FIRE_PUNCH
-	db 41, SUCKER_PUNCH ; Sky Uppercut → Let's Go move
-	db 46, DYNAMICPUNCH ; Mega Punch → TM move
-	db 51, PROTECT ; Detect → TM move
-	db 56, STONE_EDGE ; Focus Punch → TM move
-	db 61, DRAIN_PUNCH
-	db 66, CLOSE_COMBAT
+	db 39, SUCKER_PUNCH ; Sky Uppercut → Let's Go move
+	db 42, DYNAMICPUNCH ; Mega Punch → TM move
+	db 45, PROTECT ; Detect → TM move
+	db 48, STONE_EDGE ; Focus Punch → TM move
+	db 51, DRAIN_PUNCH
+	db 54, NIGHT_SLASH
 	db 0 ; no more level-up moves
 
 KoffingEvosAttacks:
@@ -2462,7 +2462,7 @@ KoffingEvosAttacks:
 WeezingPlainEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DESTINY_BOND
-	db 4, ACID ; Smog → new move
+	db 4, EXPLOSION ; Smog → new move
 	db 7, SMOKESCREEN
 	db 12, PSYBEAM ; Assurance → TM move
 	db 15, WILL_O_WISP ; Clear Smog → TM move
@@ -2470,8 +2470,8 @@ WeezingPlainEvosAttacks:
 	db 23, DESTINY_BOND ; Self-Destruct → RBY TM move
 	db 26, HAZE
 	db 29, SLUDGE_BOMB
-	db 35, SHADOW_BALL
-	db 40, EXPLOSION
+	db 35, FLAMETHROWER
+	db 40, SHADOW_BALL
 	db 46, GUNK_SHOT
 	db 51, PAIN_SPLIT ; Belch → HGSS tutor move
 	db 57, FIRE_BLAST ; Memento → TM move
@@ -3283,7 +3283,7 @@ DratiniEvosAttacks:
 	db 5, THUNDER_WAVE
 	db 11, AQUA_JET ; Twister → egg move
 	db 15, DRAGON_RAGE
-	db 21, HEADBUTT ; Slam → tutor move
+	db 21, WATER_PULSE ; Slam → tutor move
 	db 25, AGILITY
 	db 31, DRAGONBREATH ; Dragon Tail → GSC TM move
 	db 35, AQUA_TAIL
@@ -3302,7 +3302,7 @@ DragonairEvosAttacks:
 	db 5, THUNDER_WAVE
 	db 11, AQUA_JET ; Twister → egg move
 	db 15, DRAGON_RAGE
-	db 21, HEADBUTT ; Slam → tutor move
+	db 21, WATER_PULSE ; Slam → tutor move
 	db 25, AGILITY
 	db 33, DRAGONBREATH ; Dragon Tail → GSC TM move
 	db 39, AQUA_TAIL
@@ -5095,19 +5095,19 @@ HitmontopEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LOW_KICK ; Rolling Kick → HGSS tutor move ; evolution move
 	db 1, AGILITY ; Revenge → TM move
-	db 6, FOCUS_ENERGY
-	db 10, PURSUIT
-	db 15, QUICK_ATTACK
+	db 6, QUICK_ATTACK
+	db 10, DOUBLE_KICK
+	db 15, BULLDOZE
 	db 19, RAPID_SPIN
 	db 24, FEINT_ATTACK ; Feint → new move
 	db 28, COUNTER
-	db 33, DOUBLE_KICK ; Triple Kick → similar move
+	db 33, DIG ; Triple Kick → similar move
 	db 37, BULK_UP
-	db 42, GYRO_BALL
-	db 46, SUCKER_PUNCH ; Wide Guard + Quick Guard → new move
-	db 50, STONE_EDGE ; Detect → similar move
-	db 55, CLOSE_COMBAT
-	db 60, EARTHQUAKE ; Endeavor → new move
+	db 40, GYRO_BALL
+	db 43, SUCKER_PUNCH ; Wide Guard + Quick Guard → new move
+	db 46, STONE_EDGE ; Detect → similar move
+	db 49, CLOSE_COMBAT
+	db 53, EARTHQUAKE ; Endeavor → new move
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
