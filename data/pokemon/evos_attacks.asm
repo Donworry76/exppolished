@@ -4559,7 +4559,7 @@ QwilfishEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, SPIKES
-	db 1, HARDEN
+	db 1, DEFENSE_CURL
 	db 1, POISON_STING
 	db 5, GROWTH ; Harden → TM move
 	db 9, MINIMIZE
@@ -4880,7 +4880,7 @@ OctilleryEvosAttacks:
 	db 22, FOCUS_ENERGY
 	db 26, FLAMETHROWER ; Wring Out → new move
 	db 28, WATER_PULSE
-	db 34, MOON_BLAST ; Signal Beam → TM move
+	db 34, MOONBLAST ; Signal Beam → TM move
 	db 40, ICE_BEAM
 	db 46, AURA_SPHERE ; Bullet Seed → tutor move
 	db 52, GUNK_SHOT ; Hydro Pump → new move
@@ -5446,7 +5446,7 @@ GlaceonEvosAttacks:
 	db 20, ICE_SHARD ; Ice Fang → Ice Shard
 	db 25, AURORA_BEAM ; Ice Shard → Hail
 	db 29, RECOVER
-	db 33, EARTHPOWER
+	db 33, EARTH_POWER
 	db 37, ICE_BEAM ; Hail → TM move
 	db 41, AURA_SPHERE ; Last Resort → tutor move
 	db 45, CALM_MIND
