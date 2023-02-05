@@ -1,4 +1,4 @@
-	db  95,  65,  65,  60, 110, 130 ; 525 BST
+	db  95,  65,  65,  60, 120, 140 ; 525 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type
