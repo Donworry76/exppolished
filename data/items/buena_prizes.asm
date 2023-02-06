@@ -4,7 +4,7 @@ BlueCardMartData:
 	db KEE_BERRY,    1
 	db CUSTAP_BERRY, 1
 	db BOTTLE_CAP,   1
-	db ENIGMA_BERRY, 1
+	db ODD_SOUVENIR, 1
 	db ABILITYPATCH, 0
 	db EVIOLITE,     1
 	db PP_MAX,       1
