@@ -53,7 +53,7 @@ CherrygroveMart:
 CherrygroveMartAfterDex:
 	db 6 ; # items
 	db POKE_BALL
-	db HEAL_BALL
+	db DREAM_BALL
 	db POTION
 	db ANTIDOTE
 	db PARALYZEHEAL
@@ -63,7 +63,7 @@ CherrygroveMartAfterDex:
 VioletMart:
 	db 11 ; # items
 	db POKE_BALL
-	db REPEAT_BALL
+	db DREAM_BALL
 	db POTION
 	db ESCAPE_ROPE
 	db ANTIDOTE
@@ -112,8 +112,8 @@ Goldenrod2FMart2:
 	db ESCAPE_ROPE
 	db REPEL
 	db POKE_DOLL
-	db BLUESKY_MAIL
-	db MORPH_MAIL
+	db STARF_BERRY
+	db LUM_BERRY
 	db -1
 
 Goldenrod2FMart2Eevee:
@@ -134,14 +134,14 @@ Goldenrod2FMart2Eevee:
 Goldenrod3FMart:
 Celadon5FMart2:
 	db 8 ; # items
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db X_SPCL_ATK
-	db X_SPCL_DEF
-	db X_ACCURACY
-	db DIRE_HIT
-	db GUARD_SPEC
+	db FOCUS_BAND
+	db FOCUS_SASH
+	db ASSAULT_VEST
+	db WEAK_POLICY
+	db LEFTOVERS
+	db EXPERT_BELT
+	db MUSCLE_BAND
+	db ABILITYPATCH
 	db -1
 
 Goldenrod4FMart:
@@ -176,7 +176,7 @@ GoldenrodHarborMart:
 	db WIDE_LENS
 	db ZOOM_LENS
 	db BRIGHTPOWDER
-	db SURF_MAIL
+	db SITRUS_BERRY
 	db -1
 
 UndergroundMart:
