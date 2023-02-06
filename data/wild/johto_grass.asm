@@ -115,21 +115,21 @@
 	def_grass_wildmons TIN_TOWER_4F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; nite
 	wildmon 35, GENGAR
 	wildmon 35, GENGAR
@@ -143,21 +143,21 @@
 	def_grass_wildmons TIN_TOWER_5F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; nite
 	wildmon 35, GENGAR
 	wildmon 35, GENGAR
@@ -171,21 +171,21 @@
 	def_grass_wildmons TIN_TOWER_6F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATTATA
-	wildmon 22, RATICATE
-	wildmon 23, RATICATE
-	wildmon 24, RATICATE
-	wildmon 24, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 35, RATICATE
+	wildmon 45, RATICATE
 	; nite
 	wildmon 35, GENGAR
 	wildmon 35, GENGAR
@@ -199,18 +199,18 @@
 	def_grass_wildmons TIN_TOWER_7F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
@@ -227,18 +227,18 @@
 	def_grass_wildmons TIN_TOWER_8F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
@@ -255,18 +255,18 @@
 	def_grass_wildmons TIN_TOWER_9F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
@@ -283,18 +283,18 @@
 	def_grass_wildmons TIN_TOWER_10F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
 	; day
-	wildmon 20, RATTATA
-	wildmon 21, RATTATA
-	wildmon 22, RATICATE
-	wildmon 22, RATICATE
+	wildmon 35, XATU
+	wildmon 35, XATU
+	wildmon 45, XATU
+	wildmon 35, RATICATE
 	wildmon 23, MURKROW
 	wildmon 24, MURKROW
 	wildmon 24, MURKROW
