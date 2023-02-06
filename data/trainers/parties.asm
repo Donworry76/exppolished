@@ -2950,7 +2950,7 @@ FisherGroup:
 	db TRAINERTYPE_MOVES
 	; party
 	db 60, QWILFISH
-		db WATERFALL, TAKE_DOWN, GUNK_SHOT, OXIC_SPIKES
+		db WATERFALL, TAKE_DOWN, GUNK_SHOT, TOXIC_SPIKES
 	db 60, GYARADOS
 		db WATERFALL, DRAGON_DANCE, EARTHQUAKE, CRUNCH
 	db 60, OCTILLERY
@@ -3871,9 +3871,9 @@ HikerGroup:
 	db "Bruce@"
 	db TRAINERTYPE_NORMAL
 	; party
-	db 57, GRAVELER
+	db 57, GOLEM
 	db 62, RHYDON
-	db 63, CLEFAIRY
+	db 63, SCYTHER
 	db -1 ; end
 
 ; ================
@@ -9423,7 +9423,7 @@ SightseerMGroup:
 	db TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME
 
 	; TODO: party
-	db 60, CELEBI, ABILITY_1 | NAT_NEUTRAL, MALE, "Bulbasaur@"
+	db 60, CELEBI, ABILITY_1 | NAT_NEUTRAL, MALE, "Celebi@"
 	db -1 ; end
 
 ; ================
