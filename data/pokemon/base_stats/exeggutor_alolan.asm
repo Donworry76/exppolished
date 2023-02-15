@@ -8,7 +8,7 @@
 	db SITRUS_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/exeggutor_alolan/front.dimensions"
-	abilities_for EXEGGUTOR_ALOLAN, FRISK, FRISK, HARVEST
+	abilities_for EXEGGUTOR_ALOLAN, FILTER, FILTER, MULTI_SCALE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
