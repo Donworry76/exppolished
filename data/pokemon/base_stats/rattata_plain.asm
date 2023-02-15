@@ -8,7 +8,7 @@
 	db LUCKY_EGG ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/rattata_plain/front.dimensions"
-	abilities_for RATTATA, RUN_AWAY, GUTS, HUSTLE
+	abilities_for RATTATA, GUTS, GUTS, HUSTLE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
