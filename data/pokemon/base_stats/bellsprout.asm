@@ -8,7 +8,7 @@
 	db GOLD_LEAF ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/bellsprout/front.dimensions"
-	abilities_for BELLSPROUT, CHLOROPHYLL, CHLOROPHYLL, GLUTTONY
+	abilities_for BELLSPROUT, LIQUID_OOZE, EFFECT_SPORE, EFFECT_SPORE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
