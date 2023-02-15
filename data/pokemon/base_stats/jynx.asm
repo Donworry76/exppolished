@@ -16,7 +16,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for JYNX, OBLIVIOUS, FOREWARN, DRY_SKIN
 else
-	abilities_for JYNX, OBLIVIOUS, FILTER, DRY_SKIN
+	abilities_for JYNX, DRY_SKIN, FILTER, DRY_SKIN
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
