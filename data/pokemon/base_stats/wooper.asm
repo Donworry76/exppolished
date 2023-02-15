@@ -8,7 +8,7 @@
 	db CHESTO_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/wooper/front.dimensions"
-	abilities_for WOOPER, DAMP, WATER_ABSORB, UNAWARE
+	abilities_for WOOPER, SIMPLE, WATER_ABSORB, UNAWARE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_GROUND ; egg groups
 
