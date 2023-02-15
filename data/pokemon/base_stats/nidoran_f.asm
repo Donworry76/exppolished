@@ -1,7 +1,7 @@
 	db  55,  47,  52,  41,  40,  40 ; 275 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
+	db POISON, NORMAL ; type
 	db 235 ; catch rate
 	db 59 ; base exp
 	db NO_ITEM ; item 1
