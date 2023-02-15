@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F100, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/nidoqueen/front.dimensions"
-	abilities_for NIDOQUEEN, THICKFAT, RIVALRY, SHEER_FORCE
+	abilities_for NIDOQUEEN, THICK_FAT, RIVALRY, SHEER_FORCE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
