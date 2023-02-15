@@ -20,7 +20,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, DROUGHT
 else
-	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, TOUGH_CLAWS
+	abilities_for CHARIZARD, LEVITATE, SOLAR_POWER, TOUGH_CLAWS
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
