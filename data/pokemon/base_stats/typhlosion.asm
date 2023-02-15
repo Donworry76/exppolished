@@ -15,7 +15,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for TYPHLOSION, BLAZE, BLAZE, FLASH_FIRE
 else
-	abilities_for TYPHLOSION, BLAZE, FLAME_BODY, FLASH_FIRE
+	abilities_for TYPHLOSION, ADAPTABILITY, FLAME_BODY, MOLD_BREAKER
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
