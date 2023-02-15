@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for TOTODILE, TORRENT, TORRENT, SHEER_FORCE
 else
-	abilities_for TOTODILE, TORRENT, GUTS, SHEER_FORCE
+	abilities_for TOTODILE, INTIMIDATE, GUTS, SHEER_FORCE
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
