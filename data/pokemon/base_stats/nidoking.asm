@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F0, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/nidoking/front.dimensions"
-	abilities_for NIDOKING, ANGERPOINT, RIVALRY, SHEER_FORCE
+	abilities_for NIDOKING, HUSTLE, RIVALRY, SHEER_FORCE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
