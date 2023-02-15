@@ -17,7 +17,7 @@ endc
 	db BIG_ROOT ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/victreebel/front.dimensions"
-	abilities_for VICTREEBEL, CHLOROPHYLL, CHLOROPHYLL, GLUTTONY
+	abilities_for VICTREEBEL, EFFECT_SPORE, EFFECT_SPORE, GLUTTONY
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
