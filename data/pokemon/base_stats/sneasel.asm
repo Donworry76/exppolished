@@ -8,7 +8,7 @@
 	db RAZOR_CLAW ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/sneasel/front.dimensions"
-	abilities_for SNEASEL, INNER_FOCUS, KEEN_EYE, PICKPOCKET
+	abilities_for SNEASEL, TECHNICIAN, INNER_FOCUS, PICKPOCKET
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
