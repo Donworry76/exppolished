@@ -8,7 +8,7 @@
 	db KEE_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/mankey/front.dimensions"
-	abilities_for MANKEY, VITAL_SPIRIT, ANGER_POINT, DEFIANT
+	abilities_for MANKEY, VITAL_SPIRIT, HUSTLE, DEFIANT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
