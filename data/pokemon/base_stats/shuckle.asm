@@ -8,7 +8,7 @@
 	db BERRY_JUICE ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/shuckle/front.dimensions"
-	abilities_for SHUCKLE, STURDY, GLUTTONY, CONTRARY
+	abilities_for SHUCKLE, WATER_ABSORB, WATER_ABSORB, CONTRARY
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
