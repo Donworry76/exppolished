@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for QUILAVA, BLAZE, BLAZE, FLASH_FIRE
 else
-	abilities_for QUILAVA, BLAZE, FLAME_BODY, FLASH_FIRE
+	abilities_for QUILAVA, ADAPTABILITY, FLAME_BODY, FLASH_FIRE
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
