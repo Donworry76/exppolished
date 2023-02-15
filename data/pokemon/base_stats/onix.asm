@@ -17,7 +17,7 @@ endc
 	db HARD_STONE ; item 2
 	dn GENDER_F50, 4 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/onix/front.dimensions"
-	abilities_for ONIX, ROCK_HEAD, STURDY, WEAK_ARMOR
+	abilities_for ONIX, NO_GUARD, STURDY, WEAK_ARMOR
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
