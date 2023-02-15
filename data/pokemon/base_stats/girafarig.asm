@@ -13,7 +13,7 @@ endc
 	db PERSIM_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/girafarig/front.dimensions"
-	abilities_for GIRAFARIG, INNER_FOCUS, EARLY_BIRD, PARENTAL_BOND
+	abilities_for GIRAFARIG, HUGE_POWER, HUGE_POWER, PARENTAL_BOND
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
