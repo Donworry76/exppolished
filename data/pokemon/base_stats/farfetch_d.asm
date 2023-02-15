@@ -21,7 +21,7 @@ endc
 	db STICK ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/farfetch_d/front.dimensions"
-	abilities_for FARFETCH_D, KEEN_EYE, INNER_FOCUS, DEFIANT
+	abilities_for FARFETCH_D, SUPER_LUCK, INNER_FOCUS, DEFIANT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_GROUND ; egg groups
 
