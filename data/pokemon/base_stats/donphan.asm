@@ -8,7 +8,7 @@
 	db KEE_BERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/donphan/front.dimensions"
-	abilities_for DONPHAN, STURDY, STURDY, SAND_VEIL
+	abilities_for DONPHAN, THICK_FAT, THICK_FAT, SAND_VEIL
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
