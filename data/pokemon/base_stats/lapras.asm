@@ -8,7 +8,7 @@
 	db MYSTIC_WATER ; item 2
 	dn GENDER_F50, 7 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/lapras/front.dimensions"
-	abilities_for LAPRAS, WATER_ABSORB, SHELL_ARMOR, HYDRATION
+	abilities_for LAPRAS, SERENE_GRACE, SHELL_ARMOR, HYDRATION
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 
