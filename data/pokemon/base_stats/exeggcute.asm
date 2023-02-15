@@ -8,7 +8,7 @@
 	db MARANGABERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/exeggcute/front.dimensions"
-	abilities_for EXEGGCUTE, CHLOROPHYLL, CHLOROPHYLL, HARVEST
+	abilities_for EXEGGCUTE, FILTER, FILTER, CHLOROPHYLL
 	db GROWTH_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
