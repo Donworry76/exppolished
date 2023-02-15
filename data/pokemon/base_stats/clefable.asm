@@ -8,7 +8,7 @@
 	db MOON_STONE ; item 2
 	dn GENDER_F75, 1 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/clefable/front.dimensions"
-	abilities_for CLEFABLE, CUTE_CHARM, MAGIC_GUARD, UNAWARE
+	abilities_for CLEFABLE, UNAWARE, MAGIC_GUARD, UNAWARE
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
 
