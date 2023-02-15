@@ -13,7 +13,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/smeargle/front.dimensions"
-	abilities_for SMEARGLE, MOODY, TECHNICIAN, MOODY
+	abilities_for SMEARGLE, MOODY, TECHNICIAN, SIMPLE
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
