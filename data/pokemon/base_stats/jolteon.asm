@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for JOLTEON, VOLT_ABSORB, VOLT_ABSORB, QUICK_FEET
 else
-	abilities_for JOLTEON, VOLT_ABSORB, STATIC, QUICK_FEET
+	abilities_for JOLTEON, GALVANIZE, STATIC, QUICK_FEET
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
