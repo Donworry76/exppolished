@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for GLACEON, SNOW_CLOAK, SNOW_CLOAK, ICE_BODY
 else
-	abilities_for GLACEON, SNOW_CLOAK, SNOW_WARNING, ICE_BODY
+	abilities_for GLACEON, FUR_COAT, SNOW_WARNING, ICE_BODY
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
