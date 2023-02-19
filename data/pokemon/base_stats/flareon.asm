@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for FLAREON, FLASH_FIRE, FLASH_FIRE, GUTS
 else
-	abilities_for FLAREON, FLASH_FIRE, DROUGHT, GUTS
+	abilities_for FLAREON, FLAME_BODY, DROUGHT, GUTS
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
