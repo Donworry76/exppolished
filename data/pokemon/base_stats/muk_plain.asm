@@ -8,7 +8,7 @@
 	db NUGGET ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/muk_plain/front.dimensions"
-	abilities_for MUK, STENCH, STICKY_HOLD, POISON_TOUCH
+	abilities_for MUK, QUICK_DRAW, STICKY_HOLD, POISON_TOUCH
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
