@@ -12,7 +12,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F12_5, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/blastoise/front.dimensions"
-	abilities_for BLASTOISE, TORRENT, RAIN_DISH, MEGA_LAUNCHER
+	abilities_for BLASTOISE, MEGA_LAUNCHER, RAIN_DISH, MEGA_LAUNCHER
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 
