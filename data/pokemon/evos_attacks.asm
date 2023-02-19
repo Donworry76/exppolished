@@ -2989,7 +2989,7 @@ JolteonEvosAttacks:
 	db 33, THUNDER_WAVE
 	db 37, THUNDERBOLT ; Discharge → TM move
 	db 41, EXTRASENSORY ; Last Resort → tutor move
-	db 45, EARTH_POWER 
+	db 45, HYPER_VOICE 
 	db 0 ; no more level-up moves
 
 FlareonEvosAttacks:
