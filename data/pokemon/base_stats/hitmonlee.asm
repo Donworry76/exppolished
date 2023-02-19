@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F0, 4 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/hitmonlee/front.dimensions"
-	abilities_for HITMONLEE, LIMBER, RECKLESS, UNBURDEN
+	abilities_for HITMONLEE, STURDY, RECKLESS, UNBURDEN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
