@@ -8,7 +8,7 @@
 	db STAR_PIECE ; item 2
 	dn GENDER_UNKNOWN, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/starmie/front.dimensions"
-	abilities_for STARMIE, ILLUMINATE, NATURAL_CURE, ANALYTIC
+	abilities_for STARMIE, BERSERK, NATURAL_CURE, ANALYTIC
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 
