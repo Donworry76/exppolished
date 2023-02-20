@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/tangela/front.dimensions"
-	abilities_for TANGELA, CHLOROPHYLL, LEAF_GUARD, REGENERATOR
+	abilities_for TANGELA, TANGLING_HAIR, LEAF_GUARD, REGENERATOR
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
