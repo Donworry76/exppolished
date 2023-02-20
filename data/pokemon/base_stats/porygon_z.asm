@@ -8,7 +8,7 @@
 	db DUBIOUS_DISC ; item 2
 	dn GENDER_UNKNOWN, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/porygon_z/front.dimensions"
-	abilities_for PORYGON_Z, ADAPTABILITY, DOWNLOAD, ANALYTIC
+	abilities_for PORYGON_Z, LEVITATE, LEVITATE, LEVITATE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
