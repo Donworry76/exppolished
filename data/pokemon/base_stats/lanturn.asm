@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db 125,  58,  58,  67,  76,  76 ; 460 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db 125,  58,  88,  67,  96,  96 ; 480 BST
+	db 135,  58,  88,  67,  96, 106 ; 480 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -13,7 +13,7 @@ endc
 	db BRIGHTPOWDER ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/lanturn/front.dimensions"
-	abilities_for LANTURN, VOLT_ABSORB, ILLUMINATE, WATER_ABSORB
+	abilities_for LANTURN, SHIELD_DUST, RAIN_DISH, WATER_ABSORB
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 
