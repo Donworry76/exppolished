@@ -11,7 +11,7 @@ if DEF(FAITHFUL)
 	db 45 ; catch rate
 	db 194 ; base exp
 else
-	db ELECTRIC, DRAGON ; type
+	db ELECTRIC, GRASS ; type
 	db 40 ; catch rate
 	db 204 ; base exp
 endc
@@ -19,7 +19,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/ampharos/front.dimensions"
-	abilities_for AMPHAROS, STATIC, STATIC, MOLD_BREAKER
+	abilities_for AMPHAROS, UNAWARE, NATURAL_CURE, MOLD_BREAKER
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
