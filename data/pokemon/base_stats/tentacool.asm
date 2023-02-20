@@ -1,4 +1,4 @@
-	db  40,  40,  35,  70,  50, 100 ; 335 BST
+	db  40,  40,  45,  70,  50, 100 ; 335 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, POISON ; type
@@ -8,7 +8,7 @@
 	db POISON_BARB ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/tentacool/front.dimensions"
-	abilities_for TENTACOOL, CLEAR_BODY, LIQUID_OOZE, RAIN_DISH
+	abilities_for TENTACOOL, TANGLING_HAIR, LIQUID_OOZE, CLEAR_BODY
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 
