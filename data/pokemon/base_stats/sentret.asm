@@ -1,7 +1,7 @@
-	db  45,  46,  34,  20,  35,  45 ; 215 BST
+	db  45,  56,  44,  70,  35,  45 ; 215 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, ICE ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 	db ALWAYS_ITEM_2 ; item 1
