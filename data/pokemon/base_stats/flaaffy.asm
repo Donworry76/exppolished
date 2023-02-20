@@ -21,7 +21,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for FLAAFFY, STATIC, STATIC, STATIC
 else
-	abilities_for FLAAFFY, STATIC, STATIC, MOTOR_DRIVE
+	abilities_for FLAAFFY, STATIC, NATURAL_CURE, MOTOR_DRIVE
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
