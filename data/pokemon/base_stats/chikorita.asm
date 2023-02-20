@@ -1,7 +1,7 @@
 	db  45,  39,  65,  45,  59,  65 ; 318 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
+	db GRASS, FAIRY ; type
 	db 45 ; catch rate
 	db 64 ; base exp
 	db NO_ITEM ; item 1
@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for CHIKORITA, OVERGROW, OVERGROW, LEAF_GUARD
 else
-	abilities_for CHIKORITA, OVERGROW, NATURAL_CURE, LEAF_GUARD
+	abilities_for CHIKORITA, NATURAL_CURE, NATURAL_CURE, LEAF_GUARD
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_PLANT ; egg groups
