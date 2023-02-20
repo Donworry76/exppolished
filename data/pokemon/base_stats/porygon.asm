@@ -8,7 +8,7 @@
 	db UP_GRADE ; item 2
 	dn GENDER_UNKNOWN, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/porygon/front.dimensions"
-	abilities_for PORYGON, TRACE, DOWNLOAD, ANALYTIC
+	abilities_for PORYGON, LEVITATE, LEVITATE, LEVITATE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
