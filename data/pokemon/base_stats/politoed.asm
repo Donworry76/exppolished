@@ -17,7 +17,7 @@ endc
 	db KINGS_ROCK ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/politoed/front.dimensions"
-	abilities_for POLITOED, WATER_ABSORB, DAMP, DRIZZLE
+	abilities_for POLITOED, DRIZZLE, DRIZZLE, DRIZZLE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_1 ; egg groups
 
