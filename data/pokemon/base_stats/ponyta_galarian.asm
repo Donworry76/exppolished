@@ -8,7 +8,7 @@
 	db MARANGABERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/ponyta_galarian/front.dimensions"
-	abilities_for PONYTA_GALARIAN, RUN_AWAY, PASTEL_VEIL, ANTICIPATION
+	abilities_for PONYTA_GALARIAN, MARVEL_SCALE, PASTEL_VEIL, ANTICIPATION
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
