@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, GRASS ; type
 if DEF(FAITHFUL)
 	db 120 ; catch rate
 	db 117 ; base exp
