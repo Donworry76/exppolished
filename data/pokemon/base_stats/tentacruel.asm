@@ -8,7 +8,7 @@
 	db POISON_BARB ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/tentacruel/front.dimensions"
-	abilities_for TENTACRUEL, CLEAR_BODY, LIQUID_OOZE, RAIN_DISH
+	abilities_for TENTACRUEL, TANGLING_HAIR, LIQUID_OOZE, CLEAR_BODY
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 
