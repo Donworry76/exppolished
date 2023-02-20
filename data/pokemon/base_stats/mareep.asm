@@ -1,7 +1,7 @@
 	db  55,  40,  40,  35,  65,  45 ; 280 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, GRASS ; type
 	db 235 ; catch rate
 	db 59 ; base exp
 	db NO_ITEM ; item 1
@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for MAREEP, STATIC, STATIC, STATIC
 else
-	abilities_for MAREEP, STATIC, STATIC, MOTOR_DRIVE
+	abilities_for MAREEP, STATIC, NATURAL_CURE, MOTOR_DRIVE
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
