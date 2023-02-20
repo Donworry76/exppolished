@@ -1,7 +1,7 @@
-	db  60,  30,  30,  50,  36,  56 ; 262 BST
+	db  60,  30,  30,  50,  66,  56 ; 262 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db FLYING, GHOST ; type
 	db 255 ; catch rate
 	db 58 ; base exp
 	db NO_ITEM ; item 1
