@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, ICE ; type
 	db 90 ; catch rate
 if DEF(FAITHFUL)
 	db 116 ; base exp
@@ -17,7 +17,7 @@ endc
 	db SITRUS_BERRY ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/furret/front.dimensions"
-	abilities_for FURRET, FRISK, KEEN_EYE, FRISK
+	abilities_for FURRET, THICK_FAT, KEEN_EYE, FRISK
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
