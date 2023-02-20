@@ -3954,13 +3954,13 @@ XatuEvosAttacks:
 MareepEvosAttacks:
 	db EVOLVE_LEVEL, 15, FLAAFFY
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, ABSORB
 	db 1, AGILITY
 	db 4, THUNDER_WAVE
 	db 8, THUNDERSHOCK
-	db 11, MUD_SLAP ; Cotton Spore → GSC TM move
-	db 15, SPARK ; Charge → new move
-	db 18, HEAL_BELL ; Take Down → HGSS tutor move
+	db 11, LEECH_SEED ; Cotton Spore → GSC TM move
+	db 13, SPARK ; Charge → new move
+	db 15, MEGA_DRAIN ; Take Down → HGSS tutor move
 	db 22, TAKE_DOWN ; Electro Ball → Take Down
 	db 25, CONFUSE_RAY
 	db 29, POWER_GEM
@@ -3978,18 +3978,18 @@ else
 	db EVOLVE_LEVEL, 36, AMPHAROS
 endc
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, ABSORB
 	db 1, AGILITY
 	db 4, THUNDER_WAVE
 	db 8, THUNDERSHOCK
-	db 11, MUD_SLAP ; Cotton Spore → GSC TM move
-	db 16, SPARK ; Charge → new move
-	db 20, HEAL_BELL ; Take Down → HGSS tutor move
-	db 25, VOLT_SWITCH ; Electro Ball → Take Down
-	db 29, CONFUSE_RAY
-	db 34, POWER_GEM
-	db 38, THUNDERBOLT ; Discharge → TM move
-	db 43, SAFEGUARD ; Cotton Guard → egg move
+	db 11, LEECH_SEED ; Cotton Spore → GSC TM move
+	db 13, SPARK ; Charge → new move
+	db 15, MEGA_DRAIN ; Take Down → HGSS tutor move
+	db 18, VOLT_SWITCH ; Electro Ball → Take Down
+	db 21, SLEEP_POWDER
+	db 25, GIGA_DRAIN
+	db 29, POWER_GEM ; Discharge → TM move
+	db 35, THUNDERBOLT ; Cotton Guard → egg move
 	db 47, DAZZLINGLEAM ; Signal Beam → new move
 	db 52, LIGHT_SCREEN
 	db 56, THUNDER
@@ -4000,23 +4000,23 @@ AmpharosEvosAttacks:
 	db 1, THUNDERPUNCH ; evolution move
 	db 1, FIRE_PUNCH
 	db 1, DRAGON_PULSE
-	db 1, TACKLE
+	db 1, ABSORB
 	db 1, GROWL
 	db 4, THUNDER_WAVE
 	db 8, THUNDERSHOCK
-	db 11, MUD_SLAP ; Cotton Spore → GSC TM move
+	db 11, LEECH_SEED ; Cotton Spore → GSC TM move
 	db 16, SPARK ; Charge → new move
-	db 20, HEAL_BELL ; Take Down → HGSS tutor move
-	db 25, TAKE_DOWN ; Electro Ball → Take Down
-	db 29, CONFUSE_RAY
-	db 35, DRAGON_PULSE
-	db 38, THUNDERBOLT ; Discharge → TM move
-	db 42, NASTY_PLOT ; Cotton Guard → egg move
-	db 46, DAZZLINGLEAM ; Signal Beam → new move
-	db 50, HEALINGLIGHT
-	db 54, VOLT_SWITCH
-	db 58, POWER_GEM
-	db 62, FOCUS_BLAST ; HGSS tutor move
+	db 20, MEGA_DRAIN ; Take Down → HGSS tutor move
+	db 25, VOLT_SWITCH ; Electro Ball → Take Down
+	db 29, SLEEP_POWDER
+	db 29, GIGA_DRAIN
+	db 32, THUNDERBOLT ; Discharge → TM move
+	db 35, NASTY_PLOT ; Cotton Guard → egg move
+	db 40, HYPER_VOICE ; Signal Beam → new move
+	db 45, SOLAR_BEAM
+	db 50, SUNNY_DAY
+	db 55, DRAIN_KISS
+	db 60, FOCUS_BLAST ; HGSS tutor move
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
