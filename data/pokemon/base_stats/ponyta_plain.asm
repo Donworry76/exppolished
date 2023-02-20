@@ -8,7 +8,7 @@
 	db MARANGABERRY ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/ponyta_plain/front.dimensions"
-	abilities_for PONYTA, RUN_AWAY, FLASH_FIRE, FLAME_BODY
+	abilities_for PONYTA, MARVEL_SCALE, FLAME_BODY, FLAME_BODY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
