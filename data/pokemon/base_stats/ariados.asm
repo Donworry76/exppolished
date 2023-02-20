@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  70,  90,  70,  40,  60,  70 ; 400 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  70, 110,  70, 110,  70,  70 ; 440 BST
+	db  80, 120,  80, 100,  50,  90 ; 440 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -17,7 +17,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/ariados/front.dimensions"
-	abilities_for ARIADOS, SWARM, INSOMNIA, SNIPER
+	abilities_for ARIADOS, INTIMIDATE, HUSTLE, SNIPER
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
