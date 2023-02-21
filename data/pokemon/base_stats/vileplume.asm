@@ -17,7 +17,7 @@ endc
 	db ABSORB_BULB ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/vileplume/front.dimensions"
-	abilities_for VILEPLUME, CHLOROPHYLL, CHLOROPHYLL, EFFECT_SPORE
+	abilities_for VILEPLUME, EFFECT_SPORE, CHLOROPHYLL, EFFECT_SPORE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
