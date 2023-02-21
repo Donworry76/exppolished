@@ -1,7 +1,7 @@
 	db 105,  95, 100,  90,  40, 100 ; 490 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, DRAGON ; type
 	db 45 ; catch rate
 	db 175 ; base exp
 	db NO_ITEM ; item 1
@@ -11,7 +11,7 @@
 if DEF(FAITHFUL)
 	abilities_for KANGASKHAN, EARLY_BIRD, SCRAPPY, INNER_FOCUS
 else
-	abilities_for KANGASKHAN, EARLY_BIRD, SCRAPPY, PARENTAL_BOND
+	abilities_for KANGASKHAN, PARENTAL_BOND, SCRAPPY, PARENTAL_BOND
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
