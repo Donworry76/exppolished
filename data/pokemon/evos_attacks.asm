@@ -38,7 +38,7 @@ IvysaurEvosAttacks:
 	db 9, TOXIC
 	db 13, BODY_SLAM
 	db 13, SLEEP_POWDER
-	db 15, ACID ; Take Down → GSC TM move
+	db 16, RAZOR_LEAF ; Take Down → GSC TM move
 	db 20, VENOSHOCK
 	db 23, MEGA_DRAIN
 	db 28, GROWTH
@@ -91,15 +91,15 @@ CharmanderEvosAttacks:
 CharmeleonEvosAttacks:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0 ; no more evolutions
-	db 1, SCRATCH
 	db 1, ANCIENTPOWER
-	db 7, EMBER
+	db 1, DRAGONBREATH
+	db 7, FIRE_SPIN
 	db 10, QUICK_ATTACK
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
 	db 23, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 28, BODY_SLAM ; Fire Fang → Scary Face
+	db 28, FIRE_PUNCH ; Fire Fang → Scary Face
 	db 32, ANCIENTPOWER ; Flame Burst → TM move
-	db 39, CRUNCH
+	db 34, BODY_SLAM
 	db 43, FLAMETHROWER
 	db 50, SACRED_FIRE
 	db 54, EARTHQUAKE
@@ -119,8 +119,8 @@ CharizardEvosAttacks:
 	db 7, EMBER
 	db 10, SMOKESCREEN
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
-	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 28, BODY_SLAM ; Fire Fang → Scary Face
+	db 21, BODY_SLAM ; Scary Face → Dragon Rage
+	db 28, FIRE_PUNCH ; Fire Fang → Scary Face
 	db 36, DRAGON_PULSE ; Flame Burst → TM move
 	db 41, FLAMETHROWER
 	db 47, DRAGON_CLAW
@@ -183,9 +183,9 @@ BlastoiseEvosAttacks:
 	db 16, BITE
 	db 20, RAPID_SPIN
 	db 24, RECOVER
-	db 28, WATER_PULSE
-	db 32, AQUA_TAIL
-	db 36, AURA_SPHERE ; Skull Bash → new move
+	db 28, AQUA_TAIL
+	db 36, FLASH_CANNON
+	db 38, AURA_SPHERE ; Skull Bash → new move
 	db 40, DARK_PULSE
 	db 43, ICE_BEAM
 	db 46, HYDRO_PUMP
@@ -352,9 +352,9 @@ RaticateAlolanEvosAttacks:
 	db 4, QUICK_ATTACK
 	db 7, BITE
 	db 10, GLARE
-	db 13, PURSUIT
-	db 16, HYPER_FANG
-	db 19, SUCKER_PUNCH
+	db 13, HYPER_FANG
+	db 16, SUCKER_PUNCH
+	db 20, SHADOW_CLAW
 	db 24, SUPER_FANG
 	db 29, FLAME_CHARGE ; Assurance → similar move
 	db 34, CRUNCH
