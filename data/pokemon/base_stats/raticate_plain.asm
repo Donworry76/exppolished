@@ -6,14 +6,14 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db NORMAL, NORMAL ; type
+	db DARK, NORMAL ; type
 	db 90 ; catch rate
 	db 116 ; base exp
 	db NO_ITEM ; item 1
 	db LANSAT_BERRY ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/raticate_plain/front.dimensions"
-	abilities_for RATICATE, RUN_AWAY, GUTS, HUSTLE
+	abilities_for RATICATE, TECHNICIAN, GUTS, HUSTLE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
