@@ -17,7 +17,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/pidgeot/front.dimensions"
-	abilities_for PIDGEOT, KEEN_EYE, TANGLED_FEET, NO_GUARD
+	abilities_for PIDGEOT, NO_GUARD, TANGLED_FEET, NO_GUARD
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
