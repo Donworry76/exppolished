@@ -8,7 +8,7 @@
 	db SOFT_SAND ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/dugtrio_plain/front.dimensions"
-	abilities_for DUGTRIO, SAND_VEIL, ARENA_TRAP, SAND_FORCE
+	abilities_for DUGTRIO, ARENA_TRAP, ARENA_TRAP, SAND_FORCE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
