@@ -13,7 +13,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/sudowoodo/front.dimensions"
-	abilities_for SUDOWOODO, STURDY, SOLID_ROCK, RATTLED
+	abilities_for SUDOWOODO, QUICK_DRAW, STURDY, STURDY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
