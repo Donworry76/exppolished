@@ -8,7 +8,7 @@
 	db AMULET_COIN ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/meowth_alolan/front.dimensions"
-	abilities_for MEOWTH_ALOLAN, PICKUP, TOUGH_CLAWS, RATTLED
+	abilities_for MEOWTH_ALOLAN, TECHNICIAN, TOUGH_CLAWS, PICKUP
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
