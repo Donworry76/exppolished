@@ -1,4 +1,4 @@
-	db  65,  65,  45,  95,  75,  45 ; 390 BST
+	db  65,  55,  45,  95,  85,  45 ; 390 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FLYING ; type
