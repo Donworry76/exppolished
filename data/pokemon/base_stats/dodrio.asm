@@ -1,7 +1,7 @@
 	db  60, 110,  70, 140,  40,  70 ; 470 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db FLYING, GROUND ; type
 	db 45 ; catch rate
 	db 158 ; base exp
 	db NO_ITEM ; item 1
