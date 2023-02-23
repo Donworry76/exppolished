@@ -690,13 +690,13 @@ ClefairyEvosAttacks:
 
 ClefableEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HEALINGLIGHT ; Moonlight → similar move
+	db 1, THUNDER_WAVE ; Moonlight → similar move
 	db 1, DISARM_VOICE
 	db 1, DRAIN_KISS ; Let's Go TM move
-	db 1, FRESH_SNACK
-	db 1, CALM_MIND
-	db 1, THUNDER_WAVE
-	db 35, MOONBLAST
+	db 1, EXTRASENSORY
+	db 31, CALM_MIND
+	db 36, HEALINGLIGHT
+	db 45, MOONBLAST
 	db 0 ; no more level-up moves
 
 VulpixPlainEvosAttacks:
@@ -755,9 +755,9 @@ NinetalesPlainEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HEALINGLIGHT ; evolution move
 	db 1, FLAMETHROWER
-	db 1, SHADOW_BALL
-	db 1, CONFUSE_RAY
-	db 1, NASTY_PLOT
+	db 38, SHADOW_BALL
+	db 42, CONFUSE_RAY
+	db 45, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 NinetalesAlolanEvosAttacks:
