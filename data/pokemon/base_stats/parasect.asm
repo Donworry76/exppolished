@@ -2,18 +2,18 @@ if DEF(FAITHFUL)
 	db  60,  95,  80,  30,  60,  80 ; 405 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  90, 115, 120,  30,  40, 120 ; 445 BST
+	db  85, 120, 75,  75, 70, 75 ; 445 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db BUG, GRASS ; type
+	db BUG, GHOST ; type
 	db 75 ; catch rate
 	db 128 ; base exp
 	db TINYMUSHROOM ; item 1
 	db BIG_MUSHROOM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/parasect/front.dimensions"
-	abilities_for PARASECT, THICK_FAT, DRY_SKIN, DAMP
+	abilities_for PARASECT, EFFECT_SPORE, DRY_SKIN, EFFECT_SPORE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_PLANT ; egg groups
 
