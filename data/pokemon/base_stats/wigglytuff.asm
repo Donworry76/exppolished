@@ -20,7 +20,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for WIGGLYTUFF, CUTE_CHARM, COMPETITIVE, FRISK
 else
-	abilities_for WIGGLYTUFF, TRACE, COMPETITIVE, CUTE_CHARM
+	abilities_for WIGGLYTUFF, TRACE, COMPETITIVE, FUR_COAT
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
