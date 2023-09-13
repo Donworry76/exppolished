@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  55,  35,  50,  85,  55, 110 ; 390 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  65, 125,  70, 105,  35, 100 ; 430 BST
+	db  80, 60,  75, 100,  75, 100 ; 430 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -17,7 +17,7 @@ endc
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 2 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/ledian/front.dimensions"
-	abilities_for LEDIAN, SWARM, EARLY_BIRD, IRON_FIST
+	abilities_for LEDIAN, HUGE_POWER, HUGE_POWER, HUGE_POWER
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
