@@ -1,7 +1,7 @@
-	db  65, 120,  70, 125,  80,  80 ; 500 BST
+	db  65, 120,  70, 125, 80, 90 ; 500 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC, FAIRY ; type
+	db DRAGON, DRAGON ; type
 	db 60 ; catch rate
 	db 192 ; base exp
 	db NO_ITEM ; item 1
