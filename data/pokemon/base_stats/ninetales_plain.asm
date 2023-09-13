@@ -15,7 +15,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for NINETALES, FLASH_FIRE, FLASH_FIRE, DROUGHT
 else
-	abilities_for NINETALES, FLASH_FIRE, FOREWARN, DROUGHT
+	abilities_for NINETALES, FUR_COAT, FUR_COAT, DROUGHT
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
