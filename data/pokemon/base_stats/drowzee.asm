@@ -1,4 +1,4 @@
-	db  60,  48,  45,  42,  43,  90 ; 328 BST
+	db  10,  50, 100,  40, 50, 100 ; 328 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type
@@ -8,7 +8,7 @@
 	db NO_ITEM ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/drowzee/front.dimensions"
-	abilities_for DROWZEE, INSOMNIA, FOREWARN, INNER_FOCUS
+	abilities_for DROWZEE, MAGIC_GUARD, MAGIC_GUARD, INNER_FOCUS
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
