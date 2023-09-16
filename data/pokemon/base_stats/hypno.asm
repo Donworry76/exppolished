@@ -1,4 +1,4 @@
-	db  25, 100, 150,  60, 100, 150 ; 483 BST
+	db  20, 100, 150,  60, 100, 150 ; 483 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, FIGHTING ; type
