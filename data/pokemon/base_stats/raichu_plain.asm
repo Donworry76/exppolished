@@ -17,7 +17,7 @@ endc
 	db LIGHT_BALL ; item 2
 	dn GENDER_F50, 1 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/raichu_plain/front.dimensions"
-	abilities_for RAICHU, STATIC, STATIC, LIGHTNING_ROD
+	abilities_for RAICHU, GALVANIZE, GALVANIZE, STATIC
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 
