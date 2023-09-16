@@ -1,7 +1,7 @@
 	db  90, 120,  85,  95,  60,  80 ; 450 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db FAIRY, FAIRY ; type
+	db FAIRY, FIGHTING ; type
 	db 75 ; catch rate
 	db 178 ; base exp
 	db NO_ITEM ; item 1
