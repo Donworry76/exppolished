@@ -63,8 +63,8 @@ VenusaurEvosAttacks:
 	db 20, RAZOR_LEAF
 	db 23, DOUBLE_EDGE ; Sweet Scent → Take Down
 	db 28, GROWTH
-	db 32, BODY_SLAM
-	db 39, SEED_BOMB ; Worry Seed → event move
+	db 32, SEED_BOMB
+	db 39, BODY_SLAM ; Worry Seed → event move
 	db 45, HEALINGLIGHT ; Synthesis → similar move
 	db 50, POWER_WHIP
 	db 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
@@ -94,7 +94,7 @@ CharmeleonEvosAttacks:
 	db 1, ANCIENTPOWER
 	db 1, DRAGONBREATH
 	db 7, FIRE_SPIN
-	db 10, QUICK_ATTACK
+	db 16, QUICK_ATTACK
 	db 17, FLAME_CHARGE ; Dragon Rage → TM move
 	db 23, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 28, FIRE_PUNCH ; Fire Fang → Scary Face
@@ -132,7 +132,7 @@ CharizardEvosAttacks:
 SquirtleEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, WATER_GUN
 	db 4, MIRROR_COAT ; Tail Whip → similar move
 	db 7, WATER_PULSE
 	db 10, HEADBUTT ; Withdraw → similar move
@@ -152,7 +152,7 @@ SquirtleEvosAttacks:
 WartortleEvosAttacks:
 	db EVOLVE_LEVEL, 36, BLASTOISE
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, WATER_GUN
 	db 4, MIRROR_COAT ; Tail Whip → similar move
 	db 7, WATER_PULSE
 	db 10, HEADBUTT ; Withdraw → similar move
@@ -290,7 +290,7 @@ PidgeottoEvosAttacks:
 	db EVOLVE_LEVEL, 36, PIDGEOT
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 5, GUST ; Sand Attack → Gust
+	db 5, CHARM ; Sand Attack → Gust
 	db 9, MUD_SLAP ; Gust → GSC TM move
 	db 13, QUICK_ATTACK
 	db 18, ACROBATICS ; Whirlwind → RBY TM move
