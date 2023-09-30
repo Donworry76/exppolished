@@ -925,8 +925,8 @@ ParasectEvosAttacks:
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
 	db 11, GIGA_DRAIN
-	db 17, BUG_BITE ; Fury Cutter → egg move
-	db 22, SPORE
+	db 24, SPORE ; Fury Cutter → egg move
+	db 24, SHADOW_CLAW
 	db 29, X_SCISSOR
 	db 37, SWORDS_DANCE
 	db 44, CRABHAMMER
@@ -1133,7 +1133,7 @@ PersianAlolanEvosAttacks:
 	db 32, POWER_GEM
 	db 37, SLASH
 	db 44, NASTY_PLOT
-	db 49, THIEF ; Assurance → TM move
+	db 49, SUCKER_PUNCH ; Assurance → TM move
 	db 56, SHADOW_BALL ; Captivate → egg move
 	db 61, NIGHT_SLASH
 	db 65, DARK_PULSE
@@ -1387,12 +1387,12 @@ MachokeEvosAttacks:
 	db 9, FORESIGHT
 	db 13, RAGE ; Low Sweep → RBY TM move
 	db 15, SEISMIC_TOSS
-	db 19, REVERSAL ; Revenge → Sw/Sh move
-	db 21, KNOCK_OFF
+	db 19, KNOCK_OFF ; Revenge → Sw/Sh move
+	db 21, CLOSE_COMBAT
 	db 25, MACH_PUNCH ; Vital Throw → egg move
-	db 27, BULLET_PUNCH ; Wake-Up Slap → egg move
-	db 33, BODY_SLAM ; Dual Chop → event move
-	db 37, CLOSE_COMBAT ; Submission → new move
+	db 27, BODY_SLAM ; Wake-Up Slap → egg move
+	db 33, CLOSE_COMBAT ; Dual Chop → event move
+	db 37, DOUBLE_EDGE ; Submission → new move
 	db 43, BULK_UP
 	db 47, CROSS_CHOP
 	db 53, ROCK_SLIDE
