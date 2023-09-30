@@ -1,7 +1,7 @@
 	db  50,  95, 180,  70,  85,  55 ; 525 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, STEEL ; type
+	db WATER, ROCK ; type
 	db 60 ; catch rate
 	db 203 ; base exp
 	db PEARL ; item 1
