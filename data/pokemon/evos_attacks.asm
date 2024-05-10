@@ -1452,7 +1452,7 @@ WeepinbellEvosAttacks:
 	db 17, STUN_SPORE
 	db 16, RAZOR_LEAF
 	db 22, LEECH_LIFE
-	db 25 POISON_JAB ; Sweet Scent → event move
+	db 25, POISON_JAB ; Sweet Scent → event move
 	db 28, SEED_BOMB ; Gastro Acid → new move
 	db 32, HEALINGLIGHT
 	db 35, SUCKER_PUNCH
