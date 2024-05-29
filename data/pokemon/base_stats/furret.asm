@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spd  sat  sdf
 endc
 
-	db NORMAL, ICE ; type
+	db NORMAL, NORMAL ; type
 	db 90 ; catch rate
 if DEF(FAITHFUL)
 	db 116 ; base exp
